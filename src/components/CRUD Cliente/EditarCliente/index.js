@@ -1,6 +1,6 @@
 import style from "./style.module.css";
 
-function DeletarCliente() {
+function EditarCliente() {
     return (
         <>
 
@@ -8,4 +8,4 @@ function DeletarCliente() {
     );
 };
 
-export { DeletarCliente };
+export { EditarCliente };
