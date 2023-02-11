@@ -1,0 +1,28 @@
+.divMaster {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divImg {
+  border: solid black 1px;
+}
+
+.navStyle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border: solid black 1px;
+}
+
+.menuButton {
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(214, 213, 210);
+  font-size: 20px;
+  font-weight: 500;
+  border: solid black 1px;
+}
