@@ -1,0 +1,5 @@
+logo: http://cesmt.dominiotemporario.com/wp-content/uploads/2021/11/cropped-Logo_2021.png
+
+banner 1: http://cesmt.dominiotemporario.com/wp-content/uploads/2020/06/Sem-t%C3%ADtulo-3.png
+
+banner 2: http://cesmt.dominiotemporario.com/wp-content/uploads/2020/06/4.png
