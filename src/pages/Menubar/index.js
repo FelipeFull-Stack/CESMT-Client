@@ -4,17 +4,48 @@ function Menubar() {
     return (
         <>
             <div>
-                <div>
-                    <img src={logoCESMT} alt="CESMT Logo" />
+                <div 
+                style={{
+                    display: "flex", 
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    margin: 30
+                    }}>
+                    <div>
+                        <img 
+                            src={logoCESMT}
+                            alt="CESMT Logo" 
+                            style={{width: "275px"}}  
+                        />
+                    </div>
+                    <nav 
+                    style={{
+                        width: "65%",
+                        margin: 10,
+                        padding: 2,
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "center",
+                        gap: "5px"
+                    }}
+                    >
+                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(255, 45, 49) 2px", fontWeight: "700"}}>Início</button>
+                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(235, 45, 49) 2px", fontWeight: "700"}}>A CESMT</button>
+                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(215, 45, 49) 2px", fontWeight: "700"}}>Serviços</button>
+                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(195, 45, 49) 2px", fontWeight: "700"}}>Clientes</button>
+                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(175, 45, 49) 2px", fontWeight: "700"}}>Artigos</button>
+                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(155, 45, 49) 2px", fontWeight: "700"}}>Contato</button>
+                    </nav>
                 </div>
-                <nav>
-                    <button>Início</button>
-                    <button>A CESMT</button>
-                    <button>Serviços</button>
-                    <button>Clientes</button>
-                    <button>Artigos</button>
-                    <button>Contato</button>
-                </nav>
+                <div 
+                    style={{
+                        margin: "0",
+                        height: "20px",
+                        width: "100%",
+                        background: "linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49))"
+                    }}>
+                </div>
             </div>
         </>
     );
