@@ -1,0 +1,7 @@
+
+
+function Artigo() {
+
+}
+
+export { Artigo };
