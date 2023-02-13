@@ -4,6 +4,9 @@ import { Home } from "./pages/Home/index";
 import { Menubar } from "./pages/Menubar/index";
 import { Footer } from "./pages/Footer/index";
 import { Contato } from "./pages/Contato/index";
+import { Artigo } from "./pages/Artigo/index";
+import { Servico } from "./pages/Servico/index";
+import { Cliente } from "./pages/Cliente/index";
 
 function App() {
   return (
@@ -22,8 +25,12 @@ function App() {
           }}>
           <Menubar />
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/contato" element={<Contato />} />
+            <Route path="/artigo" element={<Artigo />} />
+            <Route path="/servico" element={<Servico />} />
+            <Route path="/cliente" element={<Cliente />} />
           </Routes>
           <Footer />
         </div>
