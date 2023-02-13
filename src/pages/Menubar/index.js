@@ -1,6 +1,10 @@
 import logoCESMT from "../../images/Logo CESMT.png"
+import {useNavigate} from "react-router-dom";
 
 function Menubar() {
+
+    const navigate = useNavigate();
+
     return (
         <>
             <div>
@@ -30,12 +34,12 @@ function Menubar() {
                         gap: "5px"
                     }}
                     >
-                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(255, 45, 49) 2px", fontWeight: "700"}}>Início</button>
-                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(235, 45, 49) 2px", fontWeight: "700"}}>A CESMT</button>
-                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(215, 45, 49) 2px", fontWeight: "700"}}>Serviços</button>
-                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(195, 45, 49) 2px", fontWeight: "700"}}>Clientes</button>
-                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(175, 45, 49) 2px", fontWeight: "700"}}>Artigos</button>
-                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(155, 45, 49) 2px", fontWeight: "700"}}>Contato</button>
+                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(255, 45, 49) 2px", fontWeight: "700"}} onClick={() => {navigate("/home")}}>Início</button>
+                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(235, 45, 49) 2px", fontWeight: "700"}} onClick={() => {navigate("/sobre")}}>A CESMT</button>
+                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(215, 45, 49) 2px", fontWeight: "700"}} onClick={() => {navigate("/servicos")}}>Serviços</button>
+                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(195, 45, 49) 2px", fontWeight: "700"}} onClick={() => {navigate("/clientes")}}>Clientes</button>
+                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(175, 45, 49) 2px", fontWeight: "700"}} onClick={() => {navigate("/artigos")}}>Artigos</button>
+                        <button style={{width: "100px", height: "40px", borderRadius: "25px", border: "solid rgb(155, 45, 49) 2px", fontWeight: "700"}} onClick={() => {navigate("/contato")}}>Contato</button>
                     </nav>
                 </div>
                 <div 

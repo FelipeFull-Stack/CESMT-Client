@@ -27,7 +27,7 @@ function Footer() {
                         fontSize: "16px",
                         color: "white"
                     }}
-                >© 2023 CESMT EXCELÊNCIA EM SAÚDE • Built with Luiz Felipe Soares Lopes Ⓡ</p>
+                >© 2023 CESMT EXCELÊNCIA EM SAÚDE • Built with Luiz Felipe Soares Lopes - Web Developer</p>
             </div>
             <div
                 style={{
@@ -43,6 +43,7 @@ function Footer() {
 };
 
 export { Footer };
+
 //© 2023 CESMT EXCELÊNCIA EM SAÚDE •
 
 /* <div
