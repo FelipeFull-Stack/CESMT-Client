@@ -1,0 +1,7 @@
+
+
+function Cliente() {
+
+}
+
+export { Cliente };
