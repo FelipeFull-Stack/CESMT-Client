@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { SelectContextComponent } from "./context/selectContext";
+import { SelectContextComponent } from "./context/SelectContext";
 import { Home } from "./pages/Home/index";
 import { Menubar } from "./pages/Menubar/index";
 import { Footer } from "./pages/Footer/index";
