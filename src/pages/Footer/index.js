@@ -3,13 +3,14 @@ function Footer() {
         <>
             <div
                 style={{
-                    margin: 0,
+                    margin: "0",
+                    marginBottom: "20px",
                     height: "20px",
                     width: "100%",
                     background: "linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49))"
                 }}>
             </div>
-            
+
             <div
                 style={{
                     display: "flex",
