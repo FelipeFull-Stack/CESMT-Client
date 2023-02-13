@@ -31,8 +31,8 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/contato" element={<Contato />} />
             <Route path="/artigos" element={<Artigo />} />
-            <Route path="/servico" element={<Servico />} />
-            <Route path="/cliente" element={<Cliente />} />
+            <Route path="/servicos" element={<Servico />} />
+            <Route path="/clientes" element={<Cliente />} />
             <Route path="/cadastro" element={<SignUp />} />
             <Route path="/entrar" element={<LogIn />} />
           </Routes>
