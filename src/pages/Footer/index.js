@@ -1,3 +1,6 @@
+import linkedin from "../../images/icones/linkedIn colorido.png"
+import facebook from "../../images/icones/facebook Colorido.png"
+
 function Footer() {
     return (
         <>
@@ -9,6 +12,31 @@ function Footer() {
                     width: "100%",
                     background: "linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49))"
                 }}>
+            </div>
+
+            <div style={{marginBottom: "20px"}}>
+                <div style={{ display: "flex", justifyContent: "center", marginBottom: "30px" }}>
+                    <h1 style={{ fontSize: "20px", fontWeight: "700" }}>Siga-nos em nossas Redes Sociais</h1>
+                </div>
+                <div style={{ display: "flex", flexDirection: "row", gap: 5, justifyContent: "space-evenly", alignItems: "center" }}>
+                    <div style={{ display: "flex", flexDirection: "row", gap: 5, justifyContent: "center", alignItems: "center" }}>
+                        <div>
+                            <img style={{ width: "50px" }} src={linkedin} alt="Icone" />
+                        </div>
+                        <div>
+                            <p style={{ fontSize: "24px", fontWeight: "700" }}>Este é nosso linkedin</p>
+                        </div>
+                    </div>
+
+                    <div style={{ display: "flex", flexDirection: "row", gap: 5, justifyContent: "center", alignItems: "center" }}>
+                        <div>
+                            <img style={{ width: "50px" }} src={facebook} alt="Icone" />
+                        </div>
+                        <div>
+                            <p style={{ fontSize: "24px", fontWeight: "700" }}>Este é nosso facebook</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div
@@ -27,12 +55,12 @@ function Footer() {
                         fontSize: "16px",
                         color: "white"
                     }}
-                >© 2023 CESMT EXCELÊNCIA EM SAÚDE • Built with Luiz Felipe Soares Lopes Ⓡ</p>
+                >© 2023 CESMT EXCELÊNCIA EM SAÚDE • Built with Luiz Felipe Soares Lopes - Web Developer</p>
             </div>
             <div
                 style={{
                     margin: 0,
-                    height: "33%",
+                    height: "25%",
                     width: "100%",
                     background: "rgb(120, 2, 2)"
                 }}
@@ -43,6 +71,7 @@ function Footer() {
 };
 
 export { Footer };
+
 //© 2023 CESMT EXCELÊNCIA EM SAÚDE •
 
 /* <div
