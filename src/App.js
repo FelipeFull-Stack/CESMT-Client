@@ -7,6 +7,8 @@ import { Contato } from "./pages/Contato/index";
 import { Artigo } from "./pages/Artigo/index";
 import { Servico } from "./pages/Servico/index";
 import { Cliente } from "./pages/Cliente/index";
+import { SignUp } from "./components/USER/SignUp/index";
+import { LogIn } from "./components/USER/LogIn/index";
 
 function App() {
   return (
@@ -28,9 +30,11 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/contato" element={<Contato />} />
-            <Route path="/artigo" element={<Artigo />} />
+            <Route path="/artigos" element={<Artigo />} />
             <Route path="/servico" element={<Servico />} />
             <Route path="/cliente" element={<Cliente />} />
+            <Route path="/cadastro" element={<SignUp />} />
+            <Route path="/entrar" element={<LogIn />} />
           </Routes>
           <Footer />
         </div>
