@@ -1,8 +1,8 @@
 import { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { api } from "../../../api/api";
-import { SelectContext } from "../../../context/SelectContext";
-import {CESMTlogo} from "../../../images/Logo CESMT.png";
+import { AuthContext } from "../../../context/authContext";
+import CESMTlogo from "../../../images/Logo CESMT.png";
 
 function LogIn() {
 
@@ -13,7 +13,7 @@ function LogIn() {
     });
 
 
-    const { loggedInUser, setLoggedInUser } = useContext(SelectContext);
+    const { loggedInUser, setLoggedInUser } = useContext(AuthContext);
 
     console.log(loggedInUser);
 
