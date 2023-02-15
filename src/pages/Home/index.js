@@ -13,7 +13,7 @@ function Home() {
 
     useEffect(() => {
         console.log(carrossel.current?.scrollWidth, carrossel.current?.offsetWidth);
-        setLargura(carrossel.current?.scrollWidth - carrossel.current?.offsetWidth - 110);
+        setLargura(carrossel.current?.scrollWidth - carrossel.current?.offsetWidth - 90);
     }, []);
 
     return (
@@ -35,6 +35,17 @@ function Home() {
                     })}
                 </motion.div>
             </motion.div>
+
+            <div>
+                    <div>
+                        <h1>Sobre nós:</h1>
+                    </div>
+                    <div>
+                        <p>A CESMT foi fundada pelo Dr. José Henrique Padre <i>(in memorian)</i>, está há mais de 20 anos atuando com <b>Excelência</b> na Gestão de Saúde Ocupacional e Segurança do Trabalho.</p>
+                        <p>A CESMT também é <b>Multiclínica</b>, com diversas <b>Especialidades Médicas</b>.</p>
+                    </div>
+            </div>
+
         </>
     )
 }
