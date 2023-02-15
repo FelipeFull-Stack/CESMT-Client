@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { api } from "../../../api/api.js";
-import style from "./style.module.css";
 import CESMTlogo from "../../../images/Logo CESMT.png";
 
 function SignUp() {
@@ -30,28 +29,71 @@ function SignUp() {
 
     return (
         <>
-            <h1>SignUp</h1>
-            <form>
-                <div>
-                    <div>
-                        <img src={CESMTlogo} alt="Logo" />
+            <form style={{ 
+                margin: "50px", 
+                padding: "40px", 
+                border: "20px solid transparent", 
+                background: "linear-gradient(white, white) padding-box, linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49)) border-box",
+                borderRadius: "25px"
+                }}>
+                <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+                    <div style={{ display: "flex", justifyContent: "center", marginBottom: "50px" }}>
+                        <img style={{ width: "400px" }} src={CESMTlogo} alt="Logo" />
                     </div>
-                    <div>
+                    <div style={{
+                        width: "40%",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        margin: "10px",
+                        gap: "6px"
+                    }}>
                         <label>E-mail:</label>
                         <input
-                            type="email"
+                            type="text"
+                            name="email"
                             value={form.email}
+                            onChange={handleChange}
+                            style={{
+                                display: "flex",
+                                justifyContent: "center",
+                                width: "60%",
+                                height: "24px"
+                            }}
                         />
                     </div>
-                    <div>
+                    <div style={{
+                        width: "40%",
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        margin: "10px",
+                        gap: "6px",
+                        marginBottom: "30px"
+                    }}>
                         <label>Senha:</label>
                         <input
                             type="password"
+                            name="password"
                             value={form.password}
+                            onChange={handleChange}
+                            style={{ display: "flex", justifyContent: "center", width: "60%", height: "24px" }}
                         />
                     </div>
 
-                    <button onClick={handleSubmit} />
+                    <button
+                        style={{
+                            width: "125px",
+                            height: "40px",
+                            fontSize: "20px",
+                            fontWeight: "700",
+                            marginBottom: "50px",
+                            borderRadius: "25px",
+                            border: "solid rgb(255, 45, 49) 2px",
+                        }}
+                        onClick={handleSubmit} >Cadastrar</button>
                 </div>
 
             </form>
