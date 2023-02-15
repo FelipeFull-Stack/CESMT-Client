@@ -5,13 +5,11 @@ import { AuthContext } from "../../../context/authContext";
 import CESMTlogo from "../../../images/Logo CESMT.png";
 
 function LogIn() {
-
     const navigate = useNavigate();
     const [form, setForm] = useState({
         email: "",
         password: "",
     });
-
 
     const { loggedInUser, setLoggedInUser } = useContext(AuthContext);
 
@@ -28,9 +26,9 @@ function LogIn() {
             const response = await api.post("/user/login", form);
             setLoggedInUser(response.data);
             localStorage.setItem("loggedInUser", JSON.stringify(response.data));
-            navigate("/");
+            navigate("/home");
         } catch (err) {
-            console.log(`Erro no login/handleSubmit FrontEnd: ${err}`);
+            console.log(`Erro do Front-end em LogIn(handleSubmit): ${err}`);
         }
     }
 
@@ -82,7 +80,7 @@ function LogIn() {
                     }}>
                         <label>Senha:</label>
                         <input
-                            type="password"
+                            type="text"
                             name="password"
                             value={form.password}
                             onChange={handleChange}
@@ -100,7 +98,7 @@ function LogIn() {
                             borderRadius: "25px",
                             border: "solid rgb(255, 45, 49) 2px",
                         }}
-                        onClick={handleSubmit} >Cadastrar</button>
+                        onClick={handleSubmit} >Entrar</button>
                 </div>
 
             </form>

@@ -75,7 +75,7 @@ function SignUp() {
                     }}>
                         <label>Senha:</label>
                         <input
-                            type="password"
+                            type="text"
                             name="password"
                             value={form.password}
                             onChange={handleChange}
