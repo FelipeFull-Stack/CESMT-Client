@@ -36,14 +36,18 @@ function Home() {
                 </motion.div>
             </motion.div>
 
-            <div>
-                    <div>
-                        <h1>Sobre nós:</h1>
-                    </div>
-                    <div>
-                        <p>A CESMT foi fundada pelo Dr. José Henrique Padre <i>(in memorian)</i>, está há mais de 20 anos atuando com <b>Excelência</b> na Gestão de Saúde Ocupacional e Segurança do Trabalho.</p>
-                        <p>A CESMT também é <b>Multiclínica</b>, com diversas <b>Especialidades Médicas</b>.</p>
-                    </div>
+            <div className="div-central-paragrafo">
+                <div className="div-paragrafo">
+                    <h1>Sobre nós:</h1>
+                </div>
+                <div className="div-paragrafo">
+                    <p className="paragrafo">A <b>CESMT</b> foi fundada pelo <b>Dr. José Henrique Padre</b> <i>(in memorian)</i>,<br/> está há mais de <b>20 anos</b> atuando com <b>Excelência</b> na <b>Gestão de Saúde Ocupacional</b> e <b>Segurança do Trabalho</b>.</p>
+                    <p className="paragrafo">A CESMT também é <b>Multiclínica</b>, com diversas <b>Especialidades Médicas</b>.</p>
+                </div>
+
+                <div className="div-button-leiamais">
+                    <button className="button-leiamais">Leia Mais</button>
+                </div>
             </div>
 
         </>
