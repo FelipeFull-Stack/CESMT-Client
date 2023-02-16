@@ -225,7 +225,11 @@ b {
   align-items: center;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
-  box-shadow: 10px 5px 5px black
+  box-shadow: 10px 5px 5px black;
+  transition: transform 1s ease;
+}
+.div-link:hover {
+  transform: scale(1.2);
 }
 .div-tag {
   text-align: center;
