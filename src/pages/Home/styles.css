@@ -1,32 +1,9 @@
-.Home {
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  min-height: 100vh;
+.slider {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-}
-
-.inner {
-  display: flex;
-}
-
-.item {
-  min-width: 990px;
-  padding: 14px;
-}
-
-.item img {
-  width: 100%;
-  height: 90%;
-  border-radius: 25px;
-  pointer-events: none;
-}
-
-.carrossel {
-  cursor: grab;
-  overflow: hidden;
+  align-items: center;
+  margin: 50px;
+  border-radius: 15px;
 }
 
 .paragrafo {
@@ -93,7 +70,6 @@ b {
     linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49)) border-box;
   border-radius: 25px;
 }
-
 
 .div-geral-banners {
   display: flex;
@@ -197,4 +173,56 @@ b {
   width: 650px;
   height: 300px;
   border-radius: 200px 0 0 200px;
+}
+
+.div-central-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 25px;
+  background-color: rgb(218, 216, 216);
+  border-radius: 500px;
+  margin: 10px;
+}
+.div-organiza-links {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.div-organiza-links-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.div-organiza-links-2 {
+  display: flex;
+  justify-content: center;
+}
+.div-link {
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 5px 5px black
+}
+.div-tag {
+  text-align: center;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 900;
+  color: black;
 }

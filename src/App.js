@@ -4,6 +4,7 @@ import { AuthContextComponent } from "./context/authContext";
 import { Home } from "./pages/Home/index";
 import { Menubar } from "./pages/Menubar/index";
 import { Footer } from "./pages/Footer/index";
+import { CESMT } from "./pages/CESMT/index";
 import { Contato } from "./pages/Contato/index";
 import { Artigo } from "./pages/Artigo/index";
 import { Servico } from "./pages/Servico/index";
@@ -32,6 +33,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
+              <Route path="/sobre" element={<CESMT />} />
               <Route path="/contato" element={<Contato />} />
               <Route path="/artigos" element={<Artigo />} />
               <Route path="/servicos" element={<Servico />} />
