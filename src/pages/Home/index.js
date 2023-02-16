@@ -1,10 +1,7 @@
-import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
-import banner1 from "../../images/banner carrossel 1.png";
-import banner2 from "../../images/banner carrossel 2.png";
 import ImageSlider from "../../components/ImageSlider";
-import "./styles.css";
 import { useNavigate } from "react-router-dom";
+import "./styles.css";
 
 import segurandaDoTrabalho from "../../images/plano de fundo seguranca do trabalho.png";
 import saudeDoTrabalho from "../../images/plano de fundo saude do trabalho.png";
@@ -13,6 +10,8 @@ import medicina from "../../images/plano de fundo medicina.jpg";
 import icone1 from "../../images/icones/imagem-link-1.png";
 import icone2 from "../../images/icones/imagem-link-2.png";
 import icone3 from "../../images/icones/imagem-link-3.png";
+import banner1 from "../../images/banner carrossel 1.png";
+import banner2 from "../../images/banner carrossel 2.png";
 
 function Home() {
     const navigate = useNavigate();
