@@ -10,6 +10,7 @@ import { Servico } from "./pages/Servico/index";
 import { Cliente } from "./pages/Cliente/index";
 import { SignUp } from "./components/USER/SignUp/index";
 import { LogIn } from "./components/USER/LogIn/index";
+import "./App.css";
 
 function App() {
   return (
