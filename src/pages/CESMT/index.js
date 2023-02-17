@@ -11,6 +11,13 @@ import adequarNR from "../../images/Objetivos/adequar-NR.png";
 import todasDemandas from "../../images/Objetivos/todas-demandas.png";
 import assistenciaTecnica from "../../images/Objetivos/assistencia-tecnica.png";
 import elaboracaoLaudo from "../../images/Objetivos/elaboracao-laudos.png";
+import missaoAlvo from "../../images/missao-alvo.png";
+import etica from "../../images/Valores/etica.png";
+import transparencia from "../../images/Valores/transparencia.png";
+import competencia from "../../images/Valores/competencia.png";
+import qualidade from "../../images/Valores/qualidade.png";
+import respeito from "../../images/Valores/respeito.png";
+import tecnologia from "../../images/Valores/tecnologia.png";
 
 import "./style.css";
 function CESMT() {
@@ -129,11 +136,58 @@ function CESMT() {
                     </div>
 
                 </div>
-                
+
                 <hr />
 
-                <div>
-                    d
+                <div className="div-central-missao">
+                    <div className="div-image-missao">
+                        <img style={{ width: "200px", paddingLeft: "42px" }} src={missaoAlvo} alt="Icone" />
+                        <h1>Missão</h1>
+                    </div>
+                    <div className="div-textos-missao">
+                        <div className="div-text-missao">
+                            <p style={{ fontSize: "24px", textAlign: "justify" }}><b>1º) Assessorar</b> nossos clientes visando <b>prevenir doenças ocupacionais</b> de seus colaboradores, permitindo assim melhoria nas suas qualidades de vida e consequentemente nos seus trabalhos.</p>
+                        </div>
+                        <div className="div-text-missao">
+                            <p style={{ fontSize: "24px", textAlign: "justify" }}><b>2º) Evitar</b> que nossos clientes sofram sanções legais no que se refere aos <b>EXAMES OCUPACIONAIS</b> obrigatórios, proporcionando-lhes satisfação e tranquilidade por nossos Serviços.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div className="div-central-valores">
+                    <div>
+                        <h1>Nossos Valores</h1>
+                    </div>
+                    <div className="div-composta-valores">
+                        <div className="div-valores">
+                            <img className="imagens-valores" src={etica} alt="Icone" />
+                            <p>Ética</p>
+                        </div>
+                        <div className="div-valores">
+                            <img className="imagens-valores" src={transparencia} alt="Icone" />
+                            <p>Transparência</p>
+                        </div>
+                        <div className="div-valores">
+                            <img className="imagens-valores" src={qualidade} alt="Icone" />
+                            <p>Qualidade</p>
+                        </div>
+                    </div>
+                    <div className="div-composta-valores">
+                        <div className="div-valores">
+                            <img className="imagens-valores" src={competencia} alt="Icone" />
+                            <p>Competência</p>
+                        </div>
+                        <div className="div-valores">
+                            <img className="imagens-valores" src={tecnologia} alt="Icone" />
+                            <p>Tecnologia</p>
+                        </div>
+                        <div className="div-valores">
+                            <img className="imagens-valores" src={respeito} alt="Icone" />
+                            <p>Respeito</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
