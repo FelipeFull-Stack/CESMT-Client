@@ -1,9 +1,9 @@
-import { CriarCliente } from "../../components/CRUD Cliente/CriarCliente"
+import { ExibirCliente } from "../../components/CRUD Cliente/ExibirCliente"
 
 function Cliente() {
         return (
             <>
-                <CriarCliente />
+                <ExibirCliente />
             </>
         )
     }

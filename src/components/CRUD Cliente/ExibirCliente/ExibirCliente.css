@@ -1,0 +1,47 @@
+.div-master-clientes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.div-map-clientes {
+  width: 80%;
+  border: 1px solid black;
+}
+
+.bela-borda {
+  border: 10px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49)) border-box;
+  border-radius: 25px;
+}
+
+.div-block-cliente {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  transition: border 1s ease, transform 1s ease;
+}
+.div-block-cliente:hover {
+  border: 2px solid rgb(255, 45, 49);
+  transform: scale(1.2);
+}
+.cliente-logo {
+  width: 100px;
+  height: 100px;
+}
+.cliente-slogan {
+  text-align: justify;
+  font-size: 24px;
+  font-weight: 600;
+}
