@@ -22,6 +22,7 @@ function Home() {
             <div className="slider">
                 <ImageSlider image1={banner1} image2={banner2} width={950} height={300} />
             </div>
+
             <hr />
 
             <div className="div-central-paragrafo">
@@ -49,7 +50,7 @@ function Home() {
                     <div className="div-geral-banners">
                         <motion.div initial={{ x: 1000 }} animate={{ x: 0 }} className="div-banners-impar">
                             <div className="div-paragrafo1">
-                                <p className="paragrafo"><b style={{ fontSize: "30px" }}>Saúde do Trabalho</b></p>
+                                <p className="paragrafo"><b style={{ fontSize: "30px", textDecoration: "underline" }}>Saúde do Trabalho</b></p>
                             </div>
                             <div className="div-banner1">
                                 <img className="banner1" src={saudeDoTrabalho} alt="Banner" />
@@ -58,7 +59,7 @@ function Home() {
 
                         <motion.div initial={{ x: -1000 }} animate={{ x: 0 }} className="div-banners-par">
                             <div className="div-paragrafo2">
-                                <p className="paragrafo"><b style={{ fontSize: "30px" }}>Segurança do Trabalho</b></p>
+                                <p className="paragrafo"><b style={{ fontSize: "30px", textDecoration: "underline" }}>Segurança do Trabalho</b></p>
                             </div>
                             <div className="div-banner2">
                                 <img className="banner2" src={segurandaDoTrabalho} alt="Banner" />
@@ -67,7 +68,7 @@ function Home() {
 
                         <motion.div initial={{ x: 1000 }} animate={{ x: 0 }} className="div-banners-impar">
                             <div className="div-paragrafo3">
-                                <p className="paragrafo"><b style={{ fontSize: "30px" }}>Emissão de Atestados Ocupacionais</b></p>
+                                <p className="paragrafo"><b style={{ fontSize: "30px", textDecoration: "underline" }}>Emissão de Atestados Ocupacionais</b></p>
                             </div>
                             <div className="div-banner3">
                                 <img className="banner3" src={atestadoMedico} alt="Banner" />
@@ -76,7 +77,7 @@ function Home() {
 
                         <motion.div initial={{ x: -1000 }} animate={{ x: 0 }} className="div-banners-par">
                             <div className="div-paragrafo4">
-                                <p className="paragrafo"><b style={{ fontSize: "30px" }}>Especialidades Médicas</b></p>
+                                <p className="paragrafo"><b style={{ fontSize: "30px", textDecoration: "underline" }}>Especialidades Médicas</b></p>
                             </div>
                             <div className="div-banner4">
                                 <img className="banner4" src={medicina} alt="Banner" />
