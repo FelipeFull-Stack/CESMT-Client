@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiURLs = {
-    development: "http://localhost:4000",
+    development: "http://localhost:8080",
     production: "host do banco de dados",//mudei para testar se esta funcionando corretamente
 };
 

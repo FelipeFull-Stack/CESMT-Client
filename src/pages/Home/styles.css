@@ -1,0 +1,243 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  border-radius: 15px;
+}
+
+.paragrafo {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.div-central-paragrafo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.div-paragrafo {
+  width: 750px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+b {
+  font-weight: 900;
+  color: rgb(255, 45, 49);
+}
+
+.div-button-leiamais {
+  padding: 10px;
+  margin: 10px;
+}
+.button-leiamais {
+  width: 150px;
+  height: 55px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 25px;
+  border: solid rgb(200, 45, 49) 2px;
+  color: rgb(200, 45, 49);
+  cursor: pointer;
+  background-color: rgb(233, 233, 233);
+  transition: border 2s ease, transform 2s ease, color 2s ease, background-color 0.8 ease;
+}
+.button-leiamais:hover {
+  border: solid rgb(255, 45, 49) 3px;
+  transform: scale(1.20); 
+  color: rgb(255, 45, 49);
+  background-color: white;
+}
+
+.servico-padding-direita {
+  padding-right: 20px;
+}
+.servico-padding-esquerda {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.bela-borda {
+  border: 5px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49)) border-box;
+  border-radius: 25px;
+}
+
+.div-geral-banners {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+
+.div-banners-impar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.div-paragrafo1 {
+  width: 35%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-banner1 {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.banner1 {
+  width: 650px;
+  height: 300px;
+  border-radius: 0 200px 200px 0;
+}
+.div-paragrafo3 {
+  width: 35%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-banner3 {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.banner3 {
+  width: 650px;
+  height: 300px;
+  border-radius: 0 200px 200px 0;
+}
+
+.div-banners-par {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.div-paragrafo2 {
+  width: 35%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.div-banner2 {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.banner2 {
+  width: 650px;
+  height: 300px;
+  border-radius: 200px 0 0 200px;
+}
+.div-paragrafo4 {
+  width: 35%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.div-banner4 {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.banner4 {
+  width: 650px;
+  height: 300px;
+  border-radius: 200px 0 0 200px;
+}
+
+.div-central-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 25px;
+  background-color: rgb(218, 216, 216);
+  border-radius: 500px;
+  margin: 10px;
+}
+.div-organiza-links {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.div-organiza-links-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.div-organiza-links-2 {
+  display: flex;
+  justify-content: center;
+}
+.div-link {
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 5px 5px black;
+  transition: transform 1s ease;
+}
+.div-link:hover {
+  transform: scale(1.2);
+}
+.div-tag {
+  text-align: center;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 900;
+  color: black;
+}

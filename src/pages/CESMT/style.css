@@ -1,0 +1,101 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  border-radius: 15px;
+}
+.div-central {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+b {
+  font-weight: 900;
+  color: rgb(255, 45, 49);
+}
+
+.paragrafo {
+  font-size: 24px;
+  text-align: justify;
+}
+.div-paragrafo {
+  padding: 30px 50px;
+  margin-bottom: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bela-borda {
+  border: 5px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49)) border-box;
+  border-radius: 25px;
+}
+
+.div-titulo-objetivo {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+.negrito-extra {
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.div-central-objetivo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+}
+.imagens {
+  width: 200px;
+  height: 200px;
+  border-radius: 500px;
+}
+.imagens2 {
+  width: 50px;
+}
+.div-itens-objetivo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid black 0.5px;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 10px 5px 5px black;
+  transition: transform 2.5s ease;
+}
+.div-itens-objetivo:hover {
+  transform: scale(1.15);
+}
+.div-dupla-objetivos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+}
