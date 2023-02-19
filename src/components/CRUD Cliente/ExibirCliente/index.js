@@ -9,7 +9,7 @@ function ExibirCliente() {
     useEffect(() => {
         async function fetchClientes() {
             try {
-                const response = await api.get("/clientes");
+                const response = await api.get("/cliente");
                 setClientes(response.data);
             } catch (err) {
                 console.log(`Erro do Front-end em ExibirClientes: ${err}`);
@@ -27,8 +27,8 @@ function ExibirCliente() {
                         return (
                             <>
                                 <div className="div-block-cliente">
-                                    <img className="cliente-logo" src={currentElement.img} alt="Logo" />
-                                    <p className="cliente-slogan"><i>"{currentElement.slogan}"</i></p>
+                                    <img className="cliente-logo" src={`${currentElement.picture}`} alt="Logo" />
+                                    <p className="cliente-slogan">"{currentElement.slogan}"</p>
                                 </div>
 
                             </>

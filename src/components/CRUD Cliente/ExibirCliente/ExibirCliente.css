@@ -9,7 +9,10 @@
 
 .div-map-clientes {
   width: 80%;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .bela-borda {
@@ -20,8 +23,8 @@
 }
 
 .div-block-cliente {
-  width: 400px;
-  height: 400px;
+  width: 225px;
+  height: 225px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,11 +33,12 @@
   margin: 20px;
   padding: 20px;
   border: 1px solid black;
+  border-radius: 15px;
   transition: border 1s ease, transform 1s ease;
 }
 .div-block-cliente:hover {
-  border: 2px solid rgb(255, 45, 49);
-  transform: scale(1.2);
+  border: 3px solid rgb(255, 45, 49);
+  transform: scale(1.15);
 }
 .cliente-logo {
   width: 100px;
