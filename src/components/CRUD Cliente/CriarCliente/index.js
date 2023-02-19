@@ -4,10 +4,10 @@ import { api } from "../../../api/api";
 
 function CriarCliente() {
     const navigate = useNavigate();
-
     const [form, setForm] = useState({
         slogan: ""
     });
+    
     const [picture, setPicture] = useState("");
 
     function handleChange(event) {
@@ -34,23 +34,22 @@ function CriarCliente() {
         try {
             const pictureURL = await handleUpload();
             await api.post("/cliente", { ...form, picture: pictureURL });
-            navigate("/clientes");
+            navigate("/home");
         } catch (err) {
             console.log(`Erro do Front-end em CriarCliente/handleSubmit: ${err}`);
         }
     }
+
+
 
     return (
         <>
             <h1>CriarCliente</h1>
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="input-picture">Foto
-                        <input
-                            id="input-picture"
-                            type="file"
-                            onChange={handlePicture}
-                        />
+                    <label htmlFor="input-picture">
+                        Foto
+                        <input id="input-picture" type="file" onChange={handlePicture} />
                     </label>
                     <label htmlFor="input-slogan">
                         <input
@@ -65,6 +64,6 @@ function CriarCliente() {
             </form>
         </>
     );
-};
+}
 
 export { CriarCliente };

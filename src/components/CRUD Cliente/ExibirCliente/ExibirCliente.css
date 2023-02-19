@@ -5,6 +5,7 @@
   align-items: center;
   margin: 10px;
   padding: 10px;
+  margin-bottom: 50px;
 }
 
 .div-map-clientes {
@@ -31,21 +32,54 @@
   align-items: center;
   gap: 10px;
   margin: 20px;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid black;
   border-radius: 15px;
-  transition: border 1s ease, transform 1s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: border 1s ease, transform 2s ease, box-shadow 0.3s ease-in-out;
 }
 .div-block-cliente:hover {
   border: 3px solid rgb(255, 45, 49);
-  transform: scale(1.15);
+  transform: scale(1.33);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 .cliente-logo {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
 }
 .cliente-slogan {
   text-align: justify;
   font-size: 24px;
   font-weight: 600;
+}
+
+.my-element {
+  position: relative;
+  display: inline-block;
+}
+
+.my-element::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 0;
+}
+.my-element:hover::before {
+  animation: ripple 1s ease-out;
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(2);
+}
+@keyframes ripple {
+  to {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+  }
 }
