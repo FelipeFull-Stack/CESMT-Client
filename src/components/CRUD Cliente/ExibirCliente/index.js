@@ -28,7 +28,7 @@ function ExibirCliente() {
                             <>
                                 <div className="div-block-cliente">
                                     <img className="cliente-logo" src={`${currentElement.picture}`} alt="Logo" />
-                                    <p className="cliente-slogan">"{currentElement.slogan}"</p>
+                                    {/* <p className="cliente-slogan"><i>{currentElement.slogan}</i></p> */}
                                 </div>
 
                             </>
