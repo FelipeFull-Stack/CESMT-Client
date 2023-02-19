@@ -4,11 +4,10 @@ import { api } from "../../../api/api";
 
 function CriarCliente() {
     const navigate = useNavigate();
-
-    const [submited, setSubmited] = useState(false);
     const [form, setForm] = useState({
         slogan: ""
     });
+    
     const [picture, setPicture] = useState("");
 
     function handleChange(event) {
@@ -32,53 +31,39 @@ function CriarCliente() {
 
     async function handleSubmit(event) {
         event.preventDefault();
-        setSubmited(true);
         try {
             const pictureURL = await handleUpload();
             await api.post("/cliente", { ...form, picture: pictureURL });
-            navigate("/clientes");
+            navigate("/home");
         } catch (err) {
             console.log(`Erro do Front-end em CriarCliente/handleSubmit: ${err}`);
         }
     }
 
+
+
     return (
         <>
-            {submited ? (
-                <>
-                    <h1>Formulário Enviado!</h1>
-                    {setSubmited(false)}
-                </>
-            ) : (
-                <>
-                    <h1>CriarCliente</h1>
-                    <form onSubmit={handleSubmit}>
-                        <div>
-                            <label htmlFor="input-picture">Foto
-                                <input
-                                    id="input-picture"
-                                    type="file"
-                                    onChange={handlePicture}
-                                />
-                            </label>
-                            <label htmlFor="input-slogan">
-                                <input
-                                    name="slogan"
-                                    id="input-slogan"
-                                    value={form.slogan}
-                                    onChange={handleChange}
-                                />
-                            </label>
-                            <button type="submit">Enviar</button>
-                        </div>
-                    </form>
-                </>
-            )
-            }
-
-
+            <h1>CriarCliente</h1>
+            <form onSubmit={handleSubmit}>
+                <div>
+                    <label htmlFor="input-picture">
+                        Foto
+                        <input id="input-picture" type="file" onChange={handlePicture} />
+                    </label>
+                    <label htmlFor="input-slogan">
+                        <input
+                            name="slogan"
+                            id="input-slogan"
+                            value={form.slogan}
+                            onChange={handleChange}
+                        />
+                    </label>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
         </>
     );
-};
+}
 
 export { CriarCliente };
