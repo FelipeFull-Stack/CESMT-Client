@@ -15,11 +15,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
-.div-paragrafo {
-  width: 750px;
+.div-paragrafo-inicial {
+  width: 600px;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -55,11 +56,12 @@ b {
   color: rgb(200, 45, 49);
   cursor: pointer;
   background-color: rgb(233, 233, 233);
-  transition: border 2s ease, transform 2s ease, color 2s ease, background-color 0.8 ease;
+  transition: border 2s ease, transform 2s ease, color 2s ease,
+    background-color 0.8 ease;
 }
 .button-leiamais:hover {
   border: solid rgb(255, 45, 49) 3px;
-  transform: scale(1.20); 
+  transform: scale(1.2);
   color: rgb(255, 45, 49);
   background-color: white;
 }
@@ -82,17 +84,23 @@ b {
   border-radius: 25px;
 }
 
+.div-central-banners {
+  margin: 0;
+  padding: 0;
+}
 .div-geral-banners {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 75px;
+  margin: 0;
 }
 
 .div-banners-impar {
+  width: 100%;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  align-items: center;
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -108,7 +116,7 @@ b {
   width: 65%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .banner1 {
@@ -128,7 +136,7 @@ b {
   width: 65%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .banner3 {
@@ -157,7 +165,7 @@ b {
   width: 65%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 .banner2 {
@@ -177,7 +185,7 @@ b {
   width: 65%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 .banner4 {

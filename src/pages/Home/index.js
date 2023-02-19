@@ -26,14 +26,12 @@ function Home() {
             <hr />
 
             <div className="div-central-paragrafo">
-                <div className="div-paragrafo">
                     <h1>Sobre nós:</h1>
-                </div>
-                <div className="div-paragrafo">
-                    <p className="paragrafo">A <b>CESMT</b> foi fundada pelo <b>Dr. José Henrique Padre</b> <i>(in memorian)</i>,<br /> está há mais de <b>20 anos</b> atuando com <b>Excelência</b> na <b>Gestão de Saúde Ocupacional</b> e <b>Segurança do Trabalho</b>.</p>
+                
+                <div className="div-paragrafo-inicial">
+                    <p className="paragrafo">A <b>CESMT</b> foi fundada pelo <b>Dr. José Henrique Padre</b> <i>(in memorian)</i>, está há mais de <b>20 anos</b> atuando com <b>Excelência</b> na <b>Gestão de Saúde Ocupacional</b> e <b>Segurança do Trabalho</b>.</p>
                     <p className="paragrafo">A CESMT também é <b>Multiclínica</b>, com diversas <b>Especialidades Médicas</b>.</p>
                 </div>
-
                 <div className="div-button-leiamais">
                     <button className="button-leiamais" onClick={() => { navigate("/sobre") }}>Leia Mais</button>
                 </div>
@@ -41,7 +39,7 @@ function Home() {
 
             <hr />
 
-            <div className="div-central-paragrafo" style={{ marginTop: "50px", marginBottom: "50px" }}>
+            <div className="div-central-banners" style={{ marginTop: "50px", marginBottom: "50px" }}>
                 <div className="" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
                     <div style={{ marginBottom: "60px" }}>
                         <h1 style={{ fontSize: "40px" }}>Nossos Serviços:</h1>
@@ -68,7 +66,7 @@ function Home() {
 
                         <motion.div initial={{ x: 1000 }} animate={{ x: 0 }} className="div-banners-impar">
                             <div className="div-paragrafo3">
-                                <p className="paragrafo"><b style={{ fontSize: "30px", textDecoration: "underline" }}>Emissão de Atestados Ocupacionais</b></p>
+                                <p className="paragrafo"><b style={{ fontSize: "30px", textDecoration: "underline"}}>Atestados Ocupacionais</b></p>
                             </div>
                             <div className="div-banner3">
                                 <img className="banner3" src={atestadoMedico} alt="Banner" />
