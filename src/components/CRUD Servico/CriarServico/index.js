@@ -13,7 +13,7 @@ function CriarServico() {
     });
 
     function handleChange(event) {
-        setForm({ ...form, [event.target.name]: [event.target.value] });
+        setForm({ ...form, [event.target.name]: event.target.value });
     }
 
     async function handleSubmit(event) {
