@@ -38,7 +38,7 @@ function App() {
               <Route path="/artigos" element={<Artigo />} />
               <Route path="/servicos" element={<Servico />} />
               <Route path="/clientes" element={<Cliente />} />
-              <Route path="/cadastro" element={<SignUp />} />
+              {/* <Route path="/cadastro" element={<SignUp />} /> */}
               <Route path="/entrar" element={<LogIn />} />
             </Routes>
             <Footer />
