@@ -28,7 +28,7 @@ function CriarArtigo() {
         <>
             <h1>CriarArtigo</h1>
             <form onSubmit={handleSubmit}>
-                <div>
+                <div className="div-master-artigo">
                     <div>
                         <label htmlFor="input-nome">Nome do Artigo:
                             <input

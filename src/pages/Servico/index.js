@@ -4,7 +4,7 @@ import { ExibirServico } from "../../components/CRUD Servico/ExibirServico";
 function Servico() {
     return (
         <>
-            <CriarServico />
+            {/* <CriarServico /> */}
             <ExibirServico />
         </>
     )

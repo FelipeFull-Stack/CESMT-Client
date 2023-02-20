@@ -20,20 +20,23 @@ function ExibirServico() {
 
     return (
         <>
-            <div>
-                <h1>Nossos Serviços</h1>
-                <div className="div-saudeSegurancaDoTrabalho.map">
+            <div className="div-geral-servico">
+                <h1 className="h1-servico">Nossos Serviços</h1>
+                <div className="div-servico.map">
                     <div>
-                        <h1>Saúde e Segurança do Trabalho</h1>
+                        <h1 className="titulo-servico"><b>Saúde e Segurança do Trabalho</b></h1>
                     </div>
                     {servico.map((currentElement) => {
                         if (currentElement.tipo === "SAUDE E SEGURANCA DO TRABALHO") {
                             return (
                                 <>
-                                    <div>
-                                        <h2>{currentElement.sigla}</h2>
-                                        <h3>{currentElement.nome}</h3>
-                                        <p>{currentElement.description}</p>
+                                    <div className="div-servico">
+                                        <div className="div-sigla-nome">
+                                            <h2 className="h2-servico">{currentElement.sigla}</h2>
+                                            <p className="hifem">-</p>
+                                            <h3 className="h3-servico">{currentElement.nome}</h3>
+                                        </div>
+                                        {/* <p>{currentElement.description}</p> */}
                                     </div>
                                 </>
                             );
@@ -41,18 +44,24 @@ function ExibirServico() {
                         return null;
                     })}
                 </div>
-                <div className="div-higieneOcupacional.map">
+
+                <hr />
+
+                <div className="div-servico.map">
                     <div>
-                        <h1>Higiene Ocupacional</h1>
+                        <h1 className="titulo-servico"><b>Higiene Ocupacional</b></h1>
                     </div>
                     {servico.map((currentElement) => {
                         if (currentElement.tipo === "HIGIENE OCUPACIONAL") {
                             return (
                                 <>
-                                    <div>
-                                        <h2>{currentElement.sigla}</h2>
-                                        <h3>{currentElement.nome}</h3>
-                                        <p>{currentElement.description}</p>
+                                    <div className="div-servico">
+                                        <div className="div-sigla-nome">
+                                            <h2 className="h2-servico">{currentElement.sigla}</h2>
+                                            <p className="hifem">-</p>
+                                            <h3 className="h3-servico">{currentElement.nome}</h3>
+                                        </div>
+                                        {/* <p>{currentElement.description}</p> */}
                                     </div>
                                 </>
                             );
@@ -60,18 +69,24 @@ function ExibirServico() {
                         return null;
                     })}
                 </div>
-                <div className="div-treinamentos.map">
+
+                <hr />
+
+                <div className="div-servico.map">
                     <div>
-                        <h1>Treinamentos</h1>
+                        <h1 className="titulo-servico"><b>Treinamentos</b></h1>
                     </div>
                     {servico.map((currentElement) => {
                         if (currentElement.tipo === "TREINAMENTOS") {
                             return (
                                 <>
-                                    <div>
-                                        <h2>{currentElement.sigla}</h2>
-                                        <h3>{currentElement.nome}</h3>
-                                        <p>{currentElement.description}</p>
+                                    <div className="div-servico">
+                                        <div className="div-sigla-nome">
+                                            <h2 className="h2-servico">{currentElement.sigla}</h2>
+                                            <p className="hifem">-</p>
+                                            <h3 className="h3-servico">{currentElement.nome}</h3>
+                                        </div>
+                                        {/* <p>{currentElement.description}</p> */}
                                     </div>
                                 </>
                             );
@@ -79,18 +94,24 @@ function ExibirServico() {
                         return null;
                     })}
                 </div>
-                <div className="div-servicos.map">
+
+                <hr />
+
+                <div className="div-servico.map">
                     <div>
-                        <h1>Serviços</h1>
+                        <h1 className="titulo-servico"><b>Serviços</b></h1>
                     </div>
                     {servico.map((currentElement) => {
                         if (currentElement.tipo === "SERVICOS") {
                             return (
                                 <>
-                                    <div>
-                                        <h2>{currentElement.sigla}</h2>
-                                        <h3>{currentElement.nome}</h3>
-                                        <p>{currentElement.description}</p>
+                                    <div className="div-servico">
+                                        <div className="div-sigla-nome">
+                                            <h2 className="h2-servico">{currentElement.sigla}</h2>
+                                            {/* <p className="hifem">-</p> */}
+                                            <h3 className="h3-servico h3-extra">{currentElement.nome}</h3>
+                                        </div>
+                                        {/* <p>{currentElement.description}</p> */}
                                     </div>
                                 </>
                             );
@@ -98,18 +119,24 @@ function ExibirServico() {
                         return null;
                     })}
                 </div>
-                <div className="div-especialidadesMedicas.map">
+
+                <hr />
+
+                <div className="div-servico.map">
                     <div>
-                        <h1>Especialidades Médicas</h1>
+                        <h1 className="titulo-servico"><b>Especialidades Médicas</b></h1>
                     </div>
                     {servico.map((currentElement) => {
                         if (currentElement.tipo === "ESPECIALIDADES MEDICAS") {
                             return (
                                 <>
-                                    <div>
-                                        <h2>{currentElement.sigla}</h2>
-                                        <h3>{currentElement.nome}</h3>
-                                        <p>{currentElement.description}</p>
+                                    <div className="div-servico">
+                                        <div className="div-sigla-nome">
+                                            <h2 className="h2-servico">{currentElement.sigla}</h2>
+                                            {/* <p className="hifem">-</p> */}
+                                            <h3 className="h3-servico h3-extra">{currentElement.nome}</h3>
+                                        </div>
+                                        {/* <p>{currentElement.description}</p> */}
                                     </div>
                                 </>
                             );
