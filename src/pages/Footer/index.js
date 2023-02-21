@@ -70,7 +70,7 @@ function Footer() {
             </div>
             {/* <button onClick={() => navigate("/cadastro")}></button> */}
             {/* <button onClick={() => navigate("/entrar")}></button> */}
-            <button onClick={() => navigate("/conectAPIforINV")}></button>
+            {/* <button onClick={() => navigate("")}></button> */}
         </>
     );
 };
