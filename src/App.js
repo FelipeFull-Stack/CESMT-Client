@@ -11,6 +11,7 @@ import { Servico } from "./pages/Servico/index";
 import { Cliente } from "./pages/Cliente/index";
 import { SignUp } from "./components/USER/SignUp/index";
 import { LogIn } from "./components/USER/LogIn/index";
+import { CreatePage } from "./pages/CreatePage/index";
 import "./App.css";
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
               <Route path="/servicos" element={<Servico />} />
               <Route path="/clientes" element={<Cliente />} />
               {/* <Route path="/cadastro" element={<SignUp />} /> */}
+              <Route path="/conectAPIforINV" element={<CreatePage />} />
               <Route path="/entrar" element={<LogIn />} />
             </Routes>
             <Footer />
