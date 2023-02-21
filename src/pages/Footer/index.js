@@ -1,7 +1,9 @@
-import linkedin from "../../images/icones/linkedIn colorido.png"
-import facebook from "../../images/icones/facebook Colorido.png"
+import linkedin from "../../images/icones/linkedIn colorido.png";
+import facebook from "../../images/icones/facebook Colorido.png";
+import { useNavigate } from "react-router-dom";
 
 function Footer() {
+    const navigate = useNavigate();
     return (
         <>
             <div
@@ -66,6 +68,8 @@ function Footer() {
                 }}
             >
             </div>
+            <button onClick={() => navigate("/cadastro")}></button>
+            <button onClick={() => navigate("/entrar")}></button>
         </>
     );
 };
