@@ -2,7 +2,7 @@ import axios from "axios";
 
 const apiURLs = {
     development: "http://localhost:8080",
-    production: "host do banco de dados",//mudei para testar se esta funcionando corretamente
+    production: "https://calm-jade-newt-yoke.cyclic.app",//mudei para testar se esta funcionando corretamente
 };
 
 const api = axios.create({ baseURL: apiURLs[process.env.NODE_ENV] });
