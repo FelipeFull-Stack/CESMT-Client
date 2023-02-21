@@ -56,14 +56,13 @@ b {
   color: rgb(200, 45, 49);
   cursor: pointer;
   background-color: rgb(233, 233, 233);
-  transition: border 2s ease, transform 2s ease, color 2s ease,
-    background-color 0.8 ease;
+  transition: transform 2s ease-in-out;
 }
 .button-leiamais:hover {
   border: solid rgb(255, 45, 49) 3px;
-  transform: scale(1.2);
+  transform: rotate(360deg);
   color: rgb(255, 45, 49);
-  background-color: white;
+  font-size: 26px;
 }
 
 .servico-padding-direita {
