@@ -2,6 +2,7 @@ import { CriarArtigo } from "../../components/CRUD Artigo/CriarArtigo";
 import { CriarCliente } from "../../components/CRUD Cliente/CriarCliente";
 import { CriarServico } from "../../components/CRUD Servico/CriarServico";
 import { SignUp } from "../../components/USER/SignUp";
+import "./CreatePage.css";
 
 function CreatePage() {
 
@@ -23,10 +24,10 @@ function CreatePage() {
                     <CriarServico />
                 </div>
                 <hr />
-                <div className="div-create">
+                {/* <div className="div-create">
                     <h1>cadastro</h1>
                     <SignUp />
-                </div>
+                </div> */}
             </div>
         </>
     );
