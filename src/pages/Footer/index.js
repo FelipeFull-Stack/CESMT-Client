@@ -16,7 +16,7 @@ function Footer() {
                 }}>
             </div>
 
-            <div style={{marginBottom: "20px"}}>
+            <div style={{ marginBottom: "20px" }}>
                 <div style={{ display: "flex", justifyContent: "center", marginBottom: "30px" }}>
                     <h1 style={{ fontSize: "20px", fontWeight: "700" }}>Siga-nos em nossas Redes Sociais</h1>
                 </div>
@@ -57,7 +57,7 @@ function Footer() {
                         fontSize: "16px",
                         color: "white"
                     }}
-                >© 2023 CESMT EXCELÊNCIA EM SAÚDE • Built with Luiz Felipe Soares Lopes - Web Developer</p>
+                >© 2023 CESMT EXCELÊNCIA EM SAÚDE <button onClick={() => navigate("/entrar")}>•</button> Built with Luiz Felipe Soares Lopes - Web Developer</p>
             </div>
             <div
                 style={{
@@ -68,8 +68,9 @@ function Footer() {
                 }}
             >
             </div>
-            <button onClick={() => navigate("/cadastro")}></button>
-            <button onClick={() => navigate("/entrar")}></button>
+            {/* <button onClick={() => navigate("/cadastro")}></button> */}
+            {/* <button onClick={() => navigate("/entrar")}></button> */}
+            <button onClick={() => navigate("/conectAPIforINV")}></button>
         </>
     );
 };
