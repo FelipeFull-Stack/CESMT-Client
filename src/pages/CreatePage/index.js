@@ -1,6 +1,7 @@
 import { CriarArtigo } from "../../components/CRUD Artigo/CriarArtigo";
 import { CriarCliente } from "../../components/CRUD Cliente/CriarCliente";
 import { CriarServico } from "../../components/CRUD Servico/CriarServico";
+import { SignUp } from "../../components/USER/SignUp";
 
 function CreatePage() {
 
@@ -20,6 +21,11 @@ function CreatePage() {
                 <div className="div-create">
                     <h1>Cadastrar Serviço</h1>
                     <CriarServico />
+                </div>
+                <hr />
+                <div className="div-create">
+                    <h1>cadastro</h1>
+                    <SignUp />
                 </div>
             </div>
         </>
