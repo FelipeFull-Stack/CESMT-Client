@@ -69,6 +69,7 @@ function Footer() {
             >
             </div>
             <button onClick={() => navigate("/cadastro")}></button>
+            <button onClick={() => navigate("/entrar")}></button>
         </>
     );
 };
