@@ -57,7 +57,7 @@ function Footer() {
                         fontSize: "16px",
                         color: "white"
                     }}
-                >© 2023 CESMT EXCELÊNCIA EM SAÚDE <button onClick={() => navigate("/entrar")}>•</button> Built with Luiz Felipe Soares Lopes - Web Developer</p>
+                >© 2023 CESMT EXCELÊNCIA EM SAÚDE <button style={{ backgroundColor: "rgb(65,62,62)", border: "none" }} onClick={() => navigate("/entrar")}>•</button> Built with Luiz Felipe Soares Lopes - Web Developer</p>
             </div>
             <div
                 style={{
