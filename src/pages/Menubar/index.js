@@ -1,6 +1,6 @@
 import logoCESMT from "../../images/Logo CESMT.png"
 import {useNavigate} from "react-router-dom";
-import "./styles.css";
+import "./Menubar.css";
 
 function Menubar() {
 
