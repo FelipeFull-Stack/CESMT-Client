@@ -19,7 +19,7 @@ import qualidade from "../../images/Valores/qualidade.png";
 import respeito from "../../images/Valores/respeito.png";
 import tecnologia from "../../images/Valores/tecnologia.png";
 
-import "./style.css";
+import "./CESMT.css";
 function CESMT() {
 
     return (

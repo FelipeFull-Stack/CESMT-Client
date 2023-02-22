@@ -8,39 +8,23 @@ function Menubar() {
 
     return (
         <>
-            <div>
-                <div 
-                style={{
-                    display: "flex", 
-                    flexDirection: "row",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    margin: 30
-                    }}>
+            <div className="div-geral-manubar">
+                <div className="div-navbar-logo">
                     <div>
                         <img 
+                            id="#"
                             src={logoCESMT}
                             alt="CESMT Logo" 
-                            style={{width: "275px"}}  
+                            style={{width: "275px", margin: "20px"}}  
                         />
                     </div>
-                    <nav 
-                    style={{
-                        width: "65%",
-                        margin: 10,
-                        padding: 2,
-                        display: "flex",
-                        flexDirection: "row",
-                        justifyContent: "center",
-                        gap: "5px"
-                    }}
-                    >
-                        <button className="my-button" onClick={() => {navigate("/home")}}>Início</button>
-                        <button className="my-button" onClick={() => {navigate("/sobre")}}>A CESMT</button>
-                        <button className="my-button" onClick={() => {navigate("/servicos")}}>Serviços</button>
-                        <button className="my-button" onClick={() => {navigate("/clientes")}}>Clientes</button>
-                        <button className="my-button" onClick={() => {navigate("/artigos")}}>Artigos</button>
-                        <button className="my-button" onClick={() => {navigate("/contato")}}>Contato</button>
+                    <nav className="nav-bar">
+                        <button className="my-button1" onClick={() => {navigate("/home")}}>Início</button>
+                        <button className="my-button2" onClick={() => {navigate("/sobre")}}>A CESMT</button>
+                        <button className="my-button3" onClick={() => {navigate("/servicos")}}>Serviços</button>
+                        <button className="my-button4" onClick={() => {navigate("/clientes")}}>Clientes</button>
+                        <button className="my-button5" onClick={() => {navigate("/artigos")}}>Artigos</button>
+                        <button className="my-button6" onClick={() => {navigate("/contato")}}>Contato</button>
                     </nav>
                 </div>
                 <div 
@@ -52,6 +36,7 @@ function Menubar() {
                     }}>
                 </div>
             </div>
+            {/* <button className=""></button> */}
         </>
     );
 };
