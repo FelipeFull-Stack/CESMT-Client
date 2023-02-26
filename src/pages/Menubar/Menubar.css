@@ -1,0 +1,123 @@
+@media (max-width: 1500px) and (min-width: 1000px) {
+  .div-geral-manubar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-navbar-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-bar {
+    width: 65%;
+    height: 100px;
+    margin: 10px;
+    padding: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .my-button1 {
+    width: 100px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    transition: background-color 0.5s ease;
+  }
+  .my-button1:hover {
+    background-color: rgb(255, 45, 49);
+  }
+  .my-button2 {
+    width: 100px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    transition: background-color 0.5s ease;
+  }
+  .my-button2:hover {
+    background-color: rgb(245, 45, 49);
+  }
+  .my-button3 {
+    width: 100px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    transition: background-color 0.5s ease;
+  }
+  .my-button3:hover {
+    background-color: rgb(235, 45, 49);
+  }
+  .my-button4 {
+    width: 100px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    transition: background-color 0.5s ease;
+  }
+  .my-button4:hover {
+    background-color: rgb(220, 45, 49);
+  }
+
+  .my-button5 {
+    width: 100px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    transition: background-color 0.1s ease;
+  }
+  .my-button5:hover {
+    background-color: rgb(210, 45, 49);
+  }
+  .my-button6 {
+    width: 100px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    transition: background-color 0.5s ease;
+  }
+  .my-button6:hover {
+    background-color: rgb(200, 45, 49);
+  }
+  .btn-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 900;
+  }
+
+  .btn-top i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: white;
+  }
+
+  .btn-top:hover {
+    background-color: #333;
+  }
+  /* border: solid  2px; */
+  /* box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8); */
+}

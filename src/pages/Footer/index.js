@@ -62,7 +62,7 @@ function Footer() {
             <div
                 style={{
                     margin: 0,
-                    height: "25%",
+                    height: "5%",
                     width: "100%",
                     background: "rgb(120, 2, 2)"
                 }}

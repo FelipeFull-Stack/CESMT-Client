@@ -1,9 +1,11 @@
 .slider-image {
     border-radius: 15px;
     display: none; /* começa escondido */
+   
   }
   
   .active {
     display: block; /* exibe somente imagem atual */
+    justify-content: center;
   }
   
