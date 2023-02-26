@@ -20,7 +20,7 @@
 }
 
 .div-paragrafo-inicial {
-  width: 600px;
+  width: 55%;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -29,11 +29,11 @@
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 1.5rem;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1rem;
 }
 
 b {
@@ -46,7 +46,7 @@ b {
   margin: 10px;
 }
 .button-leiamais {
-  width: 150px;
+  width: 100%;
   height: 55px;
   padding: 10px;
   font-size: 24px;
@@ -119,7 +119,7 @@ b {
   align-items: center;
 }
 .banner1 {
-  width: 650px;
+  width: 100%;
   height: 300px;
   border-radius: 0 200px 200px 0;
 }
@@ -139,7 +139,7 @@ b {
   align-items: center;
 }
 .banner3 {
-  width: 650px;
+  width: 100%;
   height: 300px;
   border-radius: 0 200px 200px 0;
 }
@@ -168,7 +168,7 @@ b {
   align-items: center;
 }
 .banner2 {
-  width: 650px;
+  width: 100%;
   height: 300px;
   border-radius: 200px 0 0 200px;
 }
@@ -188,7 +188,7 @@ b {
   align-items: center;
 }
 .banner4 {
-  width: 650px;
+  width: 100%;
   height: 300px;
   border-radius: 200px 0 0 200px;
 }
