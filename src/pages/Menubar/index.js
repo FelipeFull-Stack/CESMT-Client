@@ -52,12 +52,12 @@ function Menubar() {
 		<>
 			<div className="div-geral-manubar">
 				<div className="div-navbar-logo">
-					<div>
+					<div className="img-logo-cesmt-navbar">
 						<img
 							id="#"
 							src={logoCESMT}
 							alt="CESMT Logo"
-							style={{ width: "275px", margin: "20px" }}
+							
 						/>
 					</div>
 					<nav className="nav-bar">
