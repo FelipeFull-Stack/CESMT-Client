@@ -22,8 +22,8 @@ function ExibirServico() {
         <>
             <div className="div-geral-servico">
                 <h1 className="h1-servico">Nossos Serviços</h1>
-                <div className="div-servico.map">
-                    <div>
+                <div className="div-servico-map">
+                    <div className="div-titulo-servico">
                         <h1 className="titulo-servico"><b>Saúde e Segurança do Trabalho</b></h1>
                     </div>
                     {servico.map((currentElement) => {
@@ -47,8 +47,8 @@ function ExibirServico() {
 
                 <hr />
 
-                <div className="div-servico.map">
-                    <div>
+                <div className="div-servico-map">
+                    <div className="div-titulo-servico">
                         <h1 className="titulo-servico"><b>Higiene Ocupacional</b></h1>
                     </div>
                     {servico.map((currentElement) => {
@@ -72,8 +72,8 @@ function ExibirServico() {
 
                 <hr />
 
-                <div className="div-servico.map">
-                    <div>
+                <div className="div-servico-map">
+                    <div className="div-titulo-servico">
                         <h1 className="titulo-servico"><b>Treinamentos</b></h1>
                     </div>
                     {servico.map((currentElement) => {
@@ -97,8 +97,8 @@ function ExibirServico() {
 
                 <hr />
 
-                <div className="div-servico.map">
-                    <div>
+                <div className="div-servico-map">
+                    <div className="div-titulo-servico">
                         <h1 className="titulo-servico"><b>Serviços</b></h1>
                     </div>
                     {servico.map((currentElement) => {
@@ -122,8 +122,8 @@ function ExibirServico() {
 
                 <hr />
 
-                <div className="div-servico.map">
-                    <div>
+                <div className="div-servico-map">
+                    <div className="div-titulo-servico">
                         <h1 className="titulo-servico"><b>Especialidades Médicas</b></h1>
                     </div>
                     {servico.map((currentElement) => {
