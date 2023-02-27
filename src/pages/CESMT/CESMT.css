@@ -1,158 +1,414 @@
-.slider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px;
-  border-radius: 15px;
-}
-.div-central {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 2500px) and (min-width: 1004px) {
+	.slider {
+		width: 90%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 50px;
+		border-radius: 15px;
+	}
+	.div-central {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid black;
+	}
+
+	hr {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	b {
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+
+	.paragrafo {
+		font-size: 1.25rem;
+		text-align: justify;
+	}
+	.div-paragrafo {
+		padding: 30px 50px;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 30px;
+	}
+
+	.bela-borda {
+		border: 5px solid transparent;
+		background: linear-gradient(white, white) padding-box,
+			linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49)) border-box;
+		border-radius: 25px;
+	}
+
+	.div-titulo-objetivo {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+		align-items: center;
+		gap: 25px;
+	}
+
+	h1 {
+		text-align: center;
+		font-weight: 900;
+	}
+	.negrito-extra {
+		font-size: 80px;
+		font-weight: 900;
+	}
+
+	.div-central-objetivo {
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 75px;
+		margin: 5px;
+	}
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*width e o height*/
+	.imagens {
+		width: 200px;
+		height: 200px;
+		border-radius: 500px;
+	}
+	.imagens2 {
+		width: 50px;
+	}
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*height*/
+	.div-itens-objetivo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 0.5px;
+		width: 100%;
+		height: 350px;
+		padding: 1% 1%;
+		border-radius: 20px;
+		background-color: white;
+		box-shadow: 10px 5px 5px black;
+		transition: transform 2.5s ease;
+	}
+	.div-itens-objetivo:hover {
+		transform: scale(1.15);
+	}
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*width*/
+	.div-dupla-objetivos {
+		width: 80%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+		margin: 5px;
+	}
+	.div-unica-solitaria {
+		width: 40%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 5px;
+	}
+	p {
+		font-size: 16px;
+		text-align: center;
+		font-weight: 700;
+	}
+
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*width*/
+	.div-text-missao {
+		width: 700px;
+		font-size: 30px;
+		font-weight: 700;
+	}
+	.div-image-missao {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+	}
+	.div-central-missao {
+		border: 1px solid gray;
+		padding: 100px;
+		border-radius: 0 300px 0 300px;
+	}
+
+	.div-central-valores {
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		padding: 20px;
+		margin-bottom: 50px;
+	}
+	.div-composta-valores {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*width*/
+	.imagens-valores {
+		width: 200px;
+		height: 150px;
+	}
+	.div-valores {
+		border: none;
+		border-radius: none;
+		transition: border 0.1s ease, border-radius 0.1s ease, transform 0.1 ease;
+	}
+	.div-valores:hover {
+		padding: 20px;
+		border: 3px solid rgb(255, 45, 49);
+		border-radius: 15px;
+		transform: scale(1.175);
+	}
 }
 
-hr {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+/*RESPONSIVIDADE*//*RESPONSIVIDADE*//*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*//*RESPONSIVIDADE*//*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*//*RESPONSIVIDADE*//*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*//*RESPONSIVIDADE*//*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*//*RESPONSIVIDADE*//*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*//*RESPONSIVIDADE*//*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*//*RESPONSIVIDADE*//*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*//*RESPONSIVIDADE*//*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*//*RESPONSIVIDADE*//*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*//*RESPONSIVIDADE*//*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*//*RESPONSIVIDADE*//*RESPONSIVIDADE*/
 
-b {
-  font-weight: 900;
-  color: rgb(255, 45, 49);
-}
+@media (max-width: 1003px) and (min-width: 804px) {
+	.slider {
+		width: 90%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 50px;
+		border-radius: 15px;
+	}
+	.div-central {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid black;
+	}
 
-.paragrafo {
-  font-size: 24px;
-  text-align: justify;
-}
-.div-paragrafo {
-  padding: 30px 50px;
-  margin-bottom: 100px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 30px;
-}
+	hr {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 
-.bela-borda {
-  border: 5px solid transparent;
-  background: linear-gradient(white, white) padding-box,
-    linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49)) border-box;
-  border-radius: 25px;
-}
+	b {
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
 
-.div-titulo-objetivo {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-}
+	.paragrafo {
+		font-size: 1.25rem;
+		text-align: justify;
+	}
+	.div-paragrafo {
+		padding: 30px 50px;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 30px;
+	}
 
-h1 {
-  text-align: center;
-  font-weight: 900;
-}
-.negrito-extra {
-  font-size: 80px;
-  font-weight: 900;
-}
+	.bela-borda {
+		border: 5px solid transparent;
+		background: linear-gradient(white, white) padding-box,
+			linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49)) border-box;
+		border-radius: 25px;
+	}
 
-.div-central-objetivo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 75px;
-}
-.imagens {
-  width: 200px;
-  height: 200px;
-  border-radius: 500px;
-}
-.imagens2 {
-  width: 50px;
-}
-.div-itens-objetivo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: solid black 0.5px;
-  width: 400px;
-  height: 400px;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: white;
-  box-shadow: 10px 5px 5px black;
-  transition: transform 2.5s ease;
-}
-.div-itens-objetivo:hover {
-  transform: scale(1.15);
-}
-.div-dupla-objetivos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
+	.div-titulo-objetivo {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+		align-items: center;
+		gap: 25px;
+	}
 
-p {
-  font-size: 16px;
-  text-align: center;
-  font-weight: 700;
-}
+	h1 {
+		text-align: center;
+		font-weight: 900;
+	}
+	.negrito-extra {
+		font-size: 80px;
+		font-weight: 900;
+	}
 
-.div-text-missao {
-  width: 700px;
-  font-size: 30px;
-  font-weight: 700;
-}
-.div-image-missao {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.div-central-missao {
-  border: 1px solid gray;
-  padding: 100px;
-  border-radius: 0 300px 0 300px;
-}
+	.div-central-objetivo {
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 75px;
+		margin: 5px;
+	}
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*width e o height*/
+	.imagens {
+		width: 175px;
+		height: 175px;
+		border-radius: 500px;
+	}
+	.imagens2 {
+		width: 45px;
+	}
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*height*/
+	.div-itens-objetivo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 0.5px;
+		width: 100%;
+		height: 325px;
+		padding: 10px 5px;
+		border-radius: 20px;
+		background-color: white;
+		box-shadow: 10px 5px 5px black;
+		transition: transform 2.5s ease;
+	}
+	.div-itens-objetivo:hover {
+		transform: scale(1.15);
+	}
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*width*/
+	.div-dupla-objetivos {
+		width: 80%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+		margin: 5px;
+	}
+	.div-unica-solitaria {
+		width: 40%;
+    padding: 15px 5px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 5px;
+	}
+	p {
+		font-size: 16px;
+		text-align: center;
+		font-weight: 700;
+	}
 
-.div-central-valores {
-  width: 850px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
-  margin-bottom: 50px;
-}
-.div-composta-valores {
-  width: 800px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.imagens-valores {
-  width: 200px;
-  height: 150px;
-}
-.div-valores {
-  border: none;
-  border-radius: none;
-  transition: border 0.1s ease, border-radius 0.1s ease, transform 0.1 ease;
-}
-.div-valores:hover {
-  padding: 20px;
-  border: 3px solid rgb(255, 45, 49);
-  border-radius: 15px;
-  transform: scale(1.175);
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*width*/
+	.div-text-missao {
+		width: 550px;
+		font-size: 30px;
+		font-weight: 700;
+	}
+	.div-image-missao {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+	}
+	.div-central-missao {
+		border: 1px solid gray;
+		padding: 100px;
+		border-radius: 0 300px 0 300px;
+	}
+
+	.div-central-valores {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		padding: 20px;
+		margin-bottom: 50px;
+	}
+	.div-composta-valores {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*AQUI PRECISA EDITAR*/
+	/*width*/
+	.imagens-valores {
+		width: 200px;
+		height: 150px;
+	}
+	.div-valores {
+		border: none;
+		border-radius: none;
+		transition: border 0.1s ease, border-radius 0.1s ease, transform 0.1 ease;
+	}
+	.div-valores:hover {
+		padding: 20px;
+		border: 3px solid rgb(255, 45, 49);
+		border-radius: 15px;
+		transform: scale(1.175);
+	}
 }

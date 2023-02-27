@@ -1,4 +1,4 @@
-@media (max-width: 1500px) and (min-width: 1000px) {
+@media (max-width: 1500px) and (min-width: 850px) {
   .div-geral-manubar {
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
   }
 
   .my-button1 {
-    width: 100px;
+    width: 16%;
     letter-spacing: 1px;
     font-weight: 700;
     border: none;
@@ -34,7 +34,7 @@
     background-color: rgb(255, 45, 49);
   }
   .my-button2 {
-    width: 100px;
+    width: 16%;
     letter-spacing: 1px;
     font-weight: 700;
     border: none;
@@ -45,7 +45,7 @@
     background-color: rgb(245, 45, 49);
   }
   .my-button3 {
-    width: 100px;
+    width: 16%;
     letter-spacing: 1px;
     font-weight: 700;
     border: none;
@@ -56,7 +56,7 @@
     background-color: rgb(235, 45, 49);
   }
   .my-button4 {
-    width: 100px;
+    width: 16%;
     letter-spacing: 1px;
     font-weight: 700;
     border: none;
@@ -68,7 +68,7 @@
   }
 
   .my-button5 {
-    width: 100px;
+    width: 16%;
     letter-spacing: 1px;
     font-weight: 700;
     border: none;
@@ -79,7 +79,7 @@
     background-color: rgb(210, 45, 49);
   }
   .my-button6 {
-    width: 100px;
+    width: 16%;
     letter-spacing: 1px;
     font-weight: 700;
     border: none;

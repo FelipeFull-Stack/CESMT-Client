@@ -26,7 +26,7 @@ function CESMT() {
         <>
             <div className="div-central">
                 <div className="slider">
-                    <ImageSlider2 image1={imagem1} image2={imagem2} width={950} height={300} />
+                    <ImageSlider2 image1={imagem1} image2={imagem2} width="100%" height={300}/>
                 </div>
 
                 <div className="div-paragrafo bela-borda">
@@ -49,7 +49,7 @@ function CESMT() {
                     </div>
                     <div className="div-dupla-objetivos">
                         <div className="div-itens-objetivo">
-                            <div>
+                            <div style={{display: "flex", justifyContent: "center"}}>
                                 <img className="imagens" src={eSocial} alt="Icone" />
                             </div>
                             <div>
@@ -61,7 +61,7 @@ function CESMT() {
                         </div>
 
                         <div className="div-itens-objetivo">
-                            <div>
+                            <div style={{display: "flex", justifyContent: "center"}}>
                                 <img className="imagens" src={localSeguro} alt="Icone" />
                             </div>
                             <div>
@@ -75,7 +75,7 @@ function CESMT() {
 
                     <div className="div-dupla-objetivos">
                         <div className="div-itens-objetivo">
-                            <div>
+                            <div style={{display: "flex", justifyContent: "center"}}>
                                 <img className="imagens" src={localSaude} alt="Icone" />
                             </div>
                             <div>
@@ -86,7 +86,7 @@ function CESMT() {
                             </div>
                         </div>
                         <div className="div-itens-objetivo">
-                            <div>
+                            <div style={{display: "flex", justifyContent: "center"}}>
                                 <img className="imagens" src={adequarNR} alt="Icone" />
                             </div>
                             <div>
@@ -100,7 +100,7 @@ function CESMT() {
 
                     <div className="div-dupla-objetivos">
                         <div className="div-itens-objetivo">
-                            <div>
+                            <div style={{display: "flex", justifyContent: "center"}}>
                                 <img className="imagens" src={todasDemandas} alt="Icone" />
                             </div>
                             <div>
@@ -111,7 +111,7 @@ function CESMT() {
                             </div>
                         </div>
                         <div className="div-itens-objetivo">
-                            <div>
+                            <div style={{display: "flex", justifyContent: "center"}}>
                                 <img className="imagens" src={assistenciaTecnica} alt="Icone" />
                             </div>
                             <div>
@@ -123,8 +123,8 @@ function CESMT() {
                         </div>
                     </div>
 
-                    <div className="div-itens-objetivo">
-                        <div>
+                    <div className="div-itens-objetivo div-unica-solitaria">
+                        <div style={{display: "flex", justifyContent: "center"}}>
                             <img className="imagens" src={elaboracaoLaudo} alt="Icone" />
                         </div>
                         <div>
