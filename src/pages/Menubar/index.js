@@ -1,6 +1,8 @@
 import logoCESMT from "../../images/Logo CESMT.png";
 import { useNavigate } from "react-router-dom";
+import { useState, useEffect, useRef } from "react";
 import "./Menubar.css";
+import menu from "../../images/menuhamburguer.png";
 
 function Menubar() {
 	const navigate = useNavigate();
@@ -22,6 +24,23 @@ function Menubar() {
 			});
 		}
 	}
+
+	const [isExpanded, setIsExpanded] = useState(false);
+	const ref = useRef(null);
+
+	useEffect(() => {
+		const handleClickOutside = (event) => {
+			if (ref.current && !ref.current.contains(event.target)) {
+				setIsExpanded(false);
+			}
+		};
+
+		document.addEventListener("mousedown", handleClickOutside);
+
+		return () => {
+			document.removeEventListener("mousedown", handleClickOutside);
+		};
+	}, [ref]);
 
 	function navigateToTopHome() {
 		window.scrollTo(0, 0);
@@ -53,42 +72,25 @@ function Menubar() {
 			<div className="div-geral-manubar">
 				<div className="div-navbar-logo">
 					<div className="img-logo-cesmt-navbar">
-						<img
-							id="#"
-							src={logoCESMT}
-							alt="CESMT Logo"
-							
-						/>
+						<img id="#" src={logoCESMT} alt="CESMT Logo" />
 					</div>
 					<nav className="nav-bar">
-						<button
-							className="my-button1"
-							onClick={navigateToTopHome}>
+						<button className="my-button1" onClick={navigateToTopHome}>
 							Início
 						</button>
-						<button
-							className="my-button2"
-							onClick={navigateToTopSobre}>
+						<button className="my-button2" onClick={navigateToTopSobre}>
 							A CESMT
 						</button>
-						<button
-							className="my-button3"
-							onClick={navigateToTopServices}>
+						<button className="my-button3" onClick={navigateToTopServices}>
 							Serviços
 						</button>
-						<button
-							className="my-button4"
-							onClick={navigateToTopClientes}>
+						<button className="my-button4" onClick={navigateToTopClientes}>
 							Clientes
 						</button>
-						<button
-							className="my-button5"
-							onClick={navigateToTopArtigos}>
+						<button className="my-button5" onClick={navigateToTopArtigos}>
 							Artigos
 						</button>
-						<button
-							className="my-button6"
-							onClick={navigateToTopContato}>
+						<button className="my-button6" onClick={navigateToTopContato}>
 							Contato
 						</button>
 					</nav>
@@ -102,6 +104,35 @@ function Menubar() {
 							"linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49))",
 					}}></div>
 			</div>
+
+			<div className="div-central-menu">
+				<img
+					className="img-menu-hamburguer"
+					id="#"
+					src={logoCESMT}
+					alt="CESMT Logo"
+				/>
+
+				<div className="div-hamburguer">
+					<button
+						className="button-menu-hamburguer"
+						onClick={() => setIsExpanded(!isExpanded)}>
+						<img className="img-button-hamburguer" src={menu} alt="Menu" />
+						<b>Menu</b>
+					</button>
+					{isExpanded && (
+						<div className="buttons" ref={ref}>
+							<button onClick={navigateToTopHome}>Início</button>
+							<button onClick={navigateToTopSobre}>A CESMT</button>
+							<button onClick={navigateToTopServices}>Serviços</button>
+							<button onClick={navigateToTopClientes}>Clientes</button>
+							<button onClick={navigateToTopArtigos}>Artigos</button>
+							<button onClick={navigateToTopContato}>Contato</button>
+						</div>
+					)}
+				</div>
+			</div>
+
 			<button id="btn-top" class="btn-top">
 				<i class="fa fa-arrow-up"></i>
 			</button>
