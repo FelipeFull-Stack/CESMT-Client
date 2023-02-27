@@ -1,68 +1,325 @@
-.div-geral-servico {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
-  margin-top: 50px;
-}
-.hifem {
-  font-size: 30px;
+@media (max-width: 2500px) and (min-width: 800px) {
+	.div-geral-servico {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 100px;
+		margin-top: 50px;
+	}
+	.hifem {
+		font-size: 1rem;
+	}
+
+	.h1-servico {
+		font-size: 2rem;
+	}
+
+	.titulo-servico {
+		width: 100%;
+		background: linear-gradient(to right, #f5f858, #f8e007);
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+		border-radius: 0 500px 0 500px;
+		height: 44px;
+	}
+
+	.div-titulo-servico {
+		width: 100%;
+	}
+
+	.div-servico-map {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.div-servico {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 2px;
+		border: 1px solid rgb(158, 157, 157);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		color: rgb(50, 50, 50);
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.div-servico:hover {
+		transform: scale(1.075);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.div-sigla-nome {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
+	}
+	.h2-servico {
+		font-size: 1rem;
+		font-weight: 900;
+	}
+	.h3-servico {
+		font-size: 0.85rem;
+	}
+	.h3-extra {
+		font-size: 1.25rem;
+	}
 }
 
-.h1-servico{
-    font-size: 40px;
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+
+@media (max-width: 799px) and (min-width: 660px) {
+	.div-geral-servico {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 100px;
+		margin-top: 50px;
+	}
+	.hifem {
+		font-size: 0.75rem;
+	}
+
+	.h1-servico {
+		font-size: 1.5rem;
+	}
+
+	.titulo-servico {
+		width: 100%;
+		background: linear-gradient(to right, #f5f858, #f8e007);
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+		border-radius: 0 500px 0 500px;
+		height: 40px;
+	}
+
+	.div-titulo-servico {
+		width: 100%;
+	}
+
+	.div-servico-map {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.div-servico {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 2px;
+		border: 1px solid rgb(158, 157, 157);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		color: rgb(50, 50, 50);
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.div-servico:hover {
+		transform: scale(1.075);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.div-sigla-nome {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
+	}
+	.h2-servico {
+		font-size: 0.85rem;
+		font-weight: 900;
+	}
+	.h3-servico {
+		font-size: 0.7rem;
+	}
+	.h3-extra {
+		font-size: 1.1rem;
+	}
 }
 
-.titulo-servico {
-  background: linear-gradient(to right, #f5f858, #f8e007);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-  border-radius: 0 500px 0 500px;
-  height: 44px;
-  font-size: 36px;
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+
+@media (max-width: 659px) and (min-width: 560px) {
+	.div-geral-servico {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 100px;
+		margin-top: 50px;
+	}
+	.hifem {
+		font-size: 0.75rem;
+	}
+
+	.h1-servico {
+		font-size: 1.5rem;
+	}
+
+	.titulo-servico {
+		width: 100%;
+		background: linear-gradient(to right, #f5f858, #f8e007);
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+		border-radius: 0 500px 0 500px;
+		height: 40px;
+	}
+
+	.div-titulo-servico {
+		width: 100%;
+	}
+
+	.div-servico-map {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.div-servico {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 2px;
+		border: 1px solid rgb(158, 157, 157);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		color: rgb(50, 50, 50);
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.div-servico:hover {
+		transform: scale(1.075);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.div-sigla-nome {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
+	}
+	.h2-servico {
+		font-size: 0.75rem;
+		font-weight: 900;
+	}
+	.h3-servico {
+		font-size: 0.6rem;
+	}
+	.h3-extra {
+		font-size: 1rem;
+	}
 }
 
-.div-servico.map {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.div-servico {
-  width: 850px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgb(158, 157, 157);
-  /* background-color: rgb(211, 211, 211); */
-  border-radius: 500px;
-  color: rgb(50, 50, 50);
-  font-size: 24px;
-  line-height: 0;
-  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
-}
-.div-servico:hover {
-  transform: scale(1.075);
-  background-color: rgb(230, 230, 230);
-  font-weight: 900;
-  color: black;
-  border: 2px solid rgb(0, 0, 0);
-}
-.div-sigla-nome {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
-.h2-servico {
-  font-size: 22px;
-  font-weight: 900;
-}
-.h3-servico {
-  font-size: 20px;
-}
-.h3-extra{
-    font-size: 26px;
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+/*RESPONSIVIDADE RESPONSIVIDADE RESPONSIVIDADE*/
+
+@media (max-width: 559px) and (min-width: 1px) {
+	.div-geral-servico {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 100px;
+		margin-top: 50px;
+	}
+	.hifem {
+		font-size: 0.65rem;
+	}
+
+	.h1-servico {
+		font-size: 1.25rem;
+	}
+
+	.titulo-servico {
+		width: 100%;
+		background: linear-gradient(to right, #f5f858, #f8e007);
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+		border-radius: 0 500px 0 500px;
+		height: 40px;
+	}
+
+	.div-titulo-servico {
+		width: 100%;
+	}
+
+	.div-servico-map {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.div-servico {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 2px;
+		border: 1px solid rgb(158, 157, 157);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		color: rgb(50, 50, 50);
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.div-servico:hover {
+		transform: scale(1.075);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.div-sigla-nome {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
+	}
+	.h2-servico {
+		font-size: 0.6rem;
+		font-weight: 900;
+	}
+	.h3-servico {
+		font-size: 0.5rem;
+	}
+	.h3-extra {
+		font-size: 1rem;
+	}
 }

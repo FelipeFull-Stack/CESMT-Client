@@ -23,59 +23,72 @@ function Menubar() {
 		}
 	}
 
+	function navigateToTopHome() {
+		window.scrollTo(0, 0);
+		navigate("/home");
+	}
+	function navigateToTopSobre() {
+		window.scrollTo(0, 0);
+		navigate("/sobre");
+	}
+	function navigateToTopServices() {
+		window.scrollTo(0, 0);
+		navigate("/servicos");
+	}
+	function navigateToTopClientes() {
+		window.scrollTo(0, 0);
+		navigate("/clientes");
+	}
+	function navigateToTopArtigos() {
+		window.scrollTo(0, 0);
+		navigate("/artigos");
+	}
+	function navigateToTopContato() {
+		window.scrollTo(0, 0);
+		navigate("/contato");
+	}
+
 	return (
 		<>
 			<div className="div-geral-manubar">
 				<div className="div-navbar-logo">
-					<div>
+					<div className="img-logo-cesmt-navbar">
 						<img
 							id="#"
 							src={logoCESMT}
 							alt="CESMT Logo"
-							style={{ width: "275px", margin: "20px" }}
+							
 						/>
 					</div>
 					<nav className="nav-bar">
 						<button
 							className="my-button1"
-							onClick={() => {
-								navigate("/home");
-							}}>
+							onClick={navigateToTopHome}>
 							Início
 						</button>
 						<button
 							className="my-button2"
-							onClick={() => {
-								navigate("/sobre");
-							}}>
+							onClick={navigateToTopSobre}>
 							A CESMT
 						</button>
 						<button
 							className="my-button3"
-							onClick={() => {
-								navigate("/servicos");
-							}}>
+							onClick={navigateToTopServices}>
 							Serviços
 						</button>
 						<button
 							className="my-button4"
-							onClick={() => {
-								navigate("/clientes");
-							}}>
+							onClick={navigateToTopClientes}>
 							Clientes
 						</button>
 						<button
 							className="my-button5"
-							onClick={() => {
-								navigate("/artigos");
-							}}>
+							onClick={navigateToTopArtigos}>
 							Artigos
 						</button>
 						<button
 							className="my-button6"
-							onClick={() => {
-								navigate("/contato");
-							}}>
+							onClick={navigateToTopContato}>
 							Contato
 						</button>
 					</nav>
@@ -96,6 +109,8 @@ function Menubar() {
 	);
 }
 
+export { Menubar };
+
 // const btnTop = document.querySelector('#btn-top');
 
 // btnTop.addEventListener('click', () => {
@@ -104,8 +119,6 @@ function Menubar() {
 //         behavior: 'smooth'
 //     });
 // });
-
-export { Menubar };
 
 // .divMaster {
 //     display: flex;
