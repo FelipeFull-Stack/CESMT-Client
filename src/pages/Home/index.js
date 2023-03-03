@@ -32,8 +32,6 @@ function Home() {
 					<ImageSlider
 						image1={banner1}
 						image2={banner2}
-						width="100%"
-						height="100%"
 					/>
 				</div>
 
@@ -80,7 +78,7 @@ function Home() {
 									<b>
 										<u>Saúde</u> <u>do</u> <u>Trabalho</u>
 									</b>
-								</p>
+								</p> 
 							</div>
 							<div className="div-banner1">
 								<img className="banner1" src={saudeDoTrabalho} alt="Banner" />

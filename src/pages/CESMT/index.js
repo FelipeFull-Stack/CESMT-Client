@@ -28,8 +28,6 @@ function CESMT() {
 					<ImageSlider2
 						image1={imagem1}
 						image2={imagem2}
-						width="100%"
-						height={300}
 					/>
 				</div>
 

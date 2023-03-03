@@ -1,9 +1,254 @@
-.slider-image {
-    border-radius: 15px;
-    display: none; /* começa escondido */
-  }
-  
-  .active {
-    display: block; /* exibe somente imagem atual */
-  }
-  
+@media (max-width: 2500px) and (min-width: 1200px) {
+	.slider-image {
+		border-radius: 15px;
+		display: none; /* começa escondido */
+	}
+
+	.active {
+		display: block; /* exibe somente imagem atual */
+		justify-content: center;
+		width: 1200px;
+	}
+	.teste {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
+@media (max-width: 1199px) and (min-width: 1100px) {
+	.slider-image {
+		border-radius: 15px;
+		display: none; /* começa escondido */
+	}
+
+	.active {
+		display: block; /* exibe somente imagem atual */
+		justify-content: center;
+		width: 1100px;
+	}
+	.teste {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
+@media (max-width: 1099px) and (min-width: 1000px) {
+	.slider-image {
+		border-radius: 15px;
+		display: none; /* começa escondido */
+	}
+
+	.active {
+		display: block; /* exibe somente imagem atual */
+		justify-content: center;
+		width: 1000px;
+	}
+	.teste {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
+@media (max-width: 999px) and (min-width: 900px) {
+	.slider-image {
+		border-radius: 15px;
+		display: none; /* começa escondido */
+	}
+
+	.active {
+		display: block; /* exibe somente imagem atual */
+		justify-content: center;
+		width: 900px;
+	}
+	.teste {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
+@media (max-width: 899px) and (min-width: 800px) {
+	.slider-image {
+		border-radius: 15px;
+		display: none; /* começa escondido */
+	}
+
+	.active {
+		display: block; /* exibe somente imagem atual */
+		justify-content: center;
+		width: 800px;
+	}
+	.teste {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
+@media (max-width: 799px) and (min-width: 700px) {
+	.slider-image {
+		border-radius: 15px;
+		display: none; /* começa escondido */
+	}
+
+	.active {
+		display: block; /* exibe somente imagem atual */
+		justify-content: center;
+		width: 700px;
+	}
+	.teste {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
+@media (max-width: 699px) and (min-width: 600px) {
+	.slider-image {
+		border-radius: 15px;
+		display: none; /* começa escondido */
+	}
+
+	.active {
+		display: block; /* exibe somente imagem atual */
+		justify-content: center;
+		width: 600px;
+	}
+	.teste {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
+@media (max-width: 599px) and (min-width: 500px) {
+	.slider-image {
+		border-radius: 15px;
+		display: none; /* começa escondido */
+	}
+
+	.active {
+		display: block; /* exibe somente imagem atual */
+		justify-content: center;
+		width: 500px;
+	}
+	.teste {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
+@media (max-width: 499px) and (min-width: 400px) {
+	.slider-image {
+		border-radius: 15px;
+		display: none; /* começa escondido */
+	}
+
+	.active {
+		display: block; /* exibe somente imagem atual */
+		justify-content: center;
+		width: 400px;
+	}
+	.teste {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
+@media (max-width: 399px) and (min-width: 300px) {
+	.slider-image {
+		border-radius: 15px;
+		display: none; /* começa escondido */
+	}
+
+	.active {
+		display: block; /* exibe somente imagem atual */
+		justify-content: center;
+		width: 300px;
+	}
+	.teste {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
+@media (max-width: 299px) and (min-width: 200px) {
+	.slider-image {
+		border-radius: 15px;
+		display: none; /* começa escondido */
+	}
+
+	.active {
+		display: block; /* exibe somente imagem atual */
+		justify-content: center;
+		width: 270px;
+	}
+	.teste {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
