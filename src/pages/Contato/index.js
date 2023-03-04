@@ -10,7 +10,7 @@ function Contato() {
 	return (
 		<>
 			<div className={styles.divPaiContato}>
-				<div className={styles.divMasterCidade}>
+				<section className={styles.divMasterCidade}>
 					<div className={styles.divTituloCidade}>
 						<h1>Jequié - BA</h1>
 					</div>
@@ -60,15 +60,15 @@ function Contato() {
 					</div>
 
 					<div className={styles.divUnicaLocalizacao}>
-						<div className={styles.divInternaImgContato}>
+						<div className={styles.divInternaImgLocalizacao}>
 							<img src={location} alt="Icone" />
 						</div>
 
-						<div className={styles.divIndividualFrasesContato}>
+						<address className={styles.divIndividualInformacoesLocalizacao}>
 							<p>Rua Dr. José Alfredo Guimarães - Nº 26</p>
 							<p>Bairro São Luís</p>
 							<p>Jequié-BA - CEP: 45.203-330</p>
-						</div>
+						</address>
 
 						<div className={styles.divIframeMAPS}>
 							<iframe
@@ -82,11 +82,11 @@ function Contato() {
 								aria-label="Rua Dr. José Alfredo Guimarães, 26"></iframe>
 						</div>
 					</div>
-				</div>
+				</section>
 
 				<hr></hr>
 
-				<div className={styles.divMasterCidade}>
+				<section className={styles.divMasterCidade}>
 					<div className={styles.divTituloCidade}>
 						<h1>Vitória da Conquista - BA</h1>
 					</div>
@@ -139,15 +139,15 @@ function Contato() {
 					</div>
 
 					<div className={styles.divUnicaLocalizacao}>
-						<div className={styles.divInternaImgContato}>
+						<div className={styles.divInternaImgLocalizacao}>
 							<img src={location} alt="Icone" />
 						</div>
 
-						<div className={styles.divIndividualFrasesContato}>
+						<address className={styles.divIndividualInformacoesLocalizacao}>
 							<p>Avenida Crescêncio Silveira - Nº 103</p>
 							<p>Centro</p>
 							<p>Vitória da Conquista-BA - CEP: 45.000-190</p>
-						</div>
+						</address>
 
 						<div className={styles.divIframeMAPS}>
 							<iframe
@@ -161,7 +161,7 @@ function Contato() {
 								aria-label="Rua Crescêncio Silveira, 103, Centro"></iframe>
 						</div>
 					</div>
-				</div>
+				</section>
 			</div>
 		</>
 	);
