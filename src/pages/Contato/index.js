@@ -4,30 +4,20 @@ import phone from "../../images/icones/phone.png";
 import location from "../../images/icones/location.png";
 import email from "../../images/icones/email.png";
 
-import "./Contato.module.css";
+import styles from "./Contato.module.css";
 
 function Contato() {
 	return (
 		<>
-			<div className="div-pai-contato">
-				<div className="div-master-cidade" style={{ marginBottom: "50px" }}>
-					{/* Jequie */}
-					<div style={{ display: "flex", justifyContent: "center" }}>
-						{/* Nome da Cidade */}
+			<div className={styles.divPaiContato}>
+				<div className={styles.divMasterCidade}>
+					<div
+						className={styles.divTituloCidade}
+						style={{ display: "flex", justifyContent: "center" }}>
 						<h1>Jequié - BA</h1>
 					</div>
 
-					<div
-						style={{
-							marginBottom: "25px",
-							height: "300px",
-							display: "flex",
-							flexDirection: "row",
-							flexWrap: "wrap",
-							justifyContent: "space-around",
-							alignContent: "space-around",
-						}}>
-						{/* Contato */}
+					<div className={styles.divMasterContatos}>
 						<div
 							style={{
 								width: "42%",
@@ -183,7 +173,7 @@ function Contato() {
 
 				<hr></hr>
 
-				<div className="div-master-cidade" style={{ marginBottom: "50px" }}>
+				<div className={styles.divMasterCidade}>
 					{/* Vitoria da Conquista */}
 					<div style={{ display: "flex", justifyContent: "center" }}>
 						{/* Nome da Cidade */}
