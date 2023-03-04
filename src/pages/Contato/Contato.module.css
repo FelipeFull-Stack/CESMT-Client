@@ -1,15 +1,17 @@
 .divPaiContato {
+    width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
-	border: 2px solid black;
 	margin-bottom: 50px;
 }
 
 .divMasterCidade {
-	padding: 5px;
+    /*Responsivo*/
+    width: 70%;
+	padding-top: 10px;
 	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
@@ -18,6 +20,9 @@
 }
 
 .divTituloCidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	border: 1px solid black;
 }
 .divTituloCidade h1 {
@@ -26,11 +31,65 @@
 }
 .divMasterContatos {
 	/*Responsivo*/
-	border: 1px solid black;
+	width: 100%;
+	border: 1px solid blue;
 	height: 300px;
 	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-content: center;
+}
+.divDuplaContatos {
+	border: 1px solid red;
+	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-content: space-around;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.divIndividualInformacoesContato {
+    /*Responsivo*/
+	width: 30%;
+	border: 1px solid yellow;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.divInternaImgContato {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divInternaImgContato img {
+    /*Responsivo*/
+	width: 40px;
+}
+.divIndividualFrasesContato {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	line-height: 1px;
+}
+.divIndividualFrasesContato p {
+    /*Responsivo*/
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.divUnicaLocalizacao {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+    line-height: 0px;
+}
+.divIframeMAPS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iframeMAPS {
+    width: 100%;
+    height: 500px;
 }

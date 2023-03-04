@@ -11,155 +11,68 @@ function Contato() {
 		<>
 			<div className={styles.divPaiContato}>
 				<div className={styles.divMasterCidade}>
-					<div
-						className={styles.divTituloCidade}
-						style={{ display: "flex", justifyContent: "center" }}>
+					<div className={styles.divTituloCidade}>
 						<h1>Jequié - BA</h1>
 					</div>
 
 					<div className={styles.divMasterContatos}>
-						<div
-							style={{
-								width: "42%",
-								display: "flex",
-								flexDirection: "column",
-							}}>
-							{/* Email */}
-							<div style={{ display: "flex", justifyContent: "center" }}>
-								{/* Icone */}
-								<img style={{ width: "40px" }} src={email} alt="Icone" />
+						<div className={styles.divDuplaContatos}>
+							<div className={styles.divIndividualInformacoesContato}>
+								<div className={styles.divInternaImgContato}>
+									<img src={email} alt="Icone" />
+								</div>
+								<div className={styles.divIndividualFrasesContato}>
+									<p>nilza@cesmt.com.br</p>
+									<p>cesmt@cesmt.com.br</p>
+								</div>
 							</div>
-							<div
-								style={{
-									display: "flex",
-									flexDirection: "column",
-									alignItems: "center",
-									lineHeight: "1px",
-								}}>
-								{/* Emails */}
-								<p style={{ fontSize: "24px", fontWeight: "700" }}>
-									nilza@cesmt.com.br
-								</p>
-								<p style={{ fontSize: "24px", fontWeight: "700" }}>
-									cesmt@cesmt.com.br
-								</p>
+
+							<div className={styles.divIndividualInformacoesContato}>
+								<div className={styles.divInternaImgContato}>
+									<img src={phone} alt="Icone" />
+								</div>
+								<div className={styles.divIndividualFrasesContato}>
+									<p>(73) 3526-1414</p>
+									<p>(73) 3526-0718</p>
+								</div>
 							</div>
 						</div>
 
-						<div
-							style={{
-								width: "42%",
-								display: "flex",
-								flexDirection: "column",
-							}}>
-							{/* Telefone */}
-							<div style={{ display: "flex", justifyContent: "center" }}>
-								{/* Icone */}
-								<img style={{ width: "40px" }} src={phone} alt="Icone" />
+						<div className={styles.divDuplaContatos}>
+							<div className={styles.divIndividualInformacoesContato}>
+								<div className={styles.divInternaImgContato}>
+									<img src={whatsapp} alt="Icone" />
+								</div>
+								<div className={styles.divIndividualFrasesContato}>
+									<p>(73) 9 9999-9999</p>
+								</div>
 							</div>
-							<div
-								style={{
-									display: "flex",
-									flexDirection: "column",
-									alignItems: "center",
-									lineHeight: "1px",
-								}}>
-								{/* Numeros */}
-								<p style={{ fontSize: "24px", fontWeight: "700" }}>
-									(73) 3526-1414
-								</p>
-								<p style={{ fontSize: "24px", fontWeight: "700" }}>
-									(73) 3526-0718
-								</p>
-							</div>
-						</div>
 
-						<div
-							style={{
-								width: "42%",
-								display: "flex",
-								flexDirection: "column",
-							}}>
-							{/* WhatsApp */}
-							<div style={{ display: "flex", justifyContent: "center" }}>
-								{/* Icone */}
-								<img style={{ width: "40px" }} src={whatsapp} alt="Icone" />
-							</div>
-							<div
-								style={{
-									display: "flex",
-									flexDirection: "column",
-									alignItems: "center",
-									lineHeight: "1px",
-								}}>
-								{/* Numeros */}
-								<p style={{ fontSize: "24px", fontWeight: "700" }}>
-									(73) 9 9999-9999
-								</p>
-							</div>
-						</div>
-
-						<div
-							style={{
-								width: "42%",
-								display: "flex",
-								flexDirection: "column",
-							}}>
-							{/* Instagram */}
-							<div style={{ display: "flex", justifyContent: "center" }}>
-								{/* Icone */}
-								<img style={{ width: "40px" }} src={instagram} alt="Icone" />
-							</div>
-							<div
-								style={{
-									display: "flex",
-									flexDirection: "column",
-									alignItems: "center",
-									lineHeight: "1px",
-								}}>
-								{/* Numeros */}
-								<p style={{ fontSize: "24px", fontWeight: "700" }}>
-									cesmt_jequie
-								</p>
+							<div className={styles.divIndividualInformacoesContato}>
+								<div className={styles.divInternaImgContato}>
+									<img src={instagram} alt="Icone" />
+								</div>
+								<div className={styles.divIndividualFrasesContato}>
+									<p>cesmt_jequie</p>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div
-						style={{
-							padding: "10px",
-							display: "flex",
-							flexDirection: "column",
-							justifyContent: "center",
-							gap: "20px",
-						}}>
-						{/* Localização */}
-						<div style={{ display: "flex", justifyContent: "center" }}>
-							{/* Icone */}
-							<img style={{ width: "60px" }} src={location} alt="Icone" />
+					<div className={styles.divUnicaLocalizacao}>
+						<div className={styles.divInternaImgContato}>
+							<img src={location} alt="Icone" />
 						</div>
-						<div
-							style={{
-								display: "flex",
-								flexDirection: "column",
-								alignItems: "center",
-								lineHeight: 0,
-							}}>
-							{/* Localização Verbal - Texto*/}
-							<p style={{ fontSize: "20px", fontWeight: "700" }}>
-								Rua Dr. José Alfredo Guimarães - Nº 26
-							</p>
-							<p style={{ fontSize: "20px", fontWeight: "700" }}>
-								Bairro São Luís
-							</p>
-							<p style={{ fontSize: "20px", fontWeight: "700" }}>
-								Jequié-BA - CEP: 45.203-330
-							</p>
+
+						<div className={styles.divIndividualFrasesContato}>
+							<p>Rua Dr. José Alfredo Guimarães - Nº 26</p>
+							<p>Bairro São Luís</p>
+							<p>Jequié-BA - CEP: 45.203-330</p>
 						</div>
-						<div style={{ display: "flex", justifyContent: "center" }}>
-							{/* Localização Visual - Mapa*/}
+
+						<div className={styles.divIframeMAPS}>
 							<iframe
-								style={{ width: "800px", height: "500px" }}
+								className={styles.iframeMAPS}
 								frameborder="0"
 								scrolling="no"
 								marginheight="0"
@@ -174,161 +87,71 @@ function Contato() {
 				<hr></hr>
 
 				<div className={styles.divMasterCidade}>
-					{/* Vitoria da Conquista */}
-					<div style={{ display: "flex", justifyContent: "center" }}>
-						{/* Nome da Cidade */}
+					<div className={styles.divTituloCidade}>
 						<h1>Vitória da Conquista - BA</h1>
 					</div>
 
-					<div
-						style={{
-							marginBottom: "25px",
-							height: "300px",
-							display: "flex",
-							flexDirection: "row",
-							flexWrap: "wrap",
-							justifyContent: "space-around",
-							alignContent: "space-around",
-						}}>
-						{/* Contato */}
-						<div
-							style={{
-								width: "42%",
-								display: "flex",
-								flexDirection: "column",
-							}}>
-							{/* Email */}
-							<div style={{ display: "flex", justifyContent: "center" }}>
-								{/* Icone */}
-								<img style={{ width: "40px" }} src={email} alt="Icone" />
+					<div className={styles.divMasterContatos}>
+						<div className={styles.divDuplaContatos}>
+							<div className={styles.divIndividualInformacoesContato}>
+								<div className={styles.divInternaImgContato}>
+									<img src={email} alt="Icone" />
+								</div>
+
+								<div className={styles.divIndividualFrasesContato}>
+									<p>nilza@cesmt.com.br</p>
+									<p>cesmt@cesmt.com.br</p>
+								</div>
 							</div>
-							<div
-								style={{
-									display: "flex",
-									flexDirection: "column",
-									alignItems: "center",
-									lineHeight: "1px",
-								}}>
-								{/* Emails */}
-								<p style={{ fontSize: "24px", fontWeight: "700" }}>
-									nilza@cesmt.com.br
-								</p>
-								<p style={{ fontSize: "24px", fontWeight: "700" }}>
-									cesmt@cesmt.com.br
-								</p>
+
+							<div className={styles.divIndividualInformacoesContato}>
+								<div className={styles.divInternaImgContato}>
+									<img src={phone} alt="Icone" />
+								</div>
+
+								<div className={styles.divIndividualFrasesContato}>
+									<p>(77) 3424-5058</p>
+								</div>
 							</div>
 						</div>
 
-						<div
-							style={{
-								width: "42%",
-								display: "flex",
-								flexDirection: "column",
-							}}>
-							{/* Telefone */}
-							<div style={{ display: "flex", justifyContent: "center" }}>
-								{/* Icone */}
-								<img style={{ width: "40px" }} src={phone} alt="Icone" />
-							</div>
-							<div
-								style={{
-									display: "flex",
-									flexDirection: "column",
-									alignItems: "center",
-									lineHeight: "1px",
-								}}>
-								{/* Numeros */}
-								<p style={{ fontSize: "24px", fontWeight: "700" }}>
-									(77) 3424-5058
-								</p>
-								{/* <p style={{ fontSize: "24px", fontWeight: "700" }}>(73) 3526-0718</p> */}
-							</div>
-						</div>
+						<div className={styles.divDuplaContatos}>
+							<div className={styles.divIndividualInformacoesContato}>
+								<div className={styles.divInternaImgContato}>
+									<img src={whatsapp} alt="Icone" />
+								</div>
 
-						<div
-							style={{
-								width: "42%",
-								display: "flex",
-								flexDirection: "column",
-							}}>
-							{/* WhatsApp */}
-							<div style={{ display: "flex", justifyContent: "center" }}>
-								{/* Icone */}
-								<img style={{ width: "40px" }} src={whatsapp} alt="Icone" />
+								<div className={styles.divIndividualFrasesContato}>
+									<p>(73) 9 9999-9999</p>
+								</div>
 							</div>
-							<div
-								style={{
-									display: "flex",
-									flexDirection: "column",
-									alignItems: "center",
-									lineHeight: "1px",
-								}}>
-								{/* Numeros */}
-								<p style={{ fontSize: "24px", fontWeight: "700" }}>
-									(73) 9 9999-9999
-								</p>
-							</div>
-						</div>
 
-						<div
-							style={{
-								width: "42%",
-								display: "flex",
-								flexDirection: "column",
-							}}>
-							{/* Instagram */}
-							<div style={{ display: "flex", justifyContent: "center" }}>
-								{/* Icone */}
-								<img style={{ width: "40px" }} src={instagram} alt="Icone" />
-							</div>
-							<div
-								style={{
-									display: "flex",
-									flexDirection: "column",
-									alignItems: "center",
-									lineHeight: "1px",
-								}}>
-								{/* Numeros */}
-								<p style={{ fontSize: "24px", fontWeight: "700" }}>
-									cesmt_conquista
-								</p>
+							<div className={styles.divIndividualInformacoesContato}>
+								<div className={styles.divInternaImgContato}>
+									<img src={instagram} alt="Icone" />
+								</div>
+
+								<div className={styles.divIndividualFrasesContato}>
+									<p>cesmt_conquista</p>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div
-						style={{
-							padding: "10px",
-							display: "flex",
-							flexDirection: "column",
-							justifyContent: "center",
-							gap: "20px",
-						}}>
-						{/* Localização */}
-						<div style={{ display: "flex", justifyContent: "center" }}>
-							{/* Icone */}
-							<img style={{ width: "60px" }} src={location} alt="Icone" />
+					<div className={styles.divUnicaLocalizacao}>
+						<div className={styles.divInternaImgContato}>
+							<img src={location} alt="Icone" />
 						</div>
-						<div
-							style={{
-								display: "flex",
-								flexDirection: "column",
-								alignItems: "center",
-								lineHeight: 0,
-							}}>
-							{/* Localização Verbal - Texto*/}
-							<p style={{ fontSize: "20px", fontWeight: "700" }}>
-								Avenida Crescêncio Silveira - Nº 103
-							</p>
-							<p style={{ fontSize: "20px", fontWeight: "700" }}>Centro</p>
-							<p style={{ fontSize: "20px", fontWeight: "700" }}>
-								Vitória da Conquista-BA - CEP: 45.000-190
-							</p>
+
+						<div className={styles.divIndividualFrasesContato}>
+							<p>Avenida Crescêncio Silveira - Nº 103</p>
+							<p>Centro</p>
+							<p>Vitória da Conquista-BA - CEP: 45.000-190</p>
 						</div>
-						<div style={{ display: "flex", justifyContent: "center" }}>
-							{/* Localização Visual - Mapa*/}
+
+						<div className={styles.divIframeMAPS}>
 							<iframe
-								style={{ width: "800px", height: "500px" }}
+								className={styles.iframeMAPS}
 								frameborder="0"
 								scrolling="no"
 								marginheight="0"
