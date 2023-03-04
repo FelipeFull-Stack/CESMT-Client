@@ -13,17 +13,17 @@ function CreatePage() {
                     <h1>Cadastrar Artigo</h1>
                     <CriarArtigo />
                 </div>
-                <hr />
+                <hr></hr>
                 <div className="div-create">
                     <h1>Cadastrar Cliente</h1>
                     <CriarCliente />
                 </div>
-                <hr />
+                <hr></hr>
                 <div className="div-create">
                     <h1>Cadastrar Serviço</h1>
                     <CriarServico />
                 </div>
-                <hr />
+                <hr></hr>
                 {/* <div className="div-create">
                     <h1>cadastro</h1>
                     <SignUp />

@@ -29,13 +29,10 @@ function Home() {
 		<>
 			<div className="div-pai-home">
 				<div className="slider">
-					<ImageSlider
-						image1={banner1}
-						image2={banner2}
-					/>
+					<ImageSlider image1={banner1} image2={banner2} />
 				</div>
 
-				<hr />
+				<hr></hr>
 
 				<div className="div-central-paragrafo">
 					<h1>Sobre nós:</h1>
@@ -59,7 +56,7 @@ function Home() {
 					</div>
 				</div>
 
-				<hr />
+				<hr></hr>
 
 				<div
 					className="div-central-banners"
@@ -78,7 +75,7 @@ function Home() {
 									<b>
 										<u>Saúde</u> <u>do</u> <u>Trabalho</u>
 									</b>
-								</p> 
+								</p>
 							</div>
 							<div className="div-banner1">
 								<img className="banner1" src={saudeDoTrabalho} alt="Banner" />
@@ -157,7 +154,7 @@ function Home() {
 					</div>
 				</div>
 
-				<hr />
+				<hr></hr>
 
 				<div className="div-central-links">
 					<div>
@@ -165,25 +162,33 @@ function Home() {
 					</div>
 					<div className="div-organiza-links">
 						<div className="div-organiza-links-1">
-							<a href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/" target={"_blank"}>
+							<a
+								href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/"
+								target={"_blank"}>
 								<div className="div-link">
 									<div className="div-img-a1">
 										<img src={icone1} alt="Icone" />
 									</div>
 									<div className="div-tag">
-										<a href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/" target={"_blank"}>
-											PGR e o fim do PPRA	
+										<a
+											href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/"
+											target={"_blank"}>
+											PGR e o fim do PPRA
 										</a>
 									</div>
 								</div>
 							</a>
-							<a href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/" target={"_blank"}>
+							<a
+								href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/"
+								target={"_blank"}>
 								<div className="div-link">
 									<div className="div-img-a2">
 										<img src={icone2} alt="Icone" />
 									</div>
 									<div className="div-tag">
-										<a href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/" target={"_blank"}>
+										<a
+											href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/"
+											target={"_blank"}>
 											Notícias ANAMT
 										</a>
 									</div>
@@ -197,7 +202,9 @@ function Home() {
 										<img src={icone3} alt="Icone" />
 									</div>
 									<div className="div-tag">
-										<a href="http://www.sstonline.com.br/" target={"_blank"}>SST Online</a>
+										<a href="http://www.sstonline.com.br/" target={"_blank"}>
+											SST Online
+										</a>
 									</div>
 								</div>
 							</a>
