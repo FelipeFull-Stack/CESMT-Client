@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import ImageSlider from "../../components/ImageSlider";
 import { useNavigate } from "react-router-dom";
-import "./styles.css";
+import "./Home.css";
 
 import segurandaDoTrabalho from "../../images/plano de fundo seguranca do trabalho.png";
 import saudeDoTrabalho from "../../images/plano de fundo saude do trabalho.png";
@@ -27,52 +27,40 @@ function Home() {
 
 	return (
 		<>
-			<div className="slider">
-				<ImageSlider
-					image1={banner1}
-					image2={banner2}
-					width="100%"
-					height={300}
-				/>
-			</div>
-
-			<hr />
-
-			<div className="div-central-paragrafo">
-				<h1>Sobre nós:</h1>
-
-				<div className="div-paragrafo-inicial">
-					<p className="paragrafo">
-						A <b>CESMT</b> foi fundada pelo <b>Dr. José Henrique Padre</b>{" "}
-						<i>(in memorian)</i>, está há mais de <b>20 anos</b> atuando com{" "}
-						<b>Excelência</b> na <b>Gestão de Saúde Ocupacional</b> e{" "}
-						<b>Segurança do Trabalho</b>.
-					</p>
-					<p className="paragrafo">
-						A CESMT também é <b>Multiclínica</b>, com diversas{" "}
-						<b>Especialidades Médicas</b>.
-					</p>
+			<div className="div-pai-home">
+				<div className="slider">
+					<ImageSlider image1={banner1} image2={banner2} />
 				</div>
-				<div className="div-button-leiamais">
-					<button className="button-leiamais" onClick={navigateToTopSobre}>
-						Leia Mais
-					</button>
+
+				<hr></hr>
+
+				<div className="div-central-paragrafo">
+					<h1>Sobre nós:</h1>
+
+					<div className="div-paragrafo-inicial">
+						<p className="paragrafo">
+							A <b>CESMT</b> foi fundada pelo <b>Dr. José Henrique Padre</b>{" "}
+							<i>(in memorian)</i>, está há mais de <b>20 anos</b> atuando com{" "}
+							<b>Excelência</b> na <b>Gestão de Saúde Ocupacional</b> e{" "}
+							<b>Segurança do Trabalho</b>.
+						</p>
+						<p className="paragrafo">
+							A CESMT também é <b>Multiclínica</b>, com diversas{" "}
+							<b>Especialidades Médicas</b>.
+						</p>
+					</div>
+					<div className="div-button-leiamais">
+						<button className="button-leiamais" onClick={navigateToTopSobre}>
+							Leia Mais
+						</button>
+					</div>
 				</div>
-			</div>
 
-			<hr />
+				<hr></hr>
 
-			<div
-				className="div-central-banners"
-				style={{ marginTop: "50px", marginBottom: "50px" }}>
 				<div
-					className=""
-					style={{
-						display: "flex",
-						flexDirection: "column",
-						justifyContent: "center",
-						alignItems: "center",
-					}}>
+					className="div-central-banners"
+					style={{ marginTop: "50px", marginBottom: "50px" }}>
 					<div style={{ marginBottom: "60px" }}>
 						<h1 style={{ fontSize: "40px" }}>Nossos Serviços:</h1>
 					</div>
@@ -84,8 +72,8 @@ function Home() {
 							className="div-banners-impar">
 							<div className="div-paragrafo1">
 								<p className="paragrafo">
-									<b style={{ fontSize: "30px", textDecoration: "underline" }}>
-										Saúde do Trabalho
+									<b>
+										<u>Saúde</u> <u>do</u> <u>Trabalho</u>
 									</b>
 								</p>
 							</div>
@@ -100,8 +88,8 @@ function Home() {
 							className="div-banners-par">
 							<div className="div-paragrafo2">
 								<p className="paragrafo">
-									<b style={{ fontSize: "30px", textDecoration: "underline" }}>
-										Segurança do Trabalho
+									<b>
+										<u>Segurança</u> <u>do</u> <u>Trabalho</u>
 									</b>
 								</p>
 							</div>
@@ -120,8 +108,8 @@ function Home() {
 							className="div-banners-impar">
 							<div className="div-paragrafo3">
 								<p className="paragrafo">
-									<b style={{ fontSize: "30px", textDecoration: "underline" }}>
-										Atestados Ocupacionais
+									<b>
+										<u>Atestados</u> <u>Ocupacionais</u>
 									</b>
 								</p>
 							</div>
@@ -136,8 +124,8 @@ function Home() {
 							className="div-banners-par">
 							<div className="div-paragrafo4">
 								<p className="paragrafo">
-									<b style={{ fontSize: "30px", textDecoration: "underline" }}>
-										Especialidades Médicas
+									<b>
+										<u>Especialidades</u> <u>Médicas</u>
 									</b>
 								</p>
 							</div>
@@ -152,7 +140,7 @@ function Home() {
 								justifyContent: "center",
 								marginTop: "-30px",
 							}}>
-							<p className="paragrafo" style={{ fontSize: "32px" }}>
+							<p className="paragrafo" style={{ fontSize: "1.65rem" }}>
 								e muito mais...
 							</p>
 						</div>
@@ -165,36 +153,42 @@ function Home() {
 						</button>
 					</div>
 				</div>
-			</div>
 
-			<hr />
+				<hr></hr>
 
-			<div style={{ marginTop: "50px", marginBottom: "50px" }}>
 				<div className="div-central-links">
 					<div>
 						<h1>Fique por dentro das notícias:</h1>
 					</div>
 					<div className="div-organiza-links">
 						<div className="div-organiza-links-1">
-							<a href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/">
+							<a
+								href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/"
+								target={"_blank"}>
 								<div className="div-link">
 									<div className="div-img-a1">
 										<img src={icone1} alt="Icone" />
 									</div>
 									<div className="div-tag">
-										<a href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/">
+										<a
+											href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/"
+											target={"_blank"}>
 											PGR e o fim do PPRA
 										</a>
 									</div>
 								</div>
 							</a>
-							<a href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/">
+							<a
+								href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/"
+								target={"_blank"}>
 								<div className="div-link">
 									<div className="div-img-a2">
 										<img src={icone2} alt="Icone" />
 									</div>
 									<div className="div-tag">
-										<a href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/">
+										<a
+											href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/"
+											target={"_blank"}>
 											Notícias ANAMT
 										</a>
 									</div>
@@ -202,13 +196,15 @@ function Home() {
 							</a>
 						</div>
 						<div className="div-organiza-links-2">
-							<a href="http://www.sstonline.com.br/">
+							<a href="http://www.sstonline.com.br/" target={"_blank"}>
 								<div className="div-link">
 									<div className="div-img-a3">
 										<img src={icone3} alt="Icone" />
 									</div>
 									<div className="div-tag">
-										<a href="http://www.sstonline.com.br/">SST Online</a>
+										<a href="http://www.sstonline.com.br/" target={"_blank"}>
+											SST Online
+										</a>
 									</div>
 								</div>
 							</a>

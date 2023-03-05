@@ -13,7 +13,7 @@ const ImageSlider = ({ image1, image2, width, height }) => {
     }, [image1, image2]);
 
     return (
-        <div>
+        <div className="teste">
             <img
                 src={image1}
                 alt="sliding-image"
