@@ -28,8 +28,8 @@ function Home() {
 
 	return (
 		<>
-			<div className="div-pai-home" /* className={styles.divPaiHome} */>
-				<div className="slider" /* className={styles.divSliderHome} */>
+			<div className={styles.divPaiHome}>
+				<div className={styles.divSliderHome}>
 					<ImageSlider image1={banner1} image2={banner2} />
 				</div>
 
