@@ -3,3 +3,221 @@
 	flex-direction: column;
 	align-items: center;
 }
+.divSliderHome {
+	width: 95%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	border-radius: 15px;
+}
+.divCentralParagrafoHome {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(235, 235, 235);
+}
+.divCentralParagrafoHome h1 {
+	/*Responsivo*/
+	font-size: 1.5rem;
+}
+.divParagrafoIntrodutorioHome {
+	/*Responsivo*/
+	width: 74%;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.divParagrafoIntrodutorioHome p {
+	/*Responsivo*/
+	font-size: 1rem;
+	font-weight: 700;
+}
+.divParagrafoIntrodutorioHome b {
+	font-weight: 900;
+	color: rgb(255, 45, 49);
+}
+.divButtonLeiaMaisHome {
+	margin: 10px;
+}
+.buttonLeiaMaisHome {
+	/*Responsivo*/
+	width: 100%;
+	height: 55px;
+	padding: 10px;
+	font-size: 1.1rem;
+	font-weight: 700;
+	border-radius: 25px;
+	border: solid rgb(200, 45, 49) 2px;
+	color: rgb(200, 45, 49);
+	cursor: pointer;
+	background-color: rgb(233, 233, 233);
+	transition: transform 2s ease-in-out;
+}
+.buttonLeiaMaisHome:hover {
+	/*Responsivo*/
+	border: solid rgb(255, 45, 49) 3px;
+	transform: rotate(360deg);
+	color: rgb(255, 45, 49);
+	font-size: 1.25rem;
+}
+.divCentralBannersHome {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.divTituloBannersHome {
+	/*Responsivo*/
+	margin: 20px;
+}
+.divTituloBannersHome h1 {
+	/*Responsivo*/
+	font-size: 2rem;
+}
+.divTodosBannersHome {
+	/*Responsivo*/
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* gap: 75px; */
+	text-align: center;
+}
+.divImparesBannersHome {
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	/* margin-top: 20px; */
+	/* margin-bottom: 50px; */
+}
+.divParesBannersHome {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* margin-top: 20px; */
+	/* margin-bottom: 50px; */
+}
+.divParagrafoBannerHome {
+	/*Responsivo*/
+	width: 35%;
+	height: 300px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.divParagrafoBannerHome p {
+	/*Responsivo*/
+	font-size: 1rem;
+	font-weight: 700;
+}
+.divParagrafoBannerHome b {
+	font-weight: 900;
+	color: rgb(255, 45, 49);
+}
+.divBannerHome {
+	width: 65%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.BannerImpar {
+	/*Responsivo*/
+	width: 100%;
+	height: 300px;
+	border-radius: 0 200px 200px 0;
+}
+.BannerPar {
+	/*Responsivo*/
+	width: 100%;
+	height: 300px;
+	border-radius: 200px 0 0 200px;
+}
+.divParagrafoFinalBannersHome {
+	display: flex;
+	justify-content: center;
+	/* margin-top: -30px; */
+}
+.divParagrafoFinalBannersHome p {
+	/*Responsivo*/
+	font-size: 1.65rem;
+}
+.divCentralLinksHome {
+	/*Responsivo*/
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	gap: 25px;
+	/* background-color: rgb(218, 216, 216); */
+	background-image: url(https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/05/mapa-mundi.jpg);
+	background-size: cover;
+	background-position: center center;
+	border-radius: 500px;
+	margin: 10px;
+	border: 2px solid black;
+	margin-bottom: 100px;
+}
+.divTituloLinksHome h1 {
+	/*Responsivo*/
+	font-size: 1.5rem;
+}
+.divOrganizaLinksHome {
+	/*Responsivo*/
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	/* gap: 50px; */
+}
+.divOrganizaLinksHome a {
+	text-decoration: none;
+	font-weight: 900;
+	color: black;
+}
+.divLink {
+	/*Responsivo*/
+	width: 200px;
+	height: 200px;
+	border: solid black 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 10px 5px 5px black;
+	transition: transform 1s ease;
+}
+.divLink:hover {
+	/*Responsivo*/
+	transform: scale(1.2);
+}
+.divImgLink {
+	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divImgLink img {
+	width: 100%;
+}
