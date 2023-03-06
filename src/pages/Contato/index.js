@@ -122,7 +122,7 @@ function Contato() {
 								</div>
 
 								<div className={styles.divIndividualFrasesContato}>
-									<p>(73) 9 9999-9999</p>
+									<p>(73) 9 9983-1079</p>
 								</div>
 							</div>
 
