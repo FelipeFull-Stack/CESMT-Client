@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import ImageSlider from "../../components/ImageSlider";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
+import styles from "./Home.module.css";
 
 import segurandaDoTrabalho from "../../images/plano de fundo seguranca do trabalho.png";
 import saudeDoTrabalho from "../../images/plano de fundo saude do trabalho.png";
@@ -27,8 +28,8 @@ function Home() {
 
 	return (
 		<>
-			<div className="div-pai-home">
-				<div className="slider">
+			<div className="div-pai-home" /* className={styles.divPaiHome} */>
+				<div className="slider" /* className={styles.divSliderHome} */>
 					<ImageSlider image1={banner1} image2={banner2} />
 				</div>
 

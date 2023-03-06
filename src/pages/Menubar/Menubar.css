@@ -1,4 +1,807 @@
-@media (max-width: 2500px) and (min-width: 850px) {
+@media (max-width: 3500px) and (min-width: 2100px) {
+	.div-geral-manubar {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.div-central-menu {
+		display: none;
+	}
+
+	.img-logo-cesmt-navbar {
+		width: 40%;
+		margin: 20px;
+	}
+	.img-logo-cesmt-navbar img {
+		width: 100%;
+	}
+
+	.div-navbar-logo {
+		height: auto;
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.nav-bar {
+		width: 60%;
+		height: 200px;
+		margin: 10px;
+		padding: 2px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 5px;
+	}
+
+	.my-button1 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 2.2rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button1:hover {
+		background-color: rgb(255, 45, 49);
+	}
+	.my-button2 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 2.2rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button2:hover {
+		background-color: rgb(245, 45, 49);
+	}
+	.my-button3 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 2.2rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button3:hover {
+		background-color: rgb(235, 45, 49);
+	}
+	.my-button4 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 2.2rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button4:hover {
+		background-color: rgb(220, 45, 49);
+	}
+
+	.my-button5 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 2.2rem;
+		transition: background-color 0.1s ease;
+	}
+	.my-button5:hover {
+		background-color: rgb(210, 45, 49);
+	}
+	.my-button6 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 2.2rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button6:hover {
+		background-color: rgb(200, 45, 49);
+	}
+	.btn-top {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		background-image: url(../../images/icones/botão\ up.png);
+		background-size: cover;
+		background-position: center center;
+		color: white;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 50%;
+		font-size: 20px;
+		text-align: center;
+		line-height: 20px;
+		font-weight: 900;
+	}
+
+	.btn-top i {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 16px;
+		color: white;
+	}
+
+	.btn-top:hover {
+		background-color: #333;
+	}
+	/* border: solid  2px; */
+	/* box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8); */
+}
+
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+
+
+@media (max-width: 2099px) and (min-width: 1800px) {
+	.div-geral-manubar {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.div-central-menu {
+		display: none;
+	}
+
+	.img-logo-cesmt-navbar {
+		width: 40%;
+		margin: 20px;
+	}
+	.img-logo-cesmt-navbar img {
+		width: 100%;
+	}
+
+	.div-navbar-logo {
+		height: auto;
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.nav-bar {
+		width: 60%;
+		height: 175px;
+		margin: 10px;
+		padding: 2px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 5px;
+	}
+
+	.my-button1 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.75rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button1:hover {
+		background-color: rgb(255, 45, 49);
+	}
+	.my-button2 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.75rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button2:hover {
+		background-color: rgb(245, 45, 49);
+	}
+	.my-button3 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.75rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button3:hover {
+		background-color: rgb(235, 45, 49);
+	}
+	.my-button4 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.75rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button4:hover {
+		background-color: rgb(220, 45, 49);
+	}
+
+	.my-button5 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.75rem;
+		transition: background-color 0.1s ease;
+	}
+	.my-button5:hover {
+		background-color: rgb(210, 45, 49);
+	}
+	.my-button6 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.75rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button6:hover {
+		background-color: rgb(200, 45, 49);
+	}
+	.btn-top {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		background-image: url(../../images/icones/botão\ up.png);
+		background-size: cover;
+		background-position: center center;
+		color: white;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 50%;
+		font-size: 20px;
+		text-align: center;
+		line-height: 20px;
+		font-weight: 900;
+	}
+
+	.btn-top i {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 16px;
+		color: white;
+	}
+
+	.btn-top:hover {
+		background-color: #333;
+	}
+	/* border: solid  2px; */
+	/* box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8); */
+}
+
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+
+@media (max-width: 1799px) and (min-width: 1600px) {
+	.div-geral-manubar {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.div-central-menu {
+		display: none;
+	}
+
+	.img-logo-cesmt-navbar {
+		width: 40%;
+		margin: 20px;
+	}
+	.img-logo-cesmt-navbar img {
+		width: 100%;
+	}
+
+	.div-navbar-logo {
+		height: auto;
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.nav-bar {
+		width: 60%;
+		height: 150px;
+		margin: 10px;
+		padding: 2px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 5px;
+	}
+
+	.my-button1 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.5rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button1:hover {
+		background-color: rgb(255, 45, 49);
+	}
+	.my-button2 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.5rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button2:hover {
+		background-color: rgb(245, 45, 49);
+	}
+	.my-button3 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.5rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button3:hover {
+		background-color: rgb(235, 45, 49);
+	}
+	.my-button4 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.5rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button4:hover {
+		background-color: rgb(220, 45, 49);
+	}
+
+	.my-button5 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.5rem;
+		transition: background-color 0.1s ease;
+	}
+	.my-button5:hover {
+		background-color: rgb(210, 45, 49);
+	}
+	.my-button6 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.5rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button6:hover {
+		background-color: rgb(200, 45, 49);
+	}
+	.btn-top {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		background-image: url(../../images/icones/botão\ up.png);
+		background-size: cover;
+		background-position: center center;
+		color: white;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 50%;
+		font-size: 20px;
+		text-align: center;
+		line-height: 20px;
+		font-weight: 900;
+	}
+
+	.btn-top i {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 16px;
+		color: white;
+	}
+
+	.btn-top:hover {
+		background-color: #333;
+	}
+	/* border: solid  2px; */
+	/* box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8); */
+}
+
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+
+
+@media (max-width: 1599px) and (min-width: 1400px) {
+	.div-geral-manubar {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.div-central-menu {
+		display: none;
+	}
+
+	.img-logo-cesmt-navbar {
+		width: 40%;
+		margin: 20px;
+	}
+	.img-logo-cesmt-navbar img {
+		width: 100%;
+	}
+
+	.div-navbar-logo {
+		height: auto;
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.nav-bar {
+		width: 60%;
+		height: 130px;
+		margin: 10px;
+		padding: 2px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 5px;
+	}
+
+	.my-button1 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.3rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button1:hover {
+		background-color: rgb(255, 45, 49);
+	}
+	.my-button2 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.3rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button2:hover {
+		background-color: rgb(245, 45, 49);
+	}
+	.my-button3 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.3rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button3:hover {
+		background-color: rgb(235, 45, 49);
+	}
+	.my-button4 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.3rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button4:hover {
+		background-color: rgb(220, 45, 49);
+	}
+
+	.my-button5 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.3rem;
+		transition: background-color 0.1s ease;
+	}
+	.my-button5:hover {
+		background-color: rgb(210, 45, 49);
+	}
+	.my-button6 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.3rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button6:hover {
+		background-color: rgb(200, 45, 49);
+	}
+	.btn-top {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		background-image: url(../../images/icones/botão\ up.png);
+		background-size: cover;
+		background-position: center center;
+		color: white;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 50%;
+		font-size: 20px;
+		text-align: center;
+		line-height: 20px;
+		font-weight: 900;
+	}
+
+	.btn-top i {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 16px;
+		color: white;
+	}
+
+	.btn-top:hover {
+		background-color: #333;
+	}
+	/* border: solid  2px; */
+	/* box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8); */
+}
+
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+
+
+@media (max-width: 1399px) and (min-width: 1200px) {
+	.div-geral-manubar {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.div-central-menu {
+		display: none;
+	}
+
+	.img-logo-cesmt-navbar {
+		width: 40%;
+		margin: 20px;
+	}
+	.img-logo-cesmt-navbar img {
+		width: 100%;
+	}
+
+	.div-navbar-logo {
+		height: auto;
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.nav-bar {
+		width: 60%;
+		height: 110px;
+		margin: 10px;
+		padding: 2px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 5px;
+	}
+
+	.my-button1 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.2rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button1:hover {
+		background-color: rgb(255, 45, 49);
+	}
+	.my-button2 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.2rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button2:hover {
+		background-color: rgb(245, 45, 49);
+	}
+	.my-button3 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.2rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button3:hover {
+		background-color: rgb(235, 45, 49);
+	}
+	.my-button4 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.2rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button4:hover {
+		background-color: rgb(220, 45, 49);
+	}
+
+	.my-button5 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.2rem;
+		transition: background-color 0.1s ease;
+	}
+	.my-button5:hover {
+		background-color: rgb(210, 45, 49);
+	}
+	.my-button6 {
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.2rem;
+		transition: background-color 0.5s ease;
+	}
+	.my-button6:hover {
+		background-color: rgb(200, 45, 49);
+	}
+	.btn-top {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		background-image: url(../../images/icones/botão\ up.png);
+		background-size: cover;
+		background-position: center center;
+		color: white;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 15px;
+		border-radius: 50%;
+		font-size: 20px;
+		text-align: center;
+		line-height: 20px;
+		font-weight: 900;
+	}
+
+	.btn-top i {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 16px;
+		color: white;
+	}
+
+	.btn-top:hover {
+		background-color: #333;
+	}
+	/* border: solid  2px; */
+	/* box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8); */
+}
+
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+
+@media (max-width: 1199px) and (min-width: 850px) {
 	.div-geral-manubar {
 		display: flex;
 		flex-direction: column;
@@ -605,7 +1408,7 @@
 		align-items: center;
 		border-radius: 500px;
 		margin-top: 10px;
-		height: 30px;
+		height: 32px;
 		width: 120px;
 	}
 	.button-menu-hamburguer b {
