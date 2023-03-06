@@ -35,31 +35,24 @@ function Home() {
 
 				<hr></hr>
 
-				<div
-					className="div-central-paragrafo" /* className={styles.divCentralParagrafoHome} */
-				>
+				<div className={styles.divCentralParagrafoHome}>
 					<h1>Sobre nós:</h1>
 
-					<div
-						className="div-paragrafo-inicial" /* className={styles.divParagrafoIntrodutorioHome} */
-					>
-						<p className="paragrafo">
+					<div className={styles.divParagrafoIntrodutorioHome}>
+						<p>
 							A <b>CESMT</b> foi fundada pelo <b>Dr. José Henrique Padre</b>{" "}
 							<i>(in memorian)</i>, está há mais de <b>20 anos</b> atuando com{" "}
 							<b>Excelência</b> na <b>Gestão de Saúde Ocupacional</b> e{" "}
 							<b>Segurança do Trabalho</b>.
 						</p>
-						<p className="paragrafo">
+						<p>
 							A CESMT também é <b>Multiclínica</b>, com diversas{" "}
 							<b>Especialidades Médicas</b>.
 						</p>
 					</div>
-					<div
-						className="div-button-leiamais" /* className={styles.divButtonLeiaMaisHome} */
-					>
+					<div className={styles.divButtonLeiaMaisHome}>
 						<button
-							className="button-leiamais"
-							/* className={styles.buttonLeiaMaisHome} */
+							className={styles.buttonLeiaMaisHome}
 							onClick={navigateToTopSobre}>
 							Leia Mais
 						</button>
@@ -68,40 +61,26 @@ function Home() {
 
 				<hr></hr>
 
-				<div
-					className="div-central-banners" /* className={styles.divCentralBannersHome} */
-					style={{ marginTop: "50px", marginBottom: "50px" }}>
-					<div
-						style={{
-							marginBottom: "60px",
-						}} /* className={styles.divTituloBannersHome} */
-					>
-						<h1 style={{ fontSize: "40px" }}>Nossos Serviços:</h1>
+				<div className={styles.divCentralBannersHome}>
+					<div className={styles.divTituloBannersHome}>
+						<h1>Nossos Serviços:</h1>
 					</div>
 
-					<div
-						className="div-geral-banners" /* className={styles.divTodosBannersHome} */
-					>
+					<div className={styles.divTodosBannersHome}>
 						<motion.div
-							/* className={styles.divImparesBannersHome} */
+							className={styles.divImparesBannersHome}
 							initial={{ x: 1000 }}
-							animate={{ x: 0 }}
-							className="div-banners-impar">
-							<div
-								className="div-paragrafo1" /* className={styles.divParagrafoBanner} */
-							>
-								<p className="paragrafo">
+							animate={{ x: 0 }}>
+							<div className={styles.divParagrafoBannerHome}>
+								<p>
 									<b>
 										<u>Saúde</u> <u>do</u> <u>Trabalho</u>
 									</b>
 								</p>
 							</div>
-							<div
-								className="div-banner1" /* className={styles.divBannerHome} */
-							>
+							<div className={styles.divBannerHome}>
 								<img
-									/* className={styles.BannerImpar} */
-									className="banner1"
+									className={styles.BannerImpar}
 									src={saudeDoTrabalho}
 									alt="Banner"
 								/>
@@ -109,25 +88,19 @@ function Home() {
 						</motion.div>
 
 						<motion.div
-							/* className={styles.divParesBannersHome} */
+							className={styles.divParesBannersHome}
 							initial={{ x: -1000 }}
-							animate={{ x: 0 }}
-							className="div-banners-par">
-							<div
-								className="div-paragrafo2" /* className={styles.divParagrafoBanner} */
-							>
-								<p className="paragrafo">
+							animate={{ x: 0 }}>
+							<div className={styles.divParagrafoBannerHome}>
+								<p>
 									<b>
 										<u>Segurança</u> <u>do</u> <u>Trabalho</u>
 									</b>
 								</p>
 							</div>
-							<div
-								className="div-banner2" /* className={styles.divBannerHome} */
-							>
+							<div className={styles.divBannerHome}>
 								<img
-									/* className={styles.BannerPar} */
-									className="banner2"
+									className={styles.BannerPar}
 									src={segurandaDoTrabalho}
 									alt="Banner"
 								/>
@@ -135,25 +108,19 @@ function Home() {
 						</motion.div>
 
 						<motion.div
-							/* className={styles.divImparesBannersHome} */
+							className={styles.divImparesBannersHome}
 							initial={{ x: 1000 }}
-							animate={{ x: 0 }}
-							className="div-banners-impar">
-							<div
-								className="div-paragrafo3" /* className={styles.divParagrafoBannerHome} */
-							>
-								<p className="paragrafo">
+							animate={{ x: 0 }}>
+							<div className={styles.divParagrafoBannerHome}>
+								<p>
 									<b>
 										<u>Atestados</u> <u>Ocupacionais</u>
 									</b>
 								</p>
 							</div>
-							<div
-								className="div-banner3" /* className={styles.divBannerHome} */
-							>
+							<div className={styles.divBannerHome}>
 								<img
-									/* className={styles.BannerImpar} */
-									className="banner3"
+									className={styles.BannerImpar}
 									src={atestadoMedico}
 									alt="Banner"
 								/>
@@ -161,49 +128,28 @@ function Home() {
 						</motion.div>
 
 						<motion.div
-							/* className={styles.divParesBannersHome} */
+							className={styles.divParesBannersHome}
 							initial={{ x: -1000 }}
-							animate={{ x: 0 }}
-							className="div-banners-par">
-							<div
-								className="div-paragrafo4" /* className={styles.divParagrafoBanner} */
-							>
-								<p className="paragrafo">
+							animate={{ x: 0 }}>
+							<div className={styles.divParagrafoBannerHome}>
+								<p>
 									<b>
 										<u>Especialidades</u> <u>Médicas</u>
 									</b>
 								</p>
 							</div>
-							<div
-								className="div-banner4" /* className={styles.divBannerHome} */
-							>
-								<img
-									/* className={styles.BannerPar} */
-									className="banner4"
-									src={medicina}
-									alt="Banner"
-								/>
+							<div className={styles.divBannerHome}>
+								<img className={styles.BannerPar} src={medicina} alt="Banner" />
 							</div>
 						</motion.div>
 
-						<div
-							/* className={styles.divParagrafoFinalBannersHome} */
-							style={{
-								display: "flex",
-								justifyContent: "center",
-								marginTop: "-30px",
-							}}>
-							<p className="paragrafo" style={{ fontSize: "1.65rem" }}>
-								e muito mais...
-							</p>
+						<div className={styles.divParagrafoFinalBannersHome}>
+							<p>e muito mais...</p>
 						</div>
 					</div>
-					<div
-						className="div-button-leiamais" /* className={styles.divButtonLeiaMaisHome} */
-						style={{ display: "flex", justifyContent: "center" }}>
+					<div className={styles.divButtonLeiaMaisHome}>
 						<button
-							/* className={styles.buttonLeiaMaisHome} */
-							className="button-leiamais"
+							className={styles.buttonLeiaMaisHome}
 							onClick={navigateToTopServices}>
 							Serviços
 						</button>
@@ -212,83 +158,56 @@ function Home() {
 
 				<hr></hr>
 
-				<div
-					className="div-central-links"
-					/* className={styles.divCentralLinksHome} */
-				>
-					<div /* className={styles.divTituloLinksHome} */>
+				<div className={styles.divCentralLinksHome}>
+					<div className={styles.divTituloLinksHome}>
 						<h1>Fique por dentro das notícias:</h1>
 					</div>
-					<div
-						className="div-organiza-links"
-						/* className={styles.divOrganizaLinksHome} */
-					>
-						<div className="div-organiza-links-1">
-							<a
-								href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/"
-								target={"_blank"}>
-								<div
-									className="div-link"
-									/* className={styles.divLink} */
-								>
-									<div
-										className="div-img-a1"
-										/* className={styles.divImgLink} */
-									>
-										<img src={icone1} alt="Icone" />
-									</div>
-									<div className="div-tag">
-										<a
-											href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/"
-											target={"_blank"}>
-											PGR e o fim do PPRA
-										</a>
-									</div>
+					<div className={styles.divOrganizaLinksHome}>
+						<a
+							href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/"
+							target={"_blank"}>
+							<div className={styles.divLink}>
+								<div className={styles.divImgLink}>
+									<img src={icone1} alt="Icone" />
 								</div>
-							</a>
-							<a
-								href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/"
-								target={"_blank"}>
-								<div
-									className="div-link"
-									/* className={styles.divLink} */
-								>
-									<div
-										className="div-img-a2"
-										/* className={styles.divImgLink} */
-									>
-										<img src={icone2} alt="Icone" />
-									</div>
-									<div className="div-tag">
-										<a
-											href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/"
-											target={"_blank"}>
-											Notícias ANAMT
-										</a>
-									</div>
+								<div>
+									<a
+										href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/"
+										target={"_blank"}>
+										<p>PGR e o fim do PPRA</p>
+									</a>
 								</div>
-							</a>
-						</div>
-						<div className="div-organiza-links-2">
-							<a href="http://www.sstonline.com.br/" target={"_blank"}>
-								<div
-									className="div-link"
-									/* className={styles.divLink} */
-								>
-									<div
-										className="div-img-a3"
-										/* className={styles.divImgLink} */
-									>
-										<img src={icone3} alt="Icone" />
-									</div>
-									<div className="div-tag">
-										<a href="http://www.sstonline.com.br/" target={"_blank"}>
-											SST Online
-										</a>
-									</div>
+							</div>
+						</a>
+						<a
+							href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/"
+							target={"_blank"}>
+							<div className={styles.divLink}>
+								<div className={styles.divImgLink}>
+									<img src={icone2} alt="Icone" />
 								</div>
-							</a>
-						</div>
+								<div>
+									<a
+										href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/"
+										target={"_blank"}>
+										<p>Notícias ANAMT</p>
+									</a>
+								</div>
+							</div>
+						</a>
+
+						<a href="http://www.sstonline.com.br/" target={"_blank"}>
+							<div className={styles.divLink}>
+								<div className={styles.divImgLink}>
+									<img src={icone3} alt="Icone" />
+								</div>
+								<div>
+									<a href="http://www.sstonline.com.br/" target={"_blank"}>
+										<p>SST Online</p>
+									</a>
+								</div>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
