@@ -174,7 +174,7 @@ function Home() {
 									<a
 										href="http://www.sstonline.com.br/sao-publicadas-as-novas-redacoes-das-nrs-1-7-e-9-pgr-e-fim-do-ppra/"
 										target={"_blank"}>
-										PGR e o fim do PPRA
+										<p>PGR e o fim do PPRA</p>
 									</a>
 								</div>
 							</div>
@@ -190,7 +190,7 @@ function Home() {
 									<a
 										href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/"
 										target={"_blank"}>
-										Notícias ANAMT
+										<p>Notícias ANAMT</p>
 									</a>
 								</div>
 							</div>
@@ -203,7 +203,7 @@ function Home() {
 								</div>
 								<div>
 									<a href="http://www.sstonline.com.br/" target={"_blank"}>
-										SST Online
+										<p>SST Online</p>
 									</a>
 								</div>
 							</div>
