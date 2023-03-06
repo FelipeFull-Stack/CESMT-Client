@@ -35,17 +35,25 @@ function Home() {
 
 				<hr></hr>
 
-				<div className="div-central-paragrafo">
+				<div
+					className="div-central-paragrafo" /* className={styles.divCentralParagrafoHome} */
+				>
 					<h1>Sobre nós:</h1>
 
-					<div className="div-paragrafo-inicial">
-						<p className="paragrafo">
+					<div
+						className="div-paragrafo-inicial" /* className={styles.divParagrafoIntrodutorioHome} */
+					>
+						<p
+							className="paragrafo" /* className={styles.paragrafoIntrodutorio} */
+						>
 							A <b>CESMT</b> foi fundada pelo <b>Dr. José Henrique Padre</b>{" "}
 							<i>(in memorian)</i>, está há mais de <b>20 anos</b> atuando com{" "}
 							<b>Excelência</b> na <b>Gestão de Saúde Ocupacional</b> e{" "}
 							<b>Segurança do Trabalho</b>.
 						</p>
-						<p className="paragrafo">
+						<p
+							className="paragrafo" /* className={styles.paragrafoIntrodutorio} */
+						>
 							A CESMT também é <b>Multiclínica</b>, com diversas{" "}
 							<b>Especialidades Médicas</b>.
 						</p>
