@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./ImageSlider2.css"; // Importe o arquivo CSS com as classes
+import "./ImageSlider2.css"; // Importe o arquivo CSS com as clas
+import styles from "./ImageSlider2.module.css";
 
 const ImageSlider2 = ({ image1, image2, text1, text2, width, height }) => {
 	text1 = "Unidade de Jequié - BA";
@@ -15,13 +16,13 @@ const ImageSlider2 = ({ image1, image2, text1, text2, width, height }) => {
 	}, [image1, image2]);
 
 	return (
-		<div className="teste">
+		<div className={styles.teste}>
 			{currentImage === image1 ? (
 				<div>
 					<img
 						src={image1}
-						alt="sliding-image"
-						className="slider-image active"
+						alt=""
+						className={`${styles.sliderImage} ${styles.active}`}
 						style={{ width, height }}
 					/>
 					<p>{text1}</p>
@@ -30,7 +31,7 @@ const ImageSlider2 = ({ image1, image2, text1, text2, width, height }) => {
 				<div>
 					<img
 						src={image2}
-						alt="sliding-image"
+						alt=""
 						className="slider-image active"
 						style={{ width, height }}
 					/>
