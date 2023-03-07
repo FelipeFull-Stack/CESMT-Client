@@ -1,0 +1,3157 @@
+.divPaiCESMT {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.divSliderCESMT {
+	width: 95%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 15px;
+}
+.divParagrafoIntrodutorioCESMT b {
+	font-weight: 900;
+	color: rgb(255, 45, 49);
+}
+.divImagemObjetivoCESMT {
+	width: 45%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divItensObjetivoCESMT:hover {
+	transform: scale(1.15);
+}
+.divImageItensObjetivoCESMT {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divMedalhaItensObjetivoCESMT {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divImagemMissaoCESMT {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.divTituloValoresCESMT {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divIndividualValoresCESMT {
+	border: none;
+	border-radius: none;
+	transition: border 0.1s ease, border-radius 0.1s ease, transform 0.1 ease;
+}
+
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
+@media (max-width: 3000px) and (min-width: 2500px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 100%;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 100px 50px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 100px;
+		margin-top: 100px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 90%;
+		font-size: 3rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 200px;
+		margin-top: 200px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 28%;
+		height: 500px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		margin: 50px;
+		margin-bottom: 200px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 3.5rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 10rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 90%;
+		border-radius: 25px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 75px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 2px;
+		width: 43%;
+		height: 950px;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 15px 10px 15px black;
+		transition: transform 1.5s ease;
+		gap: 25px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 350px;
+		height: 350px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 2.5rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 80px;
+		margin-top: -30px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 84%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 100px;
+		border-radius: 600px 0 600px 0;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 100px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 6rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 100px;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 88%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 3rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 100px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		padding: 20px;
+		margin-bottom: 100px;
+		margin-top: 200px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 5rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 50px;
+		border: 5px solid rgb(255, 45, 49);
+		border-radius: 25px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 500px;
+		height: 350px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 2.5rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 2499px) and (min-width: 2200px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 100%;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 95px 50px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 100px;
+		margin-top: 100px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 90%;
+		font-size: 2.95rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 190px;
+		margin-top: 190px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 28%;
+		height: 500px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		margin: 50px;
+		margin-bottom: 190px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 3.5rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 10rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 90%;
+		border-radius: 25px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 70px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 2px;
+		width: 43%;
+		height: 950px;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 15px 10px 15px black;
+		transition: transform 1.5s ease;
+		gap: 25px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 350px;
+		height: 350px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 2.5rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 80px;
+		margin-top: -30px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 84%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 100px;
+		border-radius: 600px 0 600px 0;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 100px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 5.8rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 100px;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 88%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 2.9rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 100px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		padding: 20px;
+		margin-bottom: 100px;
+		margin-top: 200px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 5rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 50px;
+		border: 5px solid rgb(255, 45, 49);
+		border-radius: 25px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 475px;
+		height: 325px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 2.5rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 2199px) and (min-width: 1900px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 95.5%;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 40px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 100px;
+		margin-top: 100px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 88%;
+		font-size: 2.7rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 180px;
+		margin-top: 180px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 28%;
+		height: 475px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		margin: 50px;
+		margin-bottom: 180px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 3.25rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 10rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 90%;
+		border-radius: 25px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 65px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 2px;
+		width: 43%;
+		height: 875px;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 15px 10px 15px black;
+		transition: transform 1.5s ease;
+		gap: 20px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 350px;
+		height: 350px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 2.25rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 75px;
+		margin-top: -30px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 100px;
+		border-radius: 600px 0 600px 0;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 80px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 5.5rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 100px;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 88%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 2.65rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 95px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 88%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		padding: 10px;
+		margin-bottom: 100px;
+		margin-top: 175px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 4.5rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 50px;
+		border: 5px solid rgb(255, 45, 49);
+		border-radius: 25px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 450px;
+		height: 300px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 2.5rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1899px) and (min-width: 1600px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 95.5%;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 40px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 90px;
+		margin-top: 90px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 88%;
+		font-size: 2.25rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 150px;
+		margin-top: 150px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 28%;
+		height: 475px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		margin: 50px;
+		margin-bottom: 170px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 2.85rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 9rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 95%;
+		border-radius: 25px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 60px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 2px;
+		width: 43%;
+		height: 775px;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 12px 8px 12px black;
+		transition: transform 1.5s ease;
+		gap: 10px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 325px;
+		height: 325px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 2rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 70px;
+		margin-top: -30px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 100px;
+		border-radius: 600px 0 600px 0;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 70px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 5rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 80px;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 88%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 2.5rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 95px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 92%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		padding: 10px;
+		margin-bottom: 100px;
+		margin-top: 150px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 4rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 35px;
+		border: 4px solid rgb(255, 45, 49);
+		border-radius: 25px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 380px;
+		height: 265px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 2.5rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1599px) and (min-width: 1300px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 95.5%;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 40px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 80px;
+		margin-top: 80px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 88%;
+		font-size: 2rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 140px;
+		margin-top: 140px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 28%;
+		height: 380px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 10px;
+		margin: 50px;
+		margin-bottom: 150px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 2.35rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 8rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 95%;
+		border-radius: 25px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 55px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 2px;
+		width: 43%;
+		height: 700px;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 10px 5px 10px black;
+		transition: transform 1.5s ease;
+		gap: 10px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 300px;
+		height: 300px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 1.5rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 65px;
+		margin-top: -30px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 100px;
+		border-radius: 500px 0 500px 0;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 55px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 4.5rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 80px;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 88%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 2.1rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 90px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 92%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		padding: 10px;
+		margin-bottom: 100px;
+		margin-top: 150px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 3.5rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 25px;
+		border: 3px solid rgb(255, 45, 49);
+		border-radius: 25px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 300px;
+		height: 200px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 2.25rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1299px) and (min-width: 1100px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 92.5%;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 40px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 70px;
+		margin-top: 70px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 88%;
+		font-size: 1.75rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 130px;
+		margin-top: 130px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 28%;
+		height: 300px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 10px;
+		margin: 50px;
+		margin-bottom: 125px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 2rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 7rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 100%;
+		border-radius: 25px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 50px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 2px;
+		width: 43%;
+		height: 550px;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 10px 5px 10px black;
+		transition: transform 1.5s ease;
+		gap: 8px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 250px;
+		height: 250px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 1.2rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 55px;
+		margin-top: -25px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 70%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 100px;
+		border-radius: 400px 0 400px 0;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 40px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 4rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 70px;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 88%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 1.75rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 85px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 92%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		padding: 10px;
+		margin-bottom: 100px;
+		margin-top: 125px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 3rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 20px;
+		border: 3px solid rgb(255, 45, 49);
+		border-radius: 25px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 250px;
+		height: 165px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 2rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1099px) and (min-width: 900px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 93%;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 30px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 60px;
+		margin-top: 60px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 88%;
+		font-size: 1.4rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 115px;
+		margin-top: 115px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 28%;
+		height: 250px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 20px;
+		margin: 50px;
+		margin-bottom: 75px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 1.75rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 6rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 100%;
+		border-radius: 25px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 40px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 2px;
+		width: 43%;
+		height: 500px;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 10px 5px 10px black;
+		transition: transform 1.5s ease;
+		gap: 8px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 225px;
+		height: 225px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 1.05rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 50px;
+		margin-top: -15px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 70%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 80px;
+		border-radius: 350px 0 350px 0;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 30px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 3rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 60px;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 88%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 1.4rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 80px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 8px;
+		padding: 8px;
+		margin-bottom: 100px;
+		margin-top: 125px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 2.5rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 20px;
+		border: 3px solid rgb(255, 45, 49);
+		border-radius: 25px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 200px;
+		height: 135px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 1.75rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 899px) and (min-width: 800px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 93.5%;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 25px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 60px;
+		margin-top: 60px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 88%;
+		font-size: 1.25rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 100px;
+		margin-top: 100px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 35%;
+		height: 250px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 15 px;
+		margin: 50px;
+		margin-bottom: 75px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 1.65rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 5.5rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 100%;
+		border-radius: 25px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 35px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 2px;
+		width: 43%;
+		height: 450px;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 8px 4px 8px black;
+		transition: transform 1.5s ease;
+		gap: 8px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 200px;
+		height: 200px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 0.95rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 45px;
+		margin-top: -15px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 65px;
+		border-radius: 300px 0 300px 0;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 25px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 2.6rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 50px;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 88%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 1.2rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 70px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 8px;
+		padding: 8px;
+		margin-bottom: 100px;
+		margin-top: 125px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 2.25rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 18px;
+		border: 3px solid rgb(255, 45, 49);
+		border-radius: 20px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 180px;
+		height: 125px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 1.5rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 799px) and (min-width: 700px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 94%;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 60px;
+		margin-top: 60px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 88%;
+		font-size: 1.1rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 90px;
+		margin-top: 90px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 38%;
+		height: 250px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 15px;
+		margin: 50px;
+		margin-bottom: 70px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 1.6rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 5rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 100%;
+		border-radius: 25px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 2px;
+		width: 43%;
+		height: 375px;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 8px 4px 8px black;
+		transition: transform 1.5s ease;
+		gap: 7px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 160px;
+		height: 160px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 0.85rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 40px;
+		margin-top: -15px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 50px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		border-radius: 300px 300px 50px 50px;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 20px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 2.25rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 92%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 1.05rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 35px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
+		padding: 5px;
+		margin-bottom: 100px;
+		margin-top: 100px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 2rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 15px;
+		border: 2.5px solid rgb(255, 45, 49);
+		border-radius: 20px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 160px;
+		height: 115px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 1.25rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 699px) and (min-width: 600px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 96.5%;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 60px;
+		margin-top: 60px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 88%;
+		font-size: 1rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 80px;
+		margin-top: 80px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 42%;
+		height: 250px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 10px;
+		margin: 50px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 1.4rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 4.5rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 100%;
+		border-radius: 20px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 25px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 1px;
+		width: 43%;
+		height: 350px;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 8px 4px 8px black;
+		transition: transform 1.5s ease;
+		gap: 7px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 150px;
+		height: 150px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 0.75rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 35px;
+		margin-top: -15px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 40px;
+		padding-top: 100px;
+		padding-bottom: 75px;
+		border-radius: 300px 300px 50px 50px;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 20px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 2.15rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 92%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 1rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		padding: 5px;
+		margin-bottom: 100px;
+		margin-top: 75px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 1.9rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 15px;
+		border: 2.5px solid rgb(255, 45, 49);
+		border-radius: 20px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 150px;
+		height: 110px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 1.15rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 599px) and (min-width: 500px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 100%;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 0px;
+		margin-top: 50px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 84%;
+		font-size: 0.95rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 46%;
+		height: 200px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 10px;
+		margin: 50px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 1.3rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 4.25rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 100%;
+		border-radius: 20px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 1px;
+		width: 43%;
+		height: 300px;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 6px 3px 6px black;
+		transition: transform 1.5s ease;
+		gap: 6px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 125px;
+		height: 125px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 0.65rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 30px;
+		margin-top: -10px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 20px;
+		padding-top: 75px;
+		padding-bottom: 150px;
+		border-radius: 400px 400px 400px 400px;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 15px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 2rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 94%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 0.9rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 50px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		padding: 5px;
+		margin-bottom: 100px;
+		margin-top: 75px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 1.9rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 15px;
+		border: 2.5px solid rgb(255, 45, 49);
+		border-radius: 20px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 150px;
+		height: 110px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 1.15rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 499px) and (min-width: 400px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 100%;
+		margin-bottom: 100px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 0px;
+		margin-top: 50px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 88%;
+		font-size: 0.85rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 50%;
+		height: 200px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 10px;
+		margin: 50px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 1.2rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 4rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 100%;
+		border-radius: 20px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 1px;
+		width: 43%;
+		height: 250px;
+		border-radius: 25px;
+		background-color: white;
+		box-shadow: 6px 3px 6px black;
+		transition: transform 1.5s ease;
+		gap: 5px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 100px;
+		height: 100px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 0.6rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 25px;
+		margin-top: -10px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 15px;
+		padding-top: 75px;
+		padding-bottom: 125px;
+		border-radius: 400px 400px 400px 400px;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 10px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 1.6rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 90%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 0.8rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		padding: 5px;
+		margin-bottom: 100px;
+		margin-top: 75px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 1.7rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 12px;
+		border: 2.5px solid rgb(255, 45, 49);
+		border-radius: 20px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 140px;
+		height: 105px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 1.05rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 399px) and (min-width: 350px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 100%;
+		margin-bottom: 20px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 0px;
+		margin-top: 20px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 88%;
+		font-size: 0.65rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 55%;
+		height: 200px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 10px;
+		margin: 50px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 1.1rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 4rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 100%;
+		border-radius: 20px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 1px;
+		width: 46%;
+		height: 225px;
+		border-radius: 20px;
+		background-color: white;
+		box-shadow: 6px 3px 6px black;
+		transition: transform 1.5s ease;
+		gap: 3px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 75px;
+		height: 75px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 0.55rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 25px;
+		margin-top: -10px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 10px;
+		padding-top: 50px;
+		padding-bottom: 100px;
+		border-radius: 400px 400px 400px 400px;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 5px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 1.4rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 90%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 0.8rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		padding: 5px;
+		margin-bottom: 100px;
+		margin-top: 50px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 1.5rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 8px;
+		border: 2.5px solid rgb(255, 45, 49);
+		border-radius: 10px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 110px;
+		height: 90px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 0.9rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 349px) and (min-width: 300px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 100%;
+		margin-bottom: 20px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: rgb(245, 245, 245);
+		margin-bottom: 0px;
+		margin-top: 20px;
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 88%;
+		font-size: 0.55rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 55%;
+		height: 200px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 10px;
+		margin: 25px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 1rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 3.75rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 100%;
+		border-radius: 20px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 1px;
+		width: 46%;
+		height: 200px;
+		border-radius: 20px;
+		background-color: white;
+		box-shadow: 4px 2px 4px black;
+		transition: transform 1.5s ease;
+		gap: 2px;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 60px;
+		height: 60px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 0.5rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 20px;
+		margin-top: -8px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		margin-top: 50px;
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding: 10px;
+		padding-top: 25px;
+		padding-bottom: 75px;
+		border-radius: 400px 400px 400px 400px;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 5px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 1.2rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 90%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 0.65rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		padding: 5px;
+		margin-bottom: 100px;
+		margin-top: 50px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 1.25rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 8px;
+		border: 2.5px solid rgb(255, 45, 49);
+		border-radius: 10px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 110px;
+		height: 90px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 0.75rem;
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 299px) and (min-width: 1px) {
+	.divParagrafoIntrodutorioCESMT {
+		/*Responsivo*/
+		width: 100%;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: rgb(245, 245, 245);
+	}
+	.divParagrafoIntrodutorioCESMT p {
+		/*Responsivo*/
+		width: 88%;
+		font-size: 0.5rem;
+		text-align: justify;
+	}
+	.divCentralObjetivoCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+	.divConjuntaTituloObjetivoCESMT {
+		/*Responsivo*/
+		width: 55%;
+		height: 175px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 10px;
+		margin: 15px;
+	}
+	.divTituloObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 45%;
+	}
+	.divTituloObjetivoCESMT h1 {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 1rem;
+	}
+	.divTituloObjetivoCESMT b {
+		/*Responsivo*/
+		font-size: 3.5rem;
+		color: rgb(255, 45, 49);
+	}
+	.divImagemObjetivoCESMT img {
+		/*Responsivo*/
+		width: 100%;
+		border-radius: 10px;
+	}
+	.divCentralItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+	}
+	.divItensObjetivoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: solid black 1px;
+		width: 46%;
+		height: 180px;
+		border-radius: 20px;
+		background-color: white;
+		box-shadow: 4px 1px 2px black;
+		transition: transform 1.5s ease;
+	}
+	.divImageItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 50px;
+		height: 50px;
+		border-radius: 500px;
+	}
+	.divParagrafoItensObjetivoCESMT {
+		/*Responsivo*/
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoItensObjetivoCESMT p {
+		/*Responsivo*/
+		text-align: center;
+		font-weight: 700;
+		font-size: 0.4rem;
+	}
+	.divMedalhaItensObjetivoCESMT img {
+		/*Responsivo*/
+		width: 15px;
+		margin-top: -8px;
+	}
+	.divCentralMissaoCESMT {
+		/*Responsivo*/
+		margin-top: 50px;
+		width: 85%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid gray;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border-radius: 25px;
+	}
+	.divImagemMissaoCESMT img {
+		/*Responsivo*/
+		padding-left: 10px;
+		width: 100%;
+	}
+	.divImagemMissaoCESMT h1 {
+		/*Responsivo*/
+		font-size: 1.1rem;
+	}
+	.divTextosMissaoCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoMissaoCESMT {
+		/*Responsivo*/
+		width: 90%;
+	}
+	.divParagrafoMissaoCESMT p {
+		/*Responsivo*/
+		text-align: justify;
+		font-size: 0.65rem;
+		font-weight: 700;
+	}
+	.divParagrafoMissaoCESMT b {
+		/*Responsivo*/
+		font-weight: 900;
+		color: rgb(255, 45, 49);
+	}
+	.divGeralValoresCESMT {
+		/*Responsivo*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+	.divCentralValoresCESMT {
+		/*Responsivo*/
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		padding: 5px;
+		margin-bottom: 100px;
+		margin-top: 50px;
+	}
+	.divTituloValoresCESMT h1 {
+		/*Responsivo*/
+		font-size: 1.15rem;
+	}
+	.divIndividualValoresCESMT:hover {
+		/*Responsivo*/
+		padding: 5px;
+		border: 2px solid rgb(255, 45, 49);
+		border-radius: 10px;
+		transform: scale(1.175);
+		color: rgb(255, 45, 49);
+	}
+	.divIndividualValoresCESMT img {
+		/*Responsivo*/
+		width: 100px;
+		height: 84px;
+	}
+	.divIndividualValoresCESMT p {
+		/*Responsivo*/
+		font-size: 0.65rem;
+	}
+}

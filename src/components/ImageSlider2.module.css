@@ -1,5 +1,5 @@
 @media (max-width: 4000px) and (min-width: 3000px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -14,10 +14,21 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        text-align: center;
+		font-size: 3rem;
+	}
 }
 
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
 @media (max-width: 2999px) and (min-width: 2900px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -32,10 +43,21 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        text-align: center;
+		font-size: 2.9rem;
+	}
 }
 
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
 @media (max-width: 2899px) and (min-width: 2800px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -50,10 +72,21 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        text-align: center;
+		font-size: 2.8rem;
+	}
 }
 
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
 @media (max-width: 2799px) and (min-width: 2700px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -68,10 +101,21 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        text-align: center;
+		font-size: 2.7rem;
+	}
 }
 
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
 @media (max-width: 2699px) and (min-width: 2600px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -86,10 +130,21 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        text-align: center;
+		font-size: 2.6rem;
+	}
 }
 
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
 @media (max-width: 2599px) and (min-width: 2500px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -104,10 +159,21 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        text-align: center;
+		font-size: 2.5rem;
+	}
 }
 
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
 @media (max-width: 2499px) and (min-width: 2400px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -122,10 +188,21 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        text-align: center;
+		font-size: 2.4rem;
+	}
 }
 
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
 @media (max-width: 2399px) and (min-width: 2300px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -140,10 +217,21 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        text-align: center;
+		font-size: 2.3rem;
+	}
 }
 
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
 @media (max-width: 2299px) and (min-width: 2200px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -158,10 +246,21 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        text-align: center;
+		font-size: 2.2rem;
+	}
 }
 
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
 @media (max-width: 2199px) and (min-width: 2100px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -176,10 +275,21 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        text-align: center;
+		font-size: 2.1rem;
+	}
 }
 
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
 @media (max-width: 2099px) and (min-width: 2000px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -196,10 +306,22 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 2rem;
+	}
 }
 
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
 @media (max-width: 1999px) and (min-width: 1900px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -214,10 +336,22 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 1.9rem;
+	}
 }
 
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
+
 @media (max-width: 1899px) and (min-width: 1800px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -232,6 +366,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 1.8rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -241,7 +381,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 1799px) and (min-width: 1700px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -256,6 +396,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 1.7rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -265,7 +411,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 1699px) and (min-width: 1600px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -280,6 +426,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 1.6rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -289,7 +441,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 1599px) and (min-width: 1500px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -304,6 +456,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 1.5rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -313,7 +471,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 1499px) and (min-width: 1400px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -328,6 +486,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 1.4rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -337,7 +501,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 1399px) and (min-width: 1300px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -352,6 +516,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 1.3rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -361,7 +531,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 1299px) and (min-width: 1200px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -376,6 +546,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 1.2rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -385,7 +561,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 1199px) and (min-width: 1100px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -400,6 +576,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 1.1rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -409,7 +591,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 1099px) and (min-width: 1000px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -424,6 +606,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 1rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -433,7 +621,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 999px) and (min-width: 900px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -448,6 +636,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 0.9rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -457,7 +651,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 899px) and (min-width: 800px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -472,6 +666,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 0.85rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -481,7 +681,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 799px) and (min-width: 700px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -496,6 +696,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 0.8rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -505,7 +711,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 699px) and (min-width: 600px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -520,6 +726,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 0.75rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -529,7 +741,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 599px) and (min-width: 550px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -544,6 +756,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 0.7rem;
+	}
 }
 
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -553,7 +771,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 549px) and (min-width: 500px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -568,6 +786,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 0.65rem;
+	}
 }
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -576,7 +800,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 499px) and (min-width: 450px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -591,6 +815,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 0.6rem;
+	}
 }
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -599,7 +829,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 449px) and (min-width: 400px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -614,6 +844,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 0.55rem;
+	}
 }
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -622,7 +858,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 399px) and (min-width: 350px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -637,6 +873,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 0.5rem;
+	}
 }
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -645,7 +887,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 349px) and (min-width: 300px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -660,6 +902,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 0.5rem;
+	}
 }
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -668,7 +916,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 299px) and (min-width: 250px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -683,6 +931,12 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 0.5rem;
+	}
 }
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
@@ -691,7 +945,7 @@
 /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/ /*RESPONSIVIDADE*/
 
 @media (max-width: 249px) and (min-width: 1px) {
-	.slider-image {
+	.sliderImage {
 		border-radius: 15px;
 		display: none; /* começa escondido */
 	}
@@ -705,5 +959,11 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+	.teste p {
+        margin-top: 0px;
+        font-weight: 500;
+        text-align: center;
+		font-size: 0.5rem;
 	}
 }

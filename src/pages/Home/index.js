@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import ImageSlider from "../../components/ImageSlider";
 import { useNavigate } from "react-router-dom";
-import "./Home.css";
 import styles from "./Home.module.css";
 
 import segurandaDoTrabalho from "../../images/plano de fundo seguranca do trabalho.png";
