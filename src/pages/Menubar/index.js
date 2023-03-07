@@ -133,7 +133,7 @@ function Menubar() {
 				</div>
 			</div>
 
-			<button id="btn-top" class="btn-top">
+			<button id="btn-top" className="btn-top">
 				<i class="fa fa-arrow-up"></i>
 			</button>
 		</>

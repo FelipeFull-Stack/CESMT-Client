@@ -20,18 +20,18 @@ import respeito from "../../images/Valores/respeito.png";
 import tecnologia from "../../images/Valores/tecnologia.png";
 
 import "./CESMT.css";
+import styles from "./CESMT.module.css";
 function CESMT() {
 	return (
 		<>
-			<div className="div-central">
-				<div className="slider">
-					<ImageSlider2
-						image1={imagem1}
-						image2={imagem2}
-					/>
+			<div className="div-central" /* className={styles.divPaiCESMT} */>
+				<div className="slider" /* className={styles.divSliderCESMT} */>
+					<ImageSlider2 image1={imagem1} image2={imagem2} />
 				</div>
 
-				<div className="div-paragrafo bela-borda">
+				<div
+					className="div-paragrafo bela-borda" /* className={styles.divParagrafoIntrodutorioCESMT} */
+				>
 					<p className="paragrafo paragrafo-responsivo">
 						Presente no mercado desde <b>2000</b>, fundada pelo{" "}
 						<b>Dr. José Henrique Padre</b> <i>(in memorian)</i>, a{" "}
@@ -47,9 +47,13 @@ function CESMT() {
 
 				<hr />
 
-				<div className="div-central-objetivo">
-					<div className="div-titulo-objetivo">
-						<div>
+				<div
+					className="div-central-objetivo" /* className={styles.divCentralObjetivoCESMT} */
+				>
+					<div
+						className="div-titulo-objetivo" /* className={styles.divConjuntaTituloObjetivoCESMT} */
+					>
+						<div /* className={styles.divTituloObjetivoCESMT} */>
 							<h1>
 								Nossos
 								<br /> Objetivos
@@ -57,7 +61,7 @@ function CESMT() {
 								<b className="negrito-extra">?</b>
 							</h1>
 						</div>
-						<div>
+						<div /* className={styles.divImagemObjetivoCESMT} */>
 							<img
 								style={{ borderRadius: "15px" }}
 								src={objetivo}
@@ -65,103 +69,164 @@ function CESMT() {
 							/>
 						</div>
 					</div>
-					<div className="div-dupla-objetivos">
-						<div className="div-itens-objetivo">
-							<div style={{ display: "flex", justifyContent: "center" }}>
+
+					<div className="div-dupla-objetivos" /* VAI SUMIR */>
+						<div
+							className="div-itens-objetivo"
+							/* className={styles.divItensObjetivoCESMT} */
+						>
+							<div
+								style={{
+									display: "flex",
+									justifyContent: "center",
+								}}
+								/* className={styles.divImageItensObjetivoCESMT} */
+							>
 								<img className="imagens" src={eSocial} alt="Icone" />
 							</div>
-							<div>
+							<div /* className={styles.divParagrafoItensObjetivoCESMT} */>
 								<p>Atender as exigências do e-Social</p>
 							</div>
-							<div>
+							<div /* className={styles.divMedalhaItensObjetivoCESMT} */>
 								<img className="imagens2" src={medalha} alt="Icone" />
 							</div>
 						</div>
 
-						<div className="div-itens-objetivo">
-							<div style={{ display: "flex", justifyContent: "center" }}>
+						<div
+							className="div-itens-objetivo"
+							/* className={styles.divItensObjetivoCESMT} */
+						>
+							<div
+								style={{
+									display: "flex",
+									justifyContent: "center",
+								}}
+								/* className={styles.divImageItensObjetivoCESMT} */
+							>
 								<img className="imagens" src={localSeguro} alt="Icone" />
 							</div>
-							<div>
+							<div /* className={styles.divParagrafoItensObjetivoCESMT} */>
 								<p>Manter o local de trabalho seguro e sadio</p>
 							</div>
-							<div>
+							<div /* className={styles.divMedalhaItensObjetivoCESMT} */>
 								<img className="imagens2" src={medalha} alt="Icone" />
 							</div>
 						</div>
 					</div>
 
-					<div className="div-dupla-objetivos">
-						<div className="div-itens-objetivo">
-							<div style={{ display: "flex", justifyContent: "center" }}>
+					<div className="div-dupla-objetivos" /* VAI SUMIR */>
+						<div
+							className="div-itens-objetivo"
+							/* className={styles.divItensObjetivoCESMT} */
+						>
+							<div
+								style={{ display: "flex", justifyContent: "center" }}
+								/* className={styles.divImageItensObjetivoCESMT} */
+							>
 								<img className="imagens" src={localSaude} alt="Icone" />
 							</div>
-							<div>
+							<div /* className={styles.divParagrafoItensObjetivoCESMT} */>
 								<p>
 									Conduzir o trabalhador a condições ótimas de saúde física e
 									mental
 								</p>
 							</div>
-							<div>
+							<div /* className={styles.divMedalhaItensObjetivoCESMT} */>
 								<img className="imagens2" src={medalha} alt="Icone" />
 							</div>
 						</div>
-						<div className="div-itens-objetivo">
-							<div style={{ display: "flex", justifyContent: "center" }}>
+						<div
+							className="div-itens-objetivo"
+							/* className={styles.divItensObjetivoCESMT} */
+						>
+							<div
+								style={{
+									display: "flex",
+									justifyContent: "center",
+								}}
+								/* className={styles.divParagrafoItensObjetivoCESMT} */
+							>
 								<img className="imagens" src={adequarNR} alt="Icone" />
 							</div>
-							<div>
+							<div /* className={styles.divParagrafoItensObjetivoCESMT} */>
 								<p>
 									Adequar as empresas às Normas Regulamentadoras através de
 									ações essencialmente preventivas
 								</p>
 							</div>
-							<div>
+							<div /* className={styles.divMedalhaItensObjetivoCESMT} */>
 								<img className="imagens2" src={medalha} alt="Icone" />
 							</div>
 						</div>
 					</div>
 
-					<div className="div-dupla-objetivos">
-						<div className="div-itens-objetivo">
-							<div style={{ display: "flex", justifyContent: "center" }}>
+					<div className="div-dupla-objetivos" /* VAI SUMIR */>
+						<div
+							className="div-itens-objetivo"
+							/* className={styles.divItensObjetivoCESMT} */
+						>
+							<div
+								style={{
+									display: "flex",
+									justifyContent: "center",
+								}}
+								/* className={styles.divImageItensObjetivoCESMT} */
+							>
 								<img className="imagens" src={todasDemandas} alt="Icone" />
 							</div>
-							<div>
+							<div /* className={styles.divParagrafoItensObjetivoCESMT} */>
 								<p>
 									Todas as demandas de Saúde e Segurança do Trabalhador,
 									Ergonomia e Higiene Ocupacional
 								</p>
 							</div>
-							<div>
+							<div /* className={styles.divMedalhaItensObjetivoCESMT} */>
 								<img className="imagens2" src={medalha} alt="Icone" />
 							</div>
 						</div>
-						<div className="div-itens-objetivo">
-							<div style={{ display: "flex", justifyContent: "center" }}>
+						<div
+							className="div-itens-objetivo"
+							/* className={styles.divItensObjetivoCESMT} */
+						>
+							<div
+								style={{
+									display: "flex",
+									justifyContent: "center",
+								}}
+								/* className={styles.divImageItensObjetivoCESMT} */
+							>
 								<img className="imagens" src={assistenciaTecnica} alt="Icone" />
 							</div>
-							<div>
+							<div /* className={styles.divParagrafoItensObjetivoCESMT} */>
 								<p>Assistência Técnica Pericial</p>
 							</div>
-							<div>
+							<div /* className={styles.divMedalhaItensObjetivoCESMT} */>
 								<img className="imagens2" src={medalha} alt="Icone" />
 							</div>
 						</div>
 					</div>
 
-					<div className="div-itens-objetivo div-unica-solitaria">
-						<div style={{ display: "flex", justifyContent: "center" }}>
+					<div
+						className="div-itens-objetivo div-unica-solitaria" /* VAI SUMIR */
+						/* className={styles.divItensObjetivoCESMT} */
+					>
+						<div
+							style={{
+								display: "flex",
+								justifyContent: "center",
+							}}
+							/* className={styles.divImageItensObjetivoCESMT} */
+						>
 							<img className="imagens" src={elaboracaoLaudo} alt="Icone" />
 						</div>
-						<div>
+						<div /* className={styles.divParagrafoItensObjetivoCESMT} */>
 							<p>
 								Elaboração de Laudos Técnicos para caracterização ou não da
 								concessão do adicional de Insalubridade / Periculosidade, com
 								avaliação Qualitativa e Quantitativa
 							</p>
 						</div>
-						<div>
+						<div /* className={styles.divMedalhaItensObjetivoCESMT} */>
 							<img className="imagens2" src={medalha} alt="Icone" />
 						</div>
 					</div>
@@ -169,13 +234,21 @@ function CESMT() {
 
 				<hr />
 
-				<div className="div-central-missao">
-					<div className="div-image-missao">
+				<div
+					className="div-central-missao" /* className={styles.divCentralMissaoCESMT} */
+				>
+					<div
+						className="div-image-missao" /* className={styles.divImagemMissaoCESMT} */
+					>
 						<img style={{ paddingLeft: "42px" }} src={missaoAlvo} alt="Icone" />
 						<h1>Missão</h1>
 					</div>
-					<div className="div-textos-missao">
-						<div className="div-text-missao">
+					<div
+						className="div-textos-missao" /* className={styles.divTextosMissaoCESMT} */
+					>
+						<div
+							className="div-text-missao" /* className={styles.divParagrafoMissaoCESMT} */
+						>
 							<p style={{ textAlign: "justify" }}>
 								<b>1º) Assessorar</b> nossos clientes visando{" "}
 								<b>prevenir doenças ocupacionais</b> de seus colaboradores,
@@ -183,7 +256,9 @@ function CESMT() {
 								consequentemente nos seus trabalhos.
 							</p>
 						</div>
-						<div className="div-text-missao">
+						<div
+							className="div-text-missao" /* className={styles.divParagrafoMissaoCESMT} */
+						>
 							<p style={{ textAlign: "justify" }}>
 								<b>2º) Evitar</b> que nossos clientes sofram sanções legais no
 								que se refere aos <b>EXAMES OCUPACIONAIS</b> obrigatórios,
@@ -196,16 +271,22 @@ function CESMT() {
 
 				<hr />
 
-				<div className="div-central-valores">
-					<div>
+				<div
+					className="div-central-valores" /* className={styles.divCentralValoresCESMT} */
+				>
+					<div /* className={styles.divTituloValoresCESMT} */>
 						<h1>Nossos Valores</h1>
 					</div>
-					<div className="div-composta-valores">
-						<div className="div-valores">
+					<div className="div-composta-valores" /* VAI SUMIR */>
+						<div
+							className="div-valores" /* className={styles.divIndividualValoresCESMT} */
+						>
 							<img className="imagens-valores" src={etica} alt="Icone" />
 							<p>Ética</p>
 						</div>
-						<div className="div-valores">
+						<div
+							className="div-valores" /* className={styles.divIndividualValoresCESMT} */
+						>
 							<img
 								className="imagens-valores"
 								src={transparencia}
@@ -213,21 +294,29 @@ function CESMT() {
 							/>
 							<p>Transparência</p>
 						</div>
-						<div className="div-valores">
+						<div
+							className="div-valores" /* className={styles.divIndividualValoresCESMT} */
+						>
 							<img className="imagens-valores" src={qualidade} alt="Icone" />
 							<p>Qualidade</p>
 						</div>
 					</div>
-					<div className="div-composta-valores">
-						<div className="div-valores">
+					<div className="div-composta-valores" /* VAI SUMIR */>
+						<div
+							className="div-valores" /* className={styles.divIndividualValoresCESMT} */
+						>
 							<img className="imagens-valores" src={competencia} alt="Icone" />
 							<p>Competência</p>
 						</div>
-						<div className="div-valores">
+						<div
+							className="div-valores" /* className={styles.divIndividualValoresCESMT} */
+						>
 							<img className="imagens-valores" src={tecnologia} alt="Icone" />
 							<p>Tecnologia</p>
 						</div>
-						<div className="div-valores">
+						<div
+							className="div-valores" /* className={styles.divIndividualValoresCESMT} */
+						>
 							<img className="imagens-valores" src={respeito} alt="Icone" />
 							<p>Respeito</p>
 						</div>
