@@ -1,0 +1,228 @@
+/*Menu - Bar*/
+/*Menu - Bar*/
+/*Menu - Bar*/
+.divPaiMenubar {
+	/*Display: ON*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.divNavbarMenubar {
+	height: auto;
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.divLOGOMenubar {
+	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	/* margin: 20px; */
+}
+.divLOGOMenubar img {
+	/*Responsivo*/
+	width: 90%;
+}
+.NavBarMenubar {
+	/*Responsivo*/
+	width: 60%;
+	height: 200px;
+	margin: 10px;
+	padding: 2px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 5px;
+}
+.btn1 {
+	/*Responsivo*/
+	height: 100%;
+	width: 16%;
+	letter-spacing: 1px;
+	font-weight: 700;
+	border: none;
+	background-color: white;
+	font-size: 2.2rem;
+	transition: background-color 0.5s ease;
+}
+.btn1:hover {
+	background-color: rgb(255, 45, 49);
+}
+.btn2 {
+	/*Responsivo*/
+	height: 100%;
+	width: 16%;
+	letter-spacing: 1px;
+	font-weight: 700;
+	border: none;
+	background-color: white;
+	font-size: 2.2rem;
+	transition: background-color 0.5s ease;
+}
+.btn2:hover {
+	background-color: rgb(240, 45, 49);
+}
+.btn3 {
+	/*Responsivo*/
+	height: 100%;
+	width: 16%;
+	letter-spacing: 1px;
+	font-weight: 700;
+	border: none;
+	background-color: white;
+	font-size: 2.2rem;
+	transition: background-color 0.5s ease;
+}
+.btn3:hover {
+	background-color: rgb(225, 45, 49);
+}
+.btn4 {
+	/*Responsivo*/
+	height: 100%;
+	width: 16%;
+	letter-spacing: 1px;
+	font-weight: 700;
+	border: none;
+	background-color: white;
+	font-size: 2.2rem;
+	transition: background-color 0.5s ease;
+}
+.btn4:hover {
+	background-color: rgb(210, 45, 49);
+}
+.btn5 {
+	/*Responsivo*/
+	height: 100%;
+	width: 16%;
+	letter-spacing: 1px;
+	font-weight: 700;
+	border: none;
+	background-color: white;
+	font-size: 2.2rem;
+	transition: background-color 0.5s ease;
+}
+.btn5:hover {
+	background-color: rgb(195, 45, 49);
+}
+.btn6 {
+	/*Responsivo*/
+	height: 100%;
+	width: 16%;
+	letter-spacing: 1px;
+	font-weight: 700;
+	border: none;
+	background-color: white;
+	font-size: 2.2rem;
+	transition: background-color 0.5s ease;
+}
+.btn6:hover {
+	background-color: rgb(180, 45, 49);
+}
+.divFaixaColoridaMenubar {
+	/*Responsivo*/
+	margin: 0;
+	width: 100%;
+	height: 20px;
+	background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+}
+/*Menu - Hamburguer*/
+/*Menu - Hamburguer*/
+/*Menu - Hamburguer*/
+.divPaiMenuHamburguer {
+	/*Display: OFF*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.divLOGOMenuHamburuer {
+	/*Responsivo*/
+}
+.divLOGOMenuHamburuer img {
+	/*Responsivo*/
+}
+.divButtonMenuHamburger {
+	/*Responsivo*/
+	width: 30%;
+	margin: 5px;
+}
+.buttonMenuHamburguer {
+	/*Responsivo*/
+	background-color: white;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 500px;
+	margin-top: 10px;
+	height: 50px;
+}
+.buttonMenuHamburguer img {
+	/*Responsivo*/
+	width: 17%;
+	border-radius: 25px;
+}
+.buttonMenuHamburguer b {
+	/*Responsivo*/
+	font-size: 1.25rem;
+	color: black;
+}
+.divButtonsClickMenuHamburguer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.divButtonsClickMenuHamburguer button {
+	/*Responsivo*/
+	width: 100%;
+	height: 50px;
+	background-color: rgb(65, 65, 65);
+	color: white;
+	border-radius: 500px;
+	margin: 1px;
+	font-size: 1rem;
+}
+/*Botão Scroll UP*/
+/*Botão Scroll UP*/
+/*Botão Scroll UP*/
+.buttonSCROLLtoTOP {
+	/*Responsivo*/
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-image: url(../../images/icones/botão\ up.png);
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 50%;
+	font-size: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-weight: 900;
+}
+.buttonSCROLLtoTOP:hover {
+	background-color: #333;
+}
+.buttonSCROLLtoTOP i {
+	/*Responsivo*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 16px;
+	color: white;
+}
