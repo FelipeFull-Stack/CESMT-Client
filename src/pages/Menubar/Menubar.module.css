@@ -124,7 +124,7 @@
 	}
 	.btn1:hover {
 		background-color: rgb(221, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn2 {
 		/*Responsivo*/
@@ -139,7 +139,7 @@
 	}
 	.btn2:hover {
 		background-color: rgb(212, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn3 {
 		/*Responsivo*/
@@ -154,7 +154,7 @@
 	}
 	.btn3:hover {
 		background-color: rgb(203, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn4 {
 		/*Responsivo*/
@@ -169,7 +169,7 @@
 	}
 	.btn4:hover {
 		background-color: rgb(194, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn5 {
 		/*Responsivo*/
@@ -184,7 +184,7 @@
 	}
 	.btn5:hover {
 		background-color: rgb(185, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn6 {
 		/*Responsivo*/
@@ -199,7 +199,7 @@
 	}
 	.btn6:hover {
 		background-color: rgb(178, 45, 49);
-        color: white;
+		color: white;
 	}
 	.divFaixaColoridaMenubar {
 		/*Responsivo*/
@@ -300,7 +300,7 @@
 	}
 	.btn1:hover {
 		background-color: rgb(220, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn2 {
 		/*Responsivo*/
@@ -315,7 +315,7 @@
 	}
 	.btn2:hover {
 		background-color: rgb(211, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn3 {
 		/*Responsivo*/
@@ -330,7 +330,7 @@
 	}
 	.btn3:hover {
 		background-color: rgb(202, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn4 {
 		/*Responsivo*/
@@ -345,7 +345,7 @@
 	}
 	.btn4:hover {
 		background-color: rgb(193, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn5 {
 		/*Responsivo*/
@@ -360,7 +360,7 @@
 	}
 	.btn5:hover {
 		background-color: rgb(184, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn6 {
 		/*Responsivo*/
@@ -475,7 +475,7 @@
 	}
 	.btn1:hover {
 		background-color: rgb(218, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn2 {
 		/*Responsivo*/
@@ -490,7 +490,7 @@
 	}
 	.btn2:hover {
 		background-color: rgb(211, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn3 {
 		/*Responsivo*/
@@ -505,7 +505,7 @@
 	}
 	.btn3:hover {
 		background-color: rgb(202, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn4 {
 		/*Responsivo*/
@@ -520,7 +520,7 @@
 	}
 	.btn4:hover {
 		background-color: rgb(193, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn5 {
 		/*Responsivo*/
@@ -535,7 +535,7 @@
 	}
 	.btn5:hover {
 		background-color: rgb(184, 45, 49);
-        color: white;
+		color: white;
 	}
 	.btn6 {
 		/*Responsivo*/
@@ -550,7 +550,7 @@
 	}
 	.btn6:hover {
 		background-color: rgb(178, 45, 49);
-        color: white;
+		color: white;
 	}
 	.divFaixaColoridaMenubar {
 		/*Responsivo*/
@@ -596,6 +596,173 @@
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
 
 @media (max-width: 1899px) and (min-width: 1600px) {
+	.divPaiMenubar {
+		/*Display: ON*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.divPaiMenuHamburguer {
+		/*Display: OFF*/
+		display: none;
+		/*flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center; */
+	}
+
+	.divLOGOMenubar {
+		/*Responsivo*/
+		height: auto;
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+		width: 36%;
+		/* margin: 20px; */
+	}
+	.divLOGOMenubar img {
+		/*Responsivo*/
+		width: 93%;
+	}
+	.NavBarMenubar {
+		/*Responsivo*/
+		width: 64%;
+		height: 200px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		/* align-items: stretch; */
+	}
+	.btn1 {
+		/*Responsivo*/
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.85rem;
+		transition: background-color 0.5s ease;
+	}
+	.btn1:hover {
+		background-color: rgb(218, 45, 49);
+		color: white;
+	}
+	.btn2 {
+		/*Responsivo*/
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.85rem;
+		transition: background-color 0.5s ease;
+	}
+	.btn2:hover {
+		background-color: rgb(211, 45, 49);
+		color: white;
+	}
+	.btn3 {
+		/*Responsivo*/
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.85rem;
+		transition: background-color 0.5s ease;
+	}
+	.btn3:hover {
+		background-color: rgb(202, 45, 49);
+		color: white;
+	}
+	.btn4 {
+		/*Responsivo*/
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.85rem;
+		transition: background-color 0.5s ease;
+	}
+	.btn4:hover {
+		background-color: rgb(193, 45, 49);
+		color: white;
+	}
+	.btn5 {
+		/*Responsivo*/
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.85rem;
+		transition: background-color 0.5s ease;
+	}
+	.btn5:hover {
+		background-color: rgb(184, 45, 49);
+		color: white;
+	}
+	.btn6 {
+		/*Responsivo*/
+		height: 100%;
+		width: 16%;
+		letter-spacing: 1px;
+		font-weight: 700;
+		border: none;
+		background-color: white;
+		font-size: 1.85rem;
+		transition: background-color 0.5s ease;
+	}
+	.btn6:hover {
+		background-color: rgb(178, 45, 49);
+		color: white;
+	}
+	.divFaixaColoridaMenubar {
+		/*Responsivo*/
+		margin: 0;
+		width: 100%;
+		height: 28px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	/*Botão Scroll UP*/
+	/*Botão Scroll UP*/
+	/*Botão Scroll UP*/
+	.buttonSCROLLtoTOP {
+		/*Responsivo*/
+		position: fixed;
+		bottom: 75px;
+		right: 75px;
+		background-image: url(../../images/icones/botão\ up.png);
+		background-size: cover;
+		background-position: center center;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 45px;
+		border-radius: 50%;
+	}
+	.buttonSCROLLtoTOP:hover {
+		background-color: #333;
+	}
+	.buttonSCROLLtoTOP i {
+		/*Responsivo*/
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
 }
 
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
