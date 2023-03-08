@@ -1,8 +1,9 @@
 import logoCESMT from "../../images/Logo CESMT.png";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
-import "./Menubar.css";
 import menu from "../../images/menuhamburguer.png";
+import "./Menubar.css";
+import styles from "./Menubar.module.css";
 
 function Menubar() {
 	const navigate = useNavigate();
@@ -69,59 +70,49 @@ function Menubar() {
 
 	return (
 		<>
-			<div className="div-geral-manubar">
-				<div className="div-navbar-logo">
-					<div className="img-logo-cesmt-navbar">
+			<div className={styles.divPaiMenubar}>
+				<div className={styles.divNavbarMenubar}>
+					<div className={styles.divLOGOMenubar}>
 						<img id="#" src={logoCESMT} alt="CESMT Logo" />
 					</div>
-					<nav className="nav-bar">
-						<button className="my-button1" onClick={navigateToTopHome}>
+					<nav className={styles.NavBarMenubar}>
+						<button className={styles.btn1} onClick={navigateToTopHome}>
 							Início
 						</button>
-						<button className="my-button2" onClick={navigateToTopSobre}>
+						<button className={styles.btn2} onClick={navigateToTopSobre}>
 							A CESMT
 						</button>
-						<button className="my-button3" onClick={navigateToTopServices}>
+						<button className={styles.btn3} onClick={navigateToTopServices}>
 							Serviços
 						</button>
-						<button className="my-button4" onClick={navigateToTopClientes}>
+						<button className={styles.btn4} onClick={navigateToTopClientes}>
 							Clientes
 						</button>
-						<button className="my-button5" onClick={navigateToTopArtigos}>
+						<button className={styles.btn5} onClick={navigateToTopArtigos}>
 							Artigos
 						</button>
-						<button className="my-button6" onClick={navigateToTopContato}>
+						<button className={styles.btn6} onClick={navigateToTopContato}>
 							Contato
 						</button>
 					</nav>
 				</div>
-				<div
-					style={{
-						margin: "0",
-						height: "20px",
-						width: "100%",
-						background:
-							"linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49))",
-					}}></div>
+				<div className={styles.divFaixaColoridaMenubar}></div>
 			</div>
 
-			<div className="div-central-menu">
-				<img
-					className="img-menu-hamburguer"
-					id="#"
-					src={logoCESMT}
-					alt="CESMT Logo"
-				/>
+			<div className={styles.divPaiMenuHamburguer}>
+				<div className={styles.divLOGOMenuHamburuer}>
+					<img id="#" src={logoCESMT} alt="CESMT Logo" />
+				</div>
 
-				<div className="div-hamburguer">
+				<div className={styles.divButtonMenuHamburger}>
 					<button
-						className="button-menu-hamburguer"
+						className={styles.buttonMenuHamburguer}
 						onClick={() => setIsExpanded(!isExpanded)}>
-						<img className="img-button-hamburguer" src={menu} alt="Menu" />
+						<img src={menu} alt="Menu" />
 						<b>Menu</b>
 					</button>
 					{isExpanded && (
-						<div className="buttons" ref={ref}>
+						<div className={styles.divButtonsClickMenuHamburguer} ref={ref}>
 							<button onClick={navigateToTopHome}>Início</button>
 							<button onClick={navigateToTopSobre}>A CESMT</button>
 							<button onClick={navigateToTopServices}>Serviços</button>
@@ -131,9 +122,10 @@ function Menubar() {
 						</div>
 					)}
 				</div>
+				<div className={styles.divFaixaColoridaMenubar}></div>
 			</div>
 
-			<button id="btn-top" className="btn-top">
+			<button id="btn-top" className={styles.buttonSCROLLtoTOP}>
 				<i class="fa fa-arrow-up"></i>
 			</button>
 		</>
