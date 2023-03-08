@@ -1,6 +1,3 @@
-/*Menu - Bar*/
-/*Menu - Bar*/
-/*Menu - Bar*/
 .divNavbarMenubar {
 	height: auto;
 	display: flex;
@@ -8,58 +5,6 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-}
-
-/*Menu - Hamburguer*/
-/*Menu - Hamburguer*/
-/*Menu - Hamburguer*/
-.divLOGOMenuHamburuer {
-	/*Responsivo*/
-}
-.divLOGOMenuHamburuer img {
-	/*Responsivo*/
-}
-.divButtonMenuHamburger {
-	/*Responsivo*/
-	width: 30%;
-	margin: 5px;
-}
-.buttonMenuHamburguer {
-	/*Responsivo*/
-	background-color: white;
-	border: 2px solid black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 500px;
-	margin-top: 10px;
-	height: 50px;
-}
-.buttonMenuHamburguer img {
-	/*Responsivo*/
-	width: 17%;
-	border-radius: 25px;
-}
-.buttonMenuHamburguer b {
-	/*Responsivo*/
-	font-size: 1.25rem;
-	color: black;
-}
-.divButtonsClickMenuHamburguer {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-.divButtonsClickMenuHamburguer button {
-	/*Responsivo*/
-	width: 100%;
-	height: 50px;
-	background-color: rgb(65, 65, 65);
-	color: white;
-	border-radius: 500px;
-	margin: 1px;
-	font-size: 1rem;
 }
 
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
@@ -1476,6 +1421,115 @@
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
 
 @media (max-width: 799px) and (min-width: 700px) {
+	.divPaiMenubar {
+		/*Display: OFF*/
+		display: none;
+		/* flex-direction: column;
+		justify-content: center;
+		align-items: center; */
+	}
+
+	.divPaiMenuHamburguer {
+		/*Display: ON*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.divLOGOMenuHamburuer {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	.divLOGOMenuHamburuer img {
+		/*Responsivo*/
+		margin-top: 20px;
+		margin-bottom: 30px;
+		width: 80%;
+	}
+	.divButtonMenuHamburger {
+		/*Responsivo*/
+		width: 22%;
+	}
+	.buttonMenuHamburguer {
+		/*Responsivo*/
+		background-color: white;
+		border: 2px solid black;
+		display: flex;
+        flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		border-radius: 500px;
+		height: 45px;
+        gap: 10px
+	}
+	.buttonMenuHamburguer img {
+		/*Responsivo*/
+		width: 17%;
+	}
+	.buttonMenuHamburguer b {
+		/*Responsivo*/
+		font-size: 1.5rem;
+		color: black;
+	}
+	.divButtonsClickMenuHamburguer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.divButtonsClickMenuHamburguer button {
+		/*Responsivo*/
+		width: 100%;
+		height: 45px;
+		background-color: rgb(65, 65, 65);
+		color: white;
+		border-radius: 500px;
+		margin: 1px;
+		font-size: 1rem;
+	}
+	.divFaixaColoridaMenubar {
+		/*Responsivo*/
+		margin: 0;
+        margin-top: 20px;
+		width: 100%;
+		height: 16px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	/*Botão Scroll UP*/
+	/*Botão Scroll UP*/
+	/*Botão Scroll UP*/
+	.buttonSCROLLtoTOP {
+		/*Responsivo*/
+		position: fixed;
+		bottom: 40px;
+		right: 40px;
+		background-image: url(../../images/icones/botão\ up.png);
+		background-size: cover;
+		background-position: center center;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 17.5px;
+		border-radius: 50%;
+	}
+	.buttonSCROLLtoTOP:hover {
+		background-color: #333;
+	}
+	.buttonSCROLLtoTOP i {
+		/*Responsivo*/
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
 }
 
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/

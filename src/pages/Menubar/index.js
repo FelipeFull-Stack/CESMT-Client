@@ -122,6 +122,7 @@ function Menubar() {
 						</div>
 					)}
 				</div>
+				<div className={styles.divFaixaColoridaMenubar}></div>
 			</div>
 
 			<button id="btn-top" className={styles.buttonSCROLLtoTOP}>
