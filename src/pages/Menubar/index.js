@@ -70,90 +70,49 @@ function Menubar() {
 
 	return (
 		<>
-			<div className="div-geral-manubar" /* className={styles.divPaiMenubar} */>
-				<div
-					className="div-navbar-logo" /* className={styles.divNavbarMenubar} */
-				>
-					<div
-						className="img-logo-cesmt-navbar" /* className={styles.divLOGOMenubar} */
-					>
+			<div className={styles.divPaiMenubar}>
+				<div className={styles.divNavbarMenubar}>
+					<div className={styles.divLOGOMenubar}>
 						<img id="#" src={logoCESMT} alt="CESMT Logo" />
 					</div>
-					<nav className="nav-bar" /* className={styles.NavBarMenubar} */>
-						<button
-							className="my-button1"
-							/* className={styles.btn1} */
-							onClick={navigateToTopHome}>
+					<nav className={styles.NavBarMenubar}>
+						<button className={styles.btn1} onClick={navigateToTopHome}>
 							Início
 						</button>
-						<button
-							className="my-button2"
-							/* className={styles.btn2} */
-							onClick={navigateToTopSobre}>
+						<button className={styles.btn2} onClick={navigateToTopSobre}>
 							A CESMT
 						</button>
-						<button
-							className="my-button3"
-							/* className={styles.btn3} */
-							onClick={navigateToTopServices}>
+						<button className={styles.btn3} onClick={navigateToTopServices}>
 							Serviços
 						</button>
-						<button
-							className="my-button4"
-							/* className={styles.btn4} */
-							onClick={navigateToTopClientes}>
+						<button className={styles.btn4} onClick={navigateToTopClientes}>
 							Clientes
 						</button>
-						<button
-							className="my-button5"
-							/* className={styles.btn5} */
-							onClick={navigateToTopArtigos}>
+						<button className={styles.btn5} onClick={navigateToTopArtigos}>
 							Artigos
 						</button>
-						<button
-							className="my-button6"
-							/* className={styles.btn6} */ onClick={navigateToTopContato}>
+						<button className={styles.btn6} onClick={navigateToTopContato}>
 							Contato
 						</button>
 					</nav>
 				</div>
-				<div
-					/* className={styles.divFaixaColoridaMenubar} */
-					style={{
-						margin: "0",
-						height: "20px",
-						width: "100%",
-						background:
-							"linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49))",
-					}}></div>
+				<div className={styles.divFaixaColoridaMenubar}></div>
 			</div>
 
-			<div
-				className="div-central-menu"
-				/* className={styles.divPaiMenuHamburguer} */
-			>
-				{/*<div   className={styles.divLOGOMenuHamburuer}  >
-				
-				</div>*/}
-				<img
-					className="img-menu-hamburguer"
-					id="#"
-					src={logoCESMT}
-					alt="CESMT Logo"
-				/>
+			<div className={styles.divPaiMenuHamburguer}>
+				<div className={styles.divLOGOMenuHamburuer}>
+					<img id="#" src={logoCESMT} alt="CESMT Logo" />
+				</div>
 
-				<div
-					className="div-hamburguer" /* className={styles.divButtonMenuHamburger} */
-				>
+				<div className={styles.divButtonMenuHamburger}>
 					<button
-						/* className={styles.buttonMenuHamburguer} */
-						className="button-menu-hamburguer"
+						className={styles.buttonMenuHamburguer}
 						onClick={() => setIsExpanded(!isExpanded)}>
-						<img className="img-button-hamburguer" src={menu} alt="Menu" />
+						<img src={menu} alt="Menu" />
 						<b>Menu</b>
 					</button>
 					{isExpanded && (
-						<div className="buttons" /* className={styles.divButtonsClickMenuHamburguer} */ ref={ref}>
+						<div className={styles.divButtonsClickMenuHamburguer} ref={ref}>
 							<button onClick={navigateToTopHome}>Início</button>
 							<button onClick={navigateToTopSobre}>A CESMT</button>
 							<button onClick={navigateToTopServices}>Serviços</button>
@@ -165,7 +124,7 @@ function Menubar() {
 				</div>
 			</div>
 
-			<button id="btn-top" className="btn-top"   /* className={styles.buttonSCROLLtoTOP} */ >
+			<button id="btn-top" className={styles.buttonSCROLLtoTOP}>
 				<i class="fa fa-arrow-up"></i>
 			</button>
 		</>
