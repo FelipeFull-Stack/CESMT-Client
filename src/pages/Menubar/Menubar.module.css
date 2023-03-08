@@ -1896,7 +1896,7 @@
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
 
 @media (max-width: 399px) and (min-width: 350px) {
-    .divPaiMenubar {
+	.divPaiMenubar {
 		/*Display: OFF*/
 		display: none;
 		/* flex-direction: column;
@@ -2015,7 +2015,7 @@
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
 
 @media (max-width: 349px) and (min-width: 300px) {
-    .divPaiMenubar {
+	.divPaiMenubar {
 		/*Display: OFF*/
 		display: none;
 		/* flex-direction: column;
@@ -2134,4 +2134,114 @@
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
 
 @media (max-width: 299px) and (min-width: 1px) {
+	.divPaiMenubar {
+		/*Display: OFF*/
+		display: none;
+		/* flex-direction: column;
+		justify-content: center;
+		align-items: center; */
+	}
+
+	.divPaiMenuHamburguer {
+		/*Display: ON*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.divLOGOMenuHamburuer {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	.divLOGOMenuHamburuer img {
+		/*Responsivo*/
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 92%;
+	}
+	.divButtonMenuHamburger {
+		/*Responsivo*/
+		width: 40%;
+	}
+	.buttonMenuHamburguer {
+		/*Responsivo*/
+		background-color: white;
+		border: 2px solid black;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		border-radius: 500px;
+		height: 38px;
+		gap: 4px;
+	}
+	.buttonMenuHamburguer img {
+		/*Responsivo*/
+		/* height: 20px; */
+		width: 20%;
+	}
+	.buttonMenuHamburguer b {
+		/*Responsivo*/
+		font-size: 1rem;
+		color: black;
+	}
+	.divButtonsClickMenuHamburguer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.divButtonsClickMenuHamburguer button {
+		/*Responsivo*/
+		width: 100%;
+		height: 35px;
+		background-color: rgb(65, 65, 65);
+		color: white;
+		border-radius: 500px;
+		margin: 1px;
+		font-size: 0.9rem;
+	}
+	.divFaixaColoridaMenubar {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 12.5px;
+		width: 100%;
+		height: 12px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	/*Botão Scroll UP*/
+	/*Botão Scroll UP*/
+	/*Botão Scroll UP*/
+	.buttonSCROLLtoTOP {
+		/*Responsivo*/
+		position: fixed;
+		bottom: 25px;
+		right: 25px;
+		background-image: url(../../images/icones/botão\ up.png);
+		background-size: cover;
+		background-position: center center;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 12.5px;
+		border-radius: 50%;
+	}
+	.buttonSCROLLtoTOP:hover {
+		background-color: #333;
+	}
+	.buttonSCROLLtoTOP i {
+		/*Responsivo*/
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
 }
