@@ -49,6 +49,7 @@ hr {
 	align-content: center;
 	line-height: 0px;
     margin-top: 30px;
+	text-align: center;
 }
 .divIframeMAPS {
 	display: flex;

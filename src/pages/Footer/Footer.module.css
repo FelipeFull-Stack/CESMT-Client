@@ -4,91 +4,14 @@
 	justify-content: center;
 	align-items: center;
 }
-.divFaixaColoridaFooter {
-	/*Responsivo*/
-	margin: 0;
-	width: 100%;
-	height: 36px;
-	background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
-}
-.divGeralRedesSociaisFooter {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	align-items: center;
-	margin-bottom: 20px;
-}
-.divTituloRedesSociaisFooter {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 20px;
-}
-.divTituloRedesSociaisFooter h1 {
-	font-size: 2rem;
-	font-weight: 700;
-}
+
+
 .divConjuntaRedesSociaisFooter {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-evenly;
-}
-.divUnicaRedesSociaisFooter {
-	width: 40%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-.divImageRedesSociaisFooter {
-	width: 20%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.divImageRedesSociaisFooter img {
-	width: 80%;
-}
-.divParagrafoRedesSociaisFooter {
-	width: 70%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.divParagrafoRedesSociaisFooter p {
-	font-size: 1.5rem;
-	font-weight: 700;
-}
-.divFaixaCinzaFooter {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 50px;
-	width: 100%;
-	background: rgb(65, 62, 62);
-}
-.divFaixaCinzaFooter p {
-	font-size: 1rem;
-	color: white;
-	font-weight: 700;
-}
-.divFaixaCinzaFooter p:hover {
-	background: linear-gradient(
-		to right,
-		red,
-		orange,
-		yellow,
-		green,
-		blue,
-		indigo,
-		violet
-	);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	color: transparent;
 }
 .divFaixaCinzaFooter button {
 	background-color: rgb(65, 62, 62);
@@ -98,4 +21,228 @@
     width: 100%;
     height: 40px;
     background-color: rgb(120, 2, 2);
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 3000px) and (min-width: 2500px) {
+    .divFaixaColoridaFooter {
+        /*Responsivo*/
+        margin: 0;
+        width: 100%;
+        height: 36px;
+        background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+    }
+    .divGeralRedesSociaisFooter {
+        /*Responsivo*/
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .divTituloRedesSociaisFooter {
+        /*Responsivo*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .divTituloRedesSociaisFooter h1 {
+        /*Responsivo*/
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .divUnicaRedesSociaisFooter {
+        /*Responsivo*/
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .divImageRedesSociaisFooter {
+        /*Responsivo*/
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .divImageRedesSociaisFooter img {
+        /*Responsivo*/
+        width: 80%;
+    }
+    .divParagrafoRedesSociaisFooter {
+        /*Responsivo*/
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .divParagrafoRedesSociaisFooter p {
+        /*Responsivo*/
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .divFaixaCinzaFooter {
+        /*Responsivo*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        background: rgb(65, 62, 62);
+    }
+    .divFaixaCinzaFooter p {
+        /*Responsivo*/
+        font-size: 1rem;
+        color: white;
+        font-weight: 700;
+    }
+    .divFaixaCinzaFooter p:hover {
+        background: linear-gradient(
+            to right,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+    }
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 2499px) and (min-width: 2200px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 2199px) and (min-width: 1900px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1899px) and (min-width: 1600px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1599px) and (min-width: 1300px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1299px) and (min-width: 1100px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1099px) and (min-width: 900px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 899px) and (min-width: 800px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 799px) and (min-width: 700px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 699px) and (min-width: 600px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 599px) and (min-width: 500px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 499px) and (min-width: 400px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 399px) and (min-width: 350px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 349px) and (min-width: 300px) {
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 299px) and (min-width: 1px) {
 }
