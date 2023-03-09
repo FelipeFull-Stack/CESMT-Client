@@ -1133,7 +1133,7 @@
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
 
 @media (max-width: 599px) and (min-width: 500px) {
-    .divFaixaColoridaFooter {
+	.divFaixaColoridaFooter {
 		/*Responsivo*/
 		margin: 0;
 		margin-top: 20px;
@@ -1244,7 +1244,7 @@
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
 
 @media (max-width: 499px) and (min-width: 400px) {
-    .divFaixaColoridaFooter {
+	.divFaixaColoridaFooter {
 		/*Responsivo*/
 		margin: 0;
 		margin-top: 16px;
@@ -1355,7 +1355,7 @@
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
 
 @media (max-width: 399px) and (min-width: 350px) {
-    .divFaixaColoridaFooter {
+	.divFaixaColoridaFooter {
 		/*Responsivo*/
 		margin: 0;
 		margin-top: 12px;
@@ -1428,7 +1428,7 @@
 	}
 	.divFaixaCinzaFooter p {
 		/*Responsivo*/
-        text-align: center;
+		text-align: center;
 		font-size: 0.85rem;
 		color: white;
 		font-weight: 700;
@@ -1467,7 +1467,7 @@
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
 
 @media (max-width: 349px) and (min-width: 300px) {
-    .divFaixaColoridaFooter {
+	.divFaixaColoridaFooter {
 		/*Responsivo*/
 		margin: 0;
 		margin-top: 10px;
@@ -1540,7 +1540,7 @@
 	}
 	.divFaixaCinzaFooter p {
 		/*Responsivo*/
-        text-align: center;
+		text-align: center;
 		font-size: 0.75rem;
 		color: white;
 		font-weight: 700;
@@ -1579,4 +1579,103 @@
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
 
 @media (max-width: 299px) and (min-width: 1px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		width: 100%;
+		height: 10px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 0.8rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 36%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 24%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 100%;
+		height: 28px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 76%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 0.75rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 40px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 0.65rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 0.65rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 22px;
+		background-color: rgb(120, 2, 2);
+	}
 }
