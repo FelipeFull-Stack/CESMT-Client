@@ -1,0 +1,177 @@
+.divPaiExibirServico {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* margin-bottom: 100px; */
+	/* margin-top: 50px; */
+}
+.divTituloExibirServico {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divTituloExibirServico h1 {
+    /*Responsivo*/
+	font-size: 3rem;
+	font-weight: 700;
+}
+.divMapServicos {
+    /*Responsivo*/
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* padding: 2px; */
+	border: 1px solid rgb(158, 157, 157);
+	/* background-color: rgb(211, 211, 211); */
+	border-radius: 500px;
+	line-height: 0;
+	transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+}
+.divMapServicos:hover {
+	transform: scale(1.075);
+	background-color: rgb(230, 230, 230);
+	font-weight: 900;
+	color: black;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+.divTituloServico {
+    /*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background: linear-gradient(to right, #f9fc61, #f8df02);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+	border-radius: 0 500px 0 500px;
+	height: 44px;
+}
+.divTituloServico h1 {
+    /*Responsivo*/
+	font-size: 3rem;
+	font-weight: 700;
+}
+.divServicoIndividualSST {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.divServicoIndividualSST h2 {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualSST h3 {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualSST p {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualHO {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.divServicoIndividualHO h2 {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualHO h3 {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualHO p {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualT {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.divServicoIndividualT h2 {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualT h3 {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualT p {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualS {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.divServicoIndividualS h2 {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualS h3 {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualS p {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualEM {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.divServicoIndividualEM h2 {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualEM h3 {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
+.divServicoIndividualEM p {
+    /*Responsivo*/
+	font-size: 2rem;
+	font-weight: 700;
+	color: rgb(50, 50, 50);
+}
