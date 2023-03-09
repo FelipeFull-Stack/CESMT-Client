@@ -18,7 +18,8 @@ function CriarArtigo() {
         event.preventDefault();
         try {
             await api.post("/artigo", form);
-            navigate("/home");
+            window.alert("Artigo Adicionado");
+            // navigate("/home");
         } catch (err) {
             console.log(`Erro do Front-end em CriarArtigo/handleSubmit: ${err}`);
         }

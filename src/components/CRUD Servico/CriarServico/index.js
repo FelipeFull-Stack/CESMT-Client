@@ -20,7 +20,8 @@ function CriarServico() {
         event.preventDefault();
         try {
             await api.post("/servico", form);
-            navigate("/home");
+            window.alert("Serviço Adicionado");
+            // navigate("/home");
         } catch (err) {
             console.log(`Erro do Front-end em CriarServico/handleSubmit: ${err}`);
         }
