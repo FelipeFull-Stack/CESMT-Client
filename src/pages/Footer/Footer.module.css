@@ -1,0 +1,1681 @@
+.divPaiFooter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.divConjuntaRedesSociaisFooter {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 3000px) and (min-width: 2500px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 150px;
+		width: 100%;
+		height: 36px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 20px;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 4.5rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 50px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		border-radius: 15px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 70%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 3.5rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		font-size: 2.5rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 2.5rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 99px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 2499px) and (min-width: 2200px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 135px;
+		width: 100%;
+		height: 36px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 20px;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 4.25rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 50px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		border-radius: 15px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 70%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 3.25rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 90px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		font-size: 2.25rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 2.25rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 89px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 2199px) and (min-width: 1900px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 130px;
+		width: 100%;
+		height: 36px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 20px;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 4rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 50px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		border-radius: 13px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 70%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 2.85rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 80px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		font-size: 2rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 2rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 82px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1899px) and (min-width: 1600px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 120px;
+		width: 100%;
+		height: 30px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 20px;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 3.85rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 50px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		height: 100px;
+		border-radius: 12px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 70%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 2.45rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 70px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		font-size: 1.75rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 1.75rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 71px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1599px) and (min-width: 1300px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 110px;
+		width: 100%;
+		height: 26px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 20px;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 3.3rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 35px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		height: 80px;
+		border-radius: 12px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 72%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 2rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 60px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		font-size: 1.5rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 1.5rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 62px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1299px) and (min-width: 1100px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 90px;
+		width: 100%;
+		height: 24px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 10px;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 2.8rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 35px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		height: 70px;
+		border-radius: 12px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 71%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 1.7rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		font-size: 1.25rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 1.25rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 46px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1099px) and (min-width: 900px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 80px;
+		width: 100%;
+		height: 23px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 2.2rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 35px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		height: 60px;
+		border-radius: 11px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 71%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 1.4rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 40px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		font-size: 1rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 1rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 46px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 899px) and (min-width: 800px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 70px;
+		width: 100%;
+		height: 22px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 2rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 35px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		height: 50px;
+		border-radius: 8px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 75%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 1.3rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 32px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		font-size: 0.9rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 0.9rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 40px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 799px) and (min-width: 700px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 40px;
+		width: 100%;
+		height: 19px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 1.5rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		height: 40px;
+		border-radius: 6px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 72%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 1rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 28px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		font-size: 0.8rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 0.8rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 36px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 699px) and (min-width: 600px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 30px;
+		width: 100%;
+		height: 16px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 1.4rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		height: 36px;
+		border-radius: 5px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 72%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 0.9rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 26px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		font-size: 0.75rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 0.75rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 32px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 599px) and (min-width: 500px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 20px;
+		width: 100%;
+		height: 12px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 1.2rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		height: 32px;
+		border-radius: 4px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 72%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 0.75rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 24px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		font-size: 0.6rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 0.6rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 28px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 499px) and (min-width: 400px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 16px;
+		width: 100%;
+		height: 10px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 1.1rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 40%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		height: 30px;
+		border-radius: 2px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 72%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 0.7rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 22px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		font-size: 0.5rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 0.5rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 24px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 399px) and (min-width: 350px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 12px;
+		width: 100%;
+		height: 15px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 5px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 1rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 36%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 5px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 74%;
+		height: 24px;
+		border-radius: 2px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 72%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 0.6rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 52px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 0.85rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 1rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 24px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 349px) and (min-width: 300px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		margin-top: 10px;
+		width: 100%;
+		height: 15px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 5px;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 1rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 36%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 5px;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 94%;
+		height: 26px;
+		border-radius: 2px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 76%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 0.6rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 42px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 0.75rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 0.75rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 22px;
+		background-color: rgb(120, 2, 2);
+	}
+}
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 299px) and (min-width: 1px) {
+	.divFaixaColoridaFooter {
+		/*Responsivo*/
+		margin: 0;
+		width: 100%;
+		height: 10px;
+		background: linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49));
+	}
+	.divGeralRedesSociaisFooter {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.divTituloRedesSociaisFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divTituloRedesSociaisFooter h1 {
+		/*Responsivo*/
+		font-size: 0.8rem;
+		font-weight: 700;
+	}
+	.divUnicaRedesSociaisFooter {
+		/*Responsivo*/
+		width: 36%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter {
+		/*Responsivo*/
+		width: 24%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divImageRedesSociaisFooter img {
+		/*Responsivo*/
+		width: 100%;
+		height: 28px;
+	}
+	.divParagrafoRedesSociaisFooter {
+		/*Responsivo*/
+		width: 76%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divParagrafoRedesSociaisFooter p {
+		/*Responsivo*/
+		font-size: 0.75rem;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 40px;
+		width: 100%;
+		background: rgb(65, 62, 62);
+	}
+	.divFaixaCinzaFooter p {
+		/*Responsivo*/
+		text-align: center;
+		font-size: 0.65rem;
+		color: white;
+		font-weight: 700;
+	}
+	.divFaixaCinzaFooter button {
+		background-color: rgb(65, 62, 62);
+		border: none;
+		font-size: 0.65rem;
+	}
+	.divFaixaCinzaFooter p:hover {
+		background: linear-gradient(
+			to right,
+			red,
+			orange,
+			yellow,
+			green,
+			blue,
+			indigo,
+			violet
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+	.divExtensaoDePaginaFooter {
+		width: 100%;
+		height: 22px;
+		background-color: rgb(120, 2, 2);
+	}
+}

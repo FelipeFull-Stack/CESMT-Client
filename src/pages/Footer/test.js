@@ -4,57 +4,80 @@ import { useNavigate } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 function Footer() {
-	const navigate = useNavigate();
-	return (
-		<>
-			<div className={styles.divPaiFooter}>
-				<div className={styles.divFaixaColoridaFooter}></div>
+    const navigate = useNavigate();
+    return (
+        <>
+            <div
+                
+                style={{
+                    margin: "0",
+                    marginBottom: "20px",
+                    height: "20px",
+                    width: "100%",
+                    background: "linear-gradient(to right, rgb(255, 45, 49), rgb(175, 45, 49))"
+                }}>
+            </div>
 
-				<div className={styles.divGeralRedesSociaisFooter}>
-					<div className={styles.divTituloRedesSociaisFooter}>
-						<h1>Siga-nos em nossas Redes Sociais</h1>
-					</div>
-					<div className={styles.divConjuntaRedesSociaisFooter}>
-						<div className={styles.divUnicaRedesSociaisFooter}>
-							<div className={styles.divImageRedesSociaisFooter}>
-								<img src={linkedin} alt="Icone" />
-							</div>
-							<div className={styles.divParagrafoRedesSociaisFooter}>
-								<p>Este é nosso linkedin</p>
-							</div>
-						</div>
+            <div style={{ marginBottom: "20px" }}>
+                <div style={{ display: "flex", justifyContent: "center", marginBottom: "30px" }}>
+                    <h1 style={{ fontSize: "20px", fontWeight: "700" }}>Siga-nos em nossas Redes Sociais</h1>
+                </div>
+                <div style={{ display: "flex", flexDirection: "row", gap: 5, justifyContent: "space-evenly", alignItems: "center" }}>
+                    <div style={{ display: "flex", flexDirection: "row", gap: 5, justifyContent: "center", alignItems: "center" }}>
+                        <div>
+                            <img style={{ width: "50px" }} src={linkedin} alt="Icone" />
+                        </div>
+                        <div>
+                            <p style={{ fontSize: "24px", fontWeight: "700" }}>Este é nosso linkedin</p>
+                        </div>
+                    </div>
 
-						<div className={styles.divUnicaRedesSociaisFooter}>
-							<div className={styles.divImageRedesSociaisFooter}>
-								<img src={facebook} alt="Icone" />
-							</div>
-							<div className={styles.divParagrafoRedesSociaisFooter}>
-								<p>Este é nosso facebook</p>
-							</div>
-						</div>
-					</div>
-				</div>
+                    <div style={{ display: "flex", flexDirection: "row", gap: 5, justifyContent: "center", alignItems: "center" }}>
+                        <div>
+                            <img style={{ width: "50px" }} src={facebook} alt="Icone" />
+                        </div>
+                        <div>
+                            <p style={{ fontSize: "24px", fontWeight: "700" }}>Este é nosso facebook</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-				<div className={styles.divFaixaCinzaFooter}>
-					<p>
-						© 2023 CESMT EXCELÊNCIA EM SAÚDE{" "}
-						<button onClick={() => navigate("/entrar")}>•</button> Built with
-						Luiz Felipe Soares Lopes - Web Developer
-					</p>
-				</div>
-				<div className={styles.divExtensaoDePaginaFooter}></div>
-			</div>
-		</>
-	);
-}
+            <div
+                style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    margin: 0,
+                    height: "50px",
+                    width: "100%",
+                    background: "rgb(65, 62, 62)"
+                }}
+            >
+                <p
+                    style={{
+                        fontSize: "16px",
+                        color: "white"
+                    }}
+                >© 2023 CESMT EXCELÊNCIA EM SAÚDE <button style={{ backgroundColor: "rgb(65,62,62)", border: "none" }} onClick={() => navigate("/entrar")}>•</button> Built with Luiz Felipe Soares Lopes - Web Developer</p>
+            </div>
+            <div
+                style={{
+                    margin: 0,
+                    height: "5%",
+                    width: "100%",
+                    background: "rgb(120, 2, 2)"
+                }}
+            >
+            </div>
+            {/* <button onClick={() => navigate("/cadastro")}></button> */}
+            {/* <button onClick={() => navigate("/entrar")}></button> */}
+            {/* <button onClick={() => navigate("")}></button> */}
+        </>
+    );
+};
 
 export { Footer };
-
-/* <button onClick={() => navigate("/cadastro")}></button> */
-
-/* <button onClick={() => navigate("/entrar")}></button> */
-
-/* <button onClick={() => navigate("")}></button> */
 
 //© 2023 CESMT EXCELÊNCIA EM SAÚDE •
 
