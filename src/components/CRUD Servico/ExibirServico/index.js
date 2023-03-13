@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { api } from "../../../api/api";
 import "./ExibirServico.css";
 import styles from "./ExibirServico.module.css";
@@ -18,24 +18,6 @@ function ExibirServico() {
 		fetchServico();
 	}, []);
 
-	const [exibirDescricao, setExibirDescricao] = useState(false);
-	const divRef = useRef(null);
-
-	function handleClick() {
-		setExibirDescricao(!exibirDescricao);
-	}
-
-	useEffect(() => {
-		function handleClickOutside(event) {
-			if (divRef.current && !divRef.current.contains(event.target)) {
-				setExibirDescricao(false);
-			}
-		}
-
-		document.addEventListener("mousedown", handleClickOutside);
-		return () => document.removeEventListener("mousedown", handleClickOutside);
-	}, [divRef]);
-
 	return (
 		<>
 			<div className={styles.divPaiExibirServico}>
@@ -49,18 +31,18 @@ function ExibirServico() {
 					{servico.map((currentElement) => {
 						if (currentElement.tipo === "SAUDE E SEGURANCA DO TRABALHO") {
 							return (
-								<div
-									className={`${styles.divServicoIndividualSST} ${
-										exibirDescricao
-											? styles.exibirDescricao
-											: styles.ocultarDescricao
-									}`}
-									ref={divRef}
-									onClick={handleClick}>
+								<div className={styles.divServicoIndividualSST}>
 									<h2>{currentElement.sigla}</h2>
 									<p>-</p>
 									<h3>{currentElement.nome}</h3>
-									<h4>{currentElement.description}</h4>
+									{/* <h4>
+										Atendemos nas cidades:{" "}
+										{currentElement.cidade === "JEQUIE"
+											? "Jequié"
+											: currentElement.cidade === "VITORIA DA CONQUISTA"
+											? "Vitória da Conquita"
+											: "Jequié e Vitória da Conquista"}
+									</h4> */}
 								</div>
 							);
 						}
@@ -77,18 +59,18 @@ function ExibirServico() {
 					{servico.map((currentElement) => {
 						if (currentElement.tipo === "HIGIENE OCUPACIONAL") {
 							return (
-								<div
-									className={`${styles.divServicoIndividualHO} ${
-										exibirDescricao
-											? styles.exibirDescricao
-											: styles.ocultarDescricao
-									}`}
-									ref={divRef}
-									onClick={handleClick}>
+								<div className={styles.divServicoIndividualHO}>
 									<h2>{currentElement.sigla}</h2>
 									<p>-</p>
 									<h3>{currentElement.nome}</h3>
-									<h4>{currentElement.description}</h4>
+									{/* <h4>
+										Atendemos nas cidades:{" "}
+										{currentElement.cidade === "JEQUIE"
+											? "Jequié"
+											: currentElement.cidade === "VITORIA DA CONQUISTA"
+											? "Vitória da Conquita"
+											: "Jequié e Vitória da Conquista"}
+									</h4> */}
 								</div>
 							);
 						}
@@ -105,18 +87,18 @@ function ExibirServico() {
 					{servico.map((currentElement) => {
 						if (currentElement.tipo === "TREINAMENTOS") {
 							return (
-								<div
-									className={`${styles.divServicoIndividualT} ${
-										exibirDescricao
-											? styles.exibirDescricao
-											: styles.ocultarDescricao
-									}`}
-									ref={divRef}
-									onClick={handleClick}>
+								<div className={styles.divServicoIndividualT}>
 									<h2>{currentElement.sigla}</h2>
 									<p>-</p>
 									<h3>{currentElement.nome}</h3>
-									<h4>{currentElement.description}</h4>
+									{/* <h4>
+										Atendemos nas cidades:{" "}
+										{currentElement.cidade === "JEQUIE"
+											? "Jequié"
+											: currentElement.cidade === "VITORIA DA CONQUISTA"
+											? "Vitória da Conquita"
+											: "Jequié e Vitória da Conquista"}
+									</h4> */}
 								</div>
 							);
 						}
@@ -133,18 +115,18 @@ function ExibirServico() {
 					{servico.map((currentElement) => {
 						if (currentElement.tipo === "SERVICOS") {
 							return (
-								<div
-									className={`${styles.divServicoIndividualS} ${
-										exibirDescricao
-											? styles.exibirDescricao
-											: styles.ocultarDescricao
-									}`}
-									ref={divRef}
-									onClick={handleClick}>
+								<div className={styles.divServicoIndividualS}>
 									<h2>{currentElement.sigla}</h2>
 									<p>-</p>
 									<h3>{currentElement.nome}</h3>
-									<h4>{currentElement.description}</h4>
+									{/* <h4>
+										Atendemos nas cidades:{" "}
+										{currentElement.cidade === "JEQUIE"
+											? "Jequié"
+											: currentElement.cidade === "VITORIA DA CONQUISTA"
+											? "Vitória da Conquita"
+											: "Jequié e Vitória da Conquista"}
+									</h4> */}
 								</div>
 							);
 						}
@@ -161,18 +143,18 @@ function ExibirServico() {
 					{servico.map((currentElement) => {
 						if (currentElement.tipo === "ESPECIALIDADES MEDICAS") {
 							return (
-								<div
-									className={`${styles.divServicoIndividualEM} ${
-										exibirDescricao
-											? styles.exibirDescricao
-											: styles.ocultarDescricao
-									}`}
-									ref={divRef}
-									onClick={handleClick}>
+								<div className={styles.divServicoIndividualEM}>
 									<h2>{currentElement.sigla}</h2>
 									<p>-</p>
 									<h3>{currentElement.nome}</h3>
-									<h4>{currentElement.description}</h4>
+									{/* <h4>
+										Atendemos nas cidades:{" "}
+										{currentElement.cidade === "JEQUIE"
+											? "Jequié"
+											: currentElement.cidade === "VITORIA DA CONQUISTA"
+											? "Vitória da Conquita"
+											: "Jequié e Vitória da Conquista"}
+									</h4> */}
 								</div>
 							);
 						}
