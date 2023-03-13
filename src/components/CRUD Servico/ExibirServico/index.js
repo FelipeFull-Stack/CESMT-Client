@@ -33,16 +33,21 @@ function ExibirServico() {
 							return (
 								<div className={styles.divServicoIndividualSST}>
 									<h2>{currentElement.sigla}</h2>
-									<p>-</p>
+									<p>{" "}-{" "}</p>
 									<h3>{currentElement.nome}</h3>
-									{/* <h4>
+									{/* 
+									<div className={styles.div}>
+									<h4>
 										Atendemos nas cidades:{" "}
 										{currentElement.cidade === "JEQUIE"
 											? "Jequié"
 											: currentElement.cidade === "VITORIA DA CONQUISTA"
 											? "Vitória da Conquita"
 											: "Jequié e Vitória da Conquista"}
-									</h4> */}
+									</h4>
+									<button>Entrar em Contato</button>
+									</div>
+									 */}
 								</div>
 							);
 						}
@@ -61,7 +66,7 @@ function ExibirServico() {
 							return (
 								<div className={styles.divServicoIndividualHO}>
 									<h2>{currentElement.sigla}</h2>
-									<p>-</p>
+									<p>{" "}-{" "}</p>
 									<h3>{currentElement.nome}</h3>
 									{/* <h4>
 										Atendemos nas cidades:{" "}
@@ -89,7 +94,7 @@ function ExibirServico() {
 							return (
 								<div className={styles.divServicoIndividualT}>
 									<h2>{currentElement.sigla}</h2>
-									<p>-</p>
+									<p>{" "}-{" "}</p>
 									<h3>{currentElement.nome}</h3>
 									{/* <h4>
 										Atendemos nas cidades:{" "}
@@ -117,7 +122,7 @@ function ExibirServico() {
 							return (
 								<div className={styles.divServicoIndividualS}>
 									<h2>{currentElement.sigla}</h2>
-									<p>-</p>
+									{/* <p>-</p> */}
 									<h3>{currentElement.nome}</h3>
 									{/* <h4>
 										Atendemos nas cidades:{" "}
@@ -145,7 +150,7 @@ function ExibirServico() {
 							return (
 								<div className={styles.divServicoIndividualEM}>
 									<h2>{currentElement.sigla}</h2>
-									<p>-</p>
+									{/* <p>-</p> */}
 									<h3>{currentElement.nome}</h3>
 									{/* <h4>
 										Atendemos nas cidades:{" "}
