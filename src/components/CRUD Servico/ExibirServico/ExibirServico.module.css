@@ -2006,7 +2006,7 @@
 	.divTituloServico {
 		/*Responsivo*/
 		display: flex;
-		margin-top: 50px;
+		margin-top: 45px;
 		justify-content: center;
 		align-items: center;
 		width: 90%;
@@ -2333,7 +2333,7 @@
 	.divTituloServico {
 		/*Responsivo*/
 		display: flex;
-		margin-top: 50px;
+		margin-top: 45px;
 		justify-content: center;
 		align-items: center;
 		width: 90%;
@@ -2661,7 +2661,7 @@
 	.divTituloServico {
 		/*Responsivo*/
 		display: flex;
-		margin-top: 50px;
+		margin-top: 45px;
 		justify-content: center;
 		align-items: center;
 		width: 90%;
@@ -2989,7 +2989,7 @@
 	.divTituloServico {
 		/*Responsivo*/
 		display: flex;
-		margin-top: 50px;
+		margin-top: 40px;
 		justify-content: center;
 		align-items: center;
 		width: 90%;
@@ -3317,12 +3317,12 @@
 	.divTituloServico {
 		/*Responsivo*/
 		display: flex;
-		margin-top: 50px;
+		margin-top: 40px;
 		justify-content: center;
 		align-items: center;
 		width: 90%;
 		background: linear-gradient(to right, #f9fc61, #f8df02);
-		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+		box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
 		border-radius: 0 500px 0 500px;
 		height: 30px;
 		margin-bottom: 20px;
@@ -3625,6 +3625,325 @@
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
 
 @media (max-width: 499px) and (min-width: 400px) {
+	.divTituloExibirServico h1 {
+		/*Responsivo*/
+		font-size: 1.8rem;
+		font-weight: 700;
+		text-decoration: underline;
+		margin-bottom: -5px;
+	}
+	.divMapServicos {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		/* padding: 2px; */
+	}
+
+	.divTituloServico {
+		/*Responsivo*/
+		display: flex;
+		margin-top: 30px;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		background: linear-gradient(to right, #f9fc61, #f8df02);
+		box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
+		border-radius: 0 500px 0 500px;
+		height: 28px;
+		margin-bottom: 18px;
+	}
+	.divTituloServico h1 {
+		/*Responsivo*/
+		font-size: 1.1rem;
+		font-weight: 700;
+	}
+	/*Saude e Segurança do Trabalho*/
+	/*Saude e Segurança do Trabalho*/
+	/*Saude e Segurança do Trabalho*/
+	.divServicoIndividualSST {
+		width: 94%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid rgb(158, 157, 157);
+		color: rgb(50, 50, 50);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.divServicoIndividualSST:hover {
+		transform: scale(1.04);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.divServicoIndividualSST h2 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 0.55rem;
+		font-weight: 900;
+	}
+	.divServicoIndividualSST h3 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 0.5rem;
+		font-weight: 900;
+	}
+	.divServicoIndividualSST p {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.5rem;
+		font-weight: 900;
+		color: rgb(50, 50, 50);
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.divServicoSelecionado {
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.5rem;
+		font-weight: 900;
+		color: rgb(50, 50, 50);
+		gap: 5px;
+	}
+	.divServicoSelecionado b {
+		font-size: 0.5rem;
+		color: red;
+	}
+	.divServicoSelecionado button {
+		text-align: center;
+		font-size: 0.5rem;
+		text-decoration: underline;
+		color: red;
+		border: none;
+		background-color: transparent;
+		transition: transform 0.2s ease;
+	}.divServicoSelecionado button:hover {
+		transform: scale(1.2);
+	}
+	/*Higiene Ocupacional*/
+	/*Higiene Ocupacional*/
+	/*Higiene Ocupacional*/
+	.divServicoIndividualHO {
+		width: 94%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid rgb(158, 157, 157);
+		color: rgb(50, 50, 50);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.divServicoIndividualHO:hover {
+		transform: scale(1.04);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.divServicoIndividualHO h2 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.6rem;
+		font-weight: 900;
+	}
+	.divServicoIndividualHO h3 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.55rem;
+		font-weight: 700;
+	}
+	.divServicoIndividualHO p {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.55rem;
+		font-weight: 900;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	/*Treinamentos*/
+	/*Treinamentos*/
+	/*Treinamentos*/
+	.divServicoIndividualT {
+		width: 94%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid rgb(158, 157, 157);
+		color: rgb(50, 50, 50);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.divServicoIndividualT:hover {
+		transform: scale(1.04);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.divServicoIndividualT h2 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.6rem;
+		font-weight: 900;
+	}
+	.divServicoIndividualT h3 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.55rem;
+		font-weight: 700;
+	}
+	.divServicoIndividualT p {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.55rem;
+		font-weight: 900;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	/*Serviços*/
+	/*Serviços*/
+	/*Serviços*/
+	.divServicoIndividualS {
+		width: 94%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid rgb(158, 157, 157);
+		color: rgb(50, 50, 50);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.divServicoIndividualS:hover {
+		transform: scale(1.04);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.divServicoIndividualS h2 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.75rem;
+		font-weight: 900;
+	}
+	.divServicoIndividualS h3 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.75rem;
+		font-weight: 900;
+	}
+	.divServicoIndividualS p {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.55rem;
+		font-weight: 900;
+	}
+	/*Especialidades Médicas*/
+	/*Especialidades Médicas*/
+	/*Especialidades Médicas*/
+	.divServicoIndividualEM {
+		width: 88%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid rgb(158, 157, 157);
+		color: rgb(50, 50, 50);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.divServicoIndividualEM:hover {
+		transform: scale(1.04);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.divServicoIndividualEM h2 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.75rem;
+	}
+	.divServicoIndividualEM h3 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.75rem;
+		font-weight: 700;
+	}
+	.divServicoIndividualEM p {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 0.55rem;
+	}
 }
 
 /*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
