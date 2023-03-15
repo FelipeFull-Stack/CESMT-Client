@@ -46,9 +46,13 @@
 	font-size: 4rem;
 	font-weight: 700;
 }
+/*Saude e Segurança do Trabalho*/
+/*Saude e Segurança do Trabalho*/
+/*Saude e Segurança do Trabalho*/
 .divServicoIndividualSST {
 	width: 86%;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
@@ -67,24 +71,61 @@
 }
 .divServicoIndividualSST h2 {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 2.6rem;
 	font-weight: 900;
 	color: rgb(50, 50, 50);
 }
 .divServicoIndividualSST h3 {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 2.5rem;
 	font-weight: 900;
 	color: rgb(50, 50, 50);
 }
 .divServicoIndividualSST p {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 2.5rem;
 	font-weight: 900;
 	color: rgb(50, 50, 50);
 	padding-left: 10px;
 	padding-right: 10px;
 }
+.divServicoSelecionado {
+	padding: 0px;
+	margin: 0px;
+	width: 94%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	font-size: 2.5rem;
+	font-weight: 900;
+	color: rgb(50, 50, 50);
+	gap: 50px;
+
+}
+.divServicoSelecionado b {
+	font-size: 2.5rem;
+	color: red;
+}
+.divServicoSelecionado button {
+	text-align: center;
+	font-size: 2.5rem;
+	color: red;
+	border: none;
+}
+/*Higiene Ocupacional*/
+/*Higiene Ocupacional*/
+/*Higiene Ocupacional*/
 .divServicoIndividualHO {
 	width: 86%;
 	display: flex;
@@ -124,6 +165,9 @@
 	padding-left: 10px;
 	padding-right: 10px;
 }
+/*Treinamentos*/
+/*Treinamentos*/
+/*Treinamentos*/
 .divServicoIndividualT {
 	width: 86%;
 	display: flex;
@@ -163,6 +207,9 @@
 	padding-left: 10px;
 	padding-right: 10px;
 }
+/*Serviços*/
+/*Serviços*/
+/*Serviços*/
 .divServicoIndividualS {
 	width: 80%;
 	display: flex;
@@ -200,6 +247,9 @@
 	font-weight: 900;
 	color: rgb(50, 50, 50);
 }
+/*Especialidades Médicas*/
+/*Especialidades Médicas*/
+/*Especialidades Médicas*/
 .divServicoIndividualEM {
 	width: 80%;
 	display: flex;

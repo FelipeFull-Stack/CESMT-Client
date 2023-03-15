@@ -1,10 +1,12 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { api } from "../../../api/api";
 import "./ExibirServico.css";
 import styles from "./ExibirServico.module.css";
 
 function ExibirServico() {
 	const [servico, setServico] = useState([]);
+	const [selectedDivId, setSelectedDivId] = useState("");
+	const [isMouseOver, setIsMouseOver] = useState(false);
 
 	useEffect(() => {
 		async function fetchServico() {
@@ -17,6 +19,21 @@ function ExibirServico() {
 		}
 		fetchServico();
 	}, []);
+
+	const handleDisplay = useCallback(
+		(id) => {
+			setIsMouseOver(true);
+			setSelectedDivId(id);
+			console.log("MouseOver");
+		},
+		[setIsMouseOver, setSelectedDivId],
+	);
+
+	const handleHide = useCallback(() => {
+		setIsMouseOver(false);
+		setSelectedDivId("");
+		console.log("MouseHide");
+	}, [setIsMouseOver, setSelectedDivId]);
 
 	return (
 		<>
@@ -31,23 +48,34 @@ function ExibirServico() {
 					{servico.map((currentElement) => {
 						if (currentElement.tipo === "SAUDE E SEGURANCA DO TRABALHO") {
 							return (
-								<div className={styles.divServicoIndividualSST}>
+								<div
+									key={currentElement._id}
+									className={styles.divServicoIndividualSST}
+									onMouseOver={() => handleDisplay(currentElement._id)}
+									onMouseOut={handleHide}>
 									<h2>{currentElement.sigla}</h2>
-									<p>{" "}-{" "}</p>
+									<p> - </p>
 									<h3>{currentElement.nome}</h3>
-									{/* 
-									<div className={styles.div}>
-									<h4>
-										Atendemos nas cidades:{" "}
-										{currentElement.cidade === "JEQUIE"
-											? "Jequié"
-											: currentElement.cidade === "VITORIA DA CONQUISTA"
-											? "Vitória da Conquita"
-											: "Jequié e Vitória da Conquista"}
-									</h4>
-									<button>Entrar em Contato</button>
+									<div
+										className={styles.divServicoSelecionado}
+										style={{
+											display:
+												isMouseOver && currentElement._id === selectedDivId
+													? "flex"
+													: "none",
+										}}>
+										<h4>
+											Atendemos nas cidades:{" "}
+											<b>
+												{currentElement.cidade === "JEQUIE"
+													? "Jequié"
+													: currentElement.cidade === "VITORIA DA CONQUISTA"
+													? "Vitória da Conquita"
+													: "Jequié e Vitória da Conquista"}
+											</b>
+										</h4>
+										<button>Entrar em Contato</button>
 									</div>
-									 */}
 								</div>
 							);
 						}
@@ -66,7 +94,7 @@ function ExibirServico() {
 							return (
 								<div className={styles.divServicoIndividualHO}>
 									<h2>{currentElement.sigla}</h2>
-									<p>{" "}-{" "}</p>
+									<p> - </p>
 									<h3>{currentElement.nome}</h3>
 									{/* <h4>
 										Atendemos nas cidades:{" "}
@@ -94,7 +122,7 @@ function ExibirServico() {
 							return (
 								<div className={styles.divServicoIndividualT}>
 									<h2>{currentElement.sigla}</h2>
-									<p>{" "}-{" "}</p>
+									<p> - </p>
 									<h3>{currentElement.nome}</h3>
 									{/* <h4>
 										Atendemos nas cidades:{" "}
