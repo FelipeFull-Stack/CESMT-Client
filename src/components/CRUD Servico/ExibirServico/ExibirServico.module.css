@@ -12,320 +12,456 @@
 	justify-content: center;
 	align-items: center;
 }
-.divTituloExibirServico h1 {
-	/*Responsivo*/
-	font-size: 6rem;
-	font-weight: 700;
-	text-decoration: underline;
-}
-.divMapServicos {
-	/*Responsivo*/
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	/* padding: 2px; */
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 3000px) and (min-width: 2500px) {
+	.divTituloExibirServico h1 {
+		/*Responsivo*/
+		font-size: 6rem;
+		font-weight: 700;
+		text-decoration: underline;
+	}
+	.divMapServicos {
+		/*Responsivo*/
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		/* padding: 2px; */
+	}
+
+	.divTituloServico {
+		/*Responsivo*/
+		display: flex;
+		margin-top: 150px;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		background: linear-gradient(to right, #f9fc61, #f8df02);
+		box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+		border-radius: 0 500px 0 500px;
+		height: 108px;
+		margin-bottom: 50px;
+	}
+	.divTituloServico h1 {
+		/*Responsivo*/
+		font-size: 4rem;
+		font-weight: 700;
+	}
+	/*Saude e Segurança do Trabalho*/
+	/*Saude e Segurança do Trabalho*/
+	/*Saude e Segurança do Trabalho*/
+	.divServicoIndividualSST {
+		width: 86%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid rgb(158, 157, 157);
+		color: rgb(50, 50, 50);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.divServicoIndividualSST:hover {
+		transform: scale(1.075);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.divServicoIndividualSST h2 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 2.6rem;
+		font-weight: 900;
+	}
+	.divServicoIndividualSST h3 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 2.5rem;
+		font-weight: 900;
+	}
+	.divServicoIndividualSST p {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 2.5rem;
+		font-weight: 900;
+		color: rgb(50, 50, 50);
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.divServicoSelecionado {
+		width: 94%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 2.5rem;
+		font-weight: 900;
+		color: rgb(50, 50, 50);
+		gap: 250px;
+	}
+	.divServicoSelecionado b {
+		font-size: 2.5rem;
+		color: red;
+	}
+	.divServicoSelecionado button {
+		text-align: center;
+		font-size: 2.5rem;
+		text-decoration: underline;
+		color: red;
+		border: none;
+		background-color: transparent;
+	}
+	/*Higiene Ocupacional*/
+	/*Higiene Ocupacional*/
+	/*Higiene Ocupacional*/
+	.divServicoIndividualHO {
+		width: 86%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid rgb(158, 157, 157);
+		color: rgb(50, 50, 50);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.divServicoIndividualHO:hover {
+		transform: scale(1.075);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.divServicoIndividualHO h2 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 2.6rem;
+		font-weight: 900;
+	}
+	.divServicoIndividualHO h3 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 2.5rem;
+		font-weight: 700;
+	}
+	.divServicoIndividualHO p {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 2.5rem;
+		font-weight: 900;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	/*Treinamentos*/
+	/*Treinamentos*/
+	/*Treinamentos*/
+	.divServicoIndividualT {
+		width: 86%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid rgb(158, 157, 157);
+		color: rgb(50, 50, 50);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.divServicoIndividualT:hover {
+		transform: scale(1.075);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.divServicoIndividualT h2 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 2.6rem;
+		font-weight: 900;
+	}
+	.divServicoIndividualT h3 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 2.5rem;
+		font-weight: 700;
+	}
+	.divServicoIndividualT p {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 2.5rem;
+		font-weight: 900;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	/*Serviços*/
+	/*Serviços*/
+	/*Serviços*/
+	.divServicoIndividualS {
+		width: 86%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid rgb(158, 157, 157);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.divServicoIndividualS:hover {
+		transform: scale(1.075);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.divServicoIndividualS h2 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 3rem;
+		font-weight: 900;
+		color: rgb(50, 50, 50);
+	}
+	.divServicoIndividualS h3 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 3rem;
+		font-weight: 900;
+		color: rgb(50, 50, 50);
+	}
+	.divServicoIndividualS p {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 2.5rem;
+		font-weight: 900;
+		color: rgb(50, 50, 50);
+	}
+	/*Especialidades Médicas*/
+	/*Especialidades Médicas*/
+	/*Especialidades Médicas*/
+	.divServicoIndividualEM {
+		width: 86%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid rgb(158, 157, 157);
+		color: rgb(50, 50, 50);
+		/* background-color: rgb(211, 211, 211); */
+		border-radius: 500px;
+		line-height: 0;
+		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+	}
+	.divServicoIndividualEM:hover {
+		transform: scale(1.075);
+		background-color: rgb(230, 230, 230);
+		font-weight: 900;
+		color: black;
+		border: 2px solid rgb(0, 0, 0);
+	}
+	.divServicoIndividualEM h2 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 3rem;
+	}
+	.divServicoIndividualEM h3 {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 3rem;
+		font-weight: 700;
+	}
+	.divServicoIndividualEM p {
+		/*Responsivo*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		font-size: 2.5rem;
+	}
 }
 
-.divTituloServico {
-	/*Responsivo*/
-	display: flex;
-	margin-top: 150px;
-	justify-content: center;
-	align-items: center;
-	width: 90%;
-	background: linear-gradient(to right, #f9fc61, #f8df02);
-	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
-	border-radius: 0 500px 0 500px;
-	height: 108px;
-	margin-bottom: 50px;
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 2499px) and (min-width: 2200px) {
+	
 }
-.divTituloServico h1 {
-	/*Responsivo*/
-	font-size: 4rem;
-	font-weight: 700;
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 2199px) and (min-width: 1900px) {
 }
-/*Saude e Segurança do Trabalho*/
-/*Saude e Segurança do Trabalho*/
-/*Saude e Segurança do Trabalho*/
-.divServicoIndividualSST {
-	width: 86%;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	border: 1px solid rgb(158, 157, 157);
-	color: rgb(50, 50, 50);
-	/* background-color: rgb(211, 211, 211); */
-	border-radius: 500px;
-	line-height: 0;
-	transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1899px) and (min-width: 1600px) {
 }
-.divServicoIndividualSST:hover {
-	transform: scale(1.075);
-	background-color: rgb(230, 230, 230);
-	font-weight: 900;
-	color: black;
-	border: 2px solid rgb(0, 0, 0);
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1599px) and (min-width: 1300px) {
 }
-.divServicoIndividualSST h2 {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 2.6rem;
-	font-weight: 900;
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1299px) and (min-width: 1100px) {
 }
-.divServicoIndividualSST h3 {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 2.5rem;
-	font-weight: 900;
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 1099px) and (min-width: 900px) {
 }
-.divServicoIndividualSST p {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 2.5rem;
-	font-weight: 900;
-	color: rgb(50, 50, 50);
-	padding-left: 10px;
-	padding-right: 10px;
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 899px) and (min-width: 800px) {
 }
-.divServicoSelecionado {
-	width: 94%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 2.5rem;
-	font-weight: 900;
-	color: rgb(50, 50, 50);
-	gap: 250px;
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 799px) and (min-width: 700px) {
 }
-.divServicoSelecionado b {
-	font-size: 2.5rem;
-	color: red;
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 699px) and (min-width: 600px) {
 }
-.divServicoSelecionado button {
-	text-align: center;
-	font-size: 2.5rem;
-	text-decoration: underline;
-	color: red;
-	border: none;
-	background-color: transparent;
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 599px) and (min-width: 500px) {
 }
-/*Higiene Ocupacional*/
-/*Higiene Ocupacional*/
-/*Higiene Ocupacional*/
-.divServicoIndividualHO {
-	width: 86%;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	border: 1px solid rgb(158, 157, 157);
-	color: rgb(50, 50, 50);
-	/* background-color: rgb(211, 211, 211); */
-	border-radius: 500px;
-	line-height: 0;
-	transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 499px) and (min-width: 400px) {
 }
-.divServicoIndividualHO:hover {
-	transform: scale(1.075);
-	background-color: rgb(230, 230, 230);
-	font-weight: 900;
-	color: black;
-	border: 2px solid rgb(0, 0, 0);
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 399px) and (min-width: 350px) {
 }
-.divServicoIndividualHO h2 {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 2.6rem;
-	font-weight: 900;
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 349px) and (min-width: 300px) {
 }
-.divServicoIndividualHO h3 {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 2.5rem;
-	font-weight: 700;
-}
-.divServicoIndividualHO p {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 2.5rem;
-	font-weight: 900;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-/*Treinamentos*/
-/*Treinamentos*/
-/*Treinamentos*/
-.divServicoIndividualT {
-	width: 86%;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	border: 1px solid rgb(158, 157, 157);
-	color: rgb(50, 50, 50);
-	/* background-color: rgb(211, 211, 211); */
-	border-radius: 500px;
-	line-height: 0;
-	transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
-}
-.divServicoIndividualT:hover {
-	transform: scale(1.075);
-	background-color: rgb(230, 230, 230);
-	font-weight: 900;
-	color: black;
-	border: 2px solid rgb(0, 0, 0);
-}
-.divServicoIndividualT h2 {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 2.6rem;
-	font-weight: 900;
-}
-.divServicoIndividualT h3 {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 2.5rem;
-	font-weight: 700;
-}
-.divServicoIndividualT p {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 2.5rem;
-	font-weight: 900;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-/*Serviços*/
-/*Serviços*/
-/*Serviços*/
-.divServicoIndividualS {
-	width: 86%;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	border: 1px solid rgb(158, 157, 157);
-	/* background-color: rgb(211, 211, 211); */
-	border-radius: 500px;
-	line-height: 0;
-	transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
-}
-.divServicoIndividualS:hover {
-	transform: scale(1.075);
-	background-color: rgb(230, 230, 230);
-	font-weight: 900;
-	color: black;
-	border: 2px solid rgb(0, 0, 0);
-}
-.divServicoIndividualS h2 {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 3rem;
-	font-weight: 900;
-	color: rgb(50, 50, 50);
-}
-.divServicoIndividualS h3 {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 3rem;
-	font-weight: 900;
-	color: rgb(50, 50, 50);
-}
-.divServicoIndividualS p {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 2.5rem;
-	font-weight: 900;
-	color: rgb(50, 50, 50);
-}
-/*Especialidades Médicas*/
-/*Especialidades Médicas*/
-/*Especialidades Médicas*/
-.divServicoIndividualEM {
-	width: 86%;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	border: 1px solid rgb(158, 157, 157);
-	color: rgb(50, 50, 50);
-	/* background-color: rgb(211, 211, 211); */
-	border-radius: 500px;
-	line-height: 0;
-	transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
-}
-.divServicoIndividualEM:hover {
-	transform: scale(1.075);
-	background-color: rgb(230, 230, 230);
-	font-weight: 900;
-	color: black;
-	border: 2px solid rgb(0, 0, 0);
-}
-.divServicoIndividualEM h2 {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 3rem;
-}
-.divServicoIndividualEM h3 {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 3rem;
-	font-weight: 700;
-}
-.divServicoIndividualEM p {
-	/*Responsivo*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	font-size: 2.5rem;
+
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+/*Responsividade*/ /*Responsividade*/ /*Responsividade*/ /*Responsividade*/
+
+@media (max-width: 299px) and (min-width: 1px) {
 }
