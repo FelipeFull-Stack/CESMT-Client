@@ -38,7 +38,7 @@
 	background: linear-gradient(to right, #f9fc61, #f8df02);
 	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
 	border-radius: 0 500px 0 500px;
-	height: 96px;
+	height: 108px;
 	margin-bottom: 50px;
 }
 .divTituloServico h1 {
@@ -57,6 +57,7 @@
 	align-items: center;
 	justify-content: center;
 	border: 1px solid rgb(158, 157, 157);
+	color: rgb(50, 50, 50);
 	/* background-color: rgb(211, 211, 211); */
 	border-radius: 500px;
 	line-height: 0;
@@ -76,7 +77,6 @@
 	align-items: center;
 	font-size: 2.6rem;
 	font-weight: 900;
-	color: rgb(50, 50, 50);
 }
 .divServicoIndividualSST h3 {
 	/*Responsivo*/
@@ -85,7 +85,6 @@
 	align-items: center;
 	font-size: 2.5rem;
 	font-weight: 900;
-	color: rgb(50, 50, 50);
 }
 .divServicoIndividualSST p {
 	/*Responsivo*/
@@ -100,8 +99,6 @@
 	padding-right: 10px;
 }
 .divServicoSelecionado {
-	padding: 0px;
-	margin: 0px;
 	width: 94%;
 	display: flex;
 	justify-content: center;
@@ -110,8 +107,7 @@
 	font-size: 2.5rem;
 	font-weight: 900;
 	color: rgb(50, 50, 50);
-	gap: 50px;
-
+	gap: 250px;
 }
 .divServicoSelecionado b {
 	font-size: 2.5rem;
@@ -131,10 +127,12 @@
 .divServicoIndividualHO {
 	width: 86%;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	border: 1px solid rgb(158, 157, 157);
+	color: rgb(50, 50, 50);
 	/* background-color: rgb(211, 211, 211); */
 	border-radius: 500px;
 	line-height: 0;
@@ -149,21 +147,30 @@
 }
 .divServicoIndividualHO h2 {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 2.6rem;
 	font-weight: 900;
-	color: rgb(50, 50, 50);
 }
 .divServicoIndividualHO h3 {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 2.5rem;
 	font-weight: 700;
-	color: rgb(50, 50, 50);
 }
 .divServicoIndividualHO p {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 2.5rem;
 	font-weight: 900;
-	color: rgb(50, 50, 50);
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -173,10 +180,12 @@
 .divServicoIndividualT {
 	width: 86%;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	border: 1px solid rgb(158, 157, 157);
+	color: rgb(50, 50, 50);
 	/* background-color: rgb(211, 211, 211); */
 	border-radius: 500px;
 	line-height: 0;
@@ -191,21 +200,30 @@
 }
 .divServicoIndividualT h2 {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 2.6rem;
 	font-weight: 900;
-	color: rgb(50, 50, 50);
 }
 .divServicoIndividualT h3 {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 2.5rem;
 	font-weight: 700;
-	color: rgb(50, 50, 50);
 }
 .divServicoIndividualT p {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 2.5rem;
 	font-weight: 900;
-	color: rgb(50, 50, 50);
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -213,8 +231,9 @@
 /*Serviços*/
 /*Serviços*/
 .divServicoIndividualS {
-	width: 80%;
+	width: 86%;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
@@ -233,18 +252,30 @@
 }
 .divServicoIndividualS h2 {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 3rem;
 	font-weight: 900;
 	color: rgb(50, 50, 50);
 }
 .divServicoIndividualS h3 {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 3rem;
 	font-weight: 900;
 	color: rgb(50, 50, 50);
 }
 .divServicoIndividualS p {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 2.5rem;
 	font-weight: 900;
 	color: rgb(50, 50, 50);
@@ -253,12 +284,14 @@
 /*Especialidades Médicas*/
 /*Especialidades Médicas*/
 .divServicoIndividualEM {
-	width: 80%;
+	width: 86%;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	border: 1px solid rgb(158, 157, 157);
+	color: rgb(50, 50, 50);
 	/* background-color: rgb(211, 211, 211); */
 	border-radius: 500px;
 	line-height: 0;
@@ -273,19 +306,26 @@
 }
 .divServicoIndividualEM h2 {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 3rem;
-	font-weight: 900;
-	color: rgb(50, 50, 50);
 }
 .divServicoIndividualEM h3 {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 3rem;
-	font-weight: 900;
-	color: rgb(50, 50, 50);
+	font-weight: 700;
 }
 .divServicoIndividualEM p {
 	/*Responsivo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 2.5rem;
-	font-weight: 900;
-	color: rgb(50, 50, 50);
 }
