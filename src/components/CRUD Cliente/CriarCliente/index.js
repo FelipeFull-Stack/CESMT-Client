@@ -34,7 +34,8 @@ function CriarCliente() {
         try {
             const pictureURL = await handleUpload();
             await api.post("/cliente", { ...form, picture: pictureURL });
-            navigate("/home");
+            window.alert("Cliente Adicionado");
+            // navigate("/home");
         } catch (err) {
             console.log(`Erro do Front-end em CriarCliente/handleSubmit: ${err}`);
         }
