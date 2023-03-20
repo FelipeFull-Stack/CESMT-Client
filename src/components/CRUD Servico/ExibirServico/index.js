@@ -141,8 +141,8 @@ function ExibirServico() {
 									key={currentElement._id}
 									onMouseOver={() => handleDisplay(currentElement._id)}
 									onMouseOut={handleHide}>
-									<h2>{currentElement.sigla}</h2>
-									<p> - </p>
+									{/* <h2>{currentElement.sigla}</h2>
+									<p> - </p> */}
 									<h3>{currentElement.nome}</h3>
 									<div
 										className={styles.divServicoSelecionado}
@@ -175,7 +175,7 @@ function ExibirServico() {
 
 				<div className={styles.divMapServicos}>
 					<div className={styles.divTituloServico}>
-						<h1>Serviços</h1>
+						<h1>Exames</h1>
 					</div>
 					{servico.map((currentElement) => {
 						if (currentElement.tipo === "SERVICOS") {
