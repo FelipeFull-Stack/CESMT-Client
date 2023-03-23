@@ -44,7 +44,7 @@ function ExibirServico() {
 
 				<div className={styles.divMapServicos}>
 					<div className={styles.divTituloServico}>
-						<h1>Saúde e Segurança do Trabalho</h1>
+						<h1>Consultas</h1>
 					</div>
 					{servico.map((currentElement) => {
 						if (currentElement.tipo === "SAUDE E SEGURANCA DO TRABALHO") {
@@ -54,8 +54,8 @@ function ExibirServico() {
 									className={styles.divServicoIndividualSST}
 									onMouseOver={() => handleDisplay(currentElement._id)}
 									onMouseOut={handleHide}>
-									<h2>{currentElement.sigla}</h2>
-									<p> - </p>
+									{/* <h2>{currentElement.sigla}</h2>
+									<p> - </p> */}
 									<h3>{currentElement.nome}</h3>
 									<div
 										className={styles.divServicoSelecionado}
@@ -88,62 +88,18 @@ function ExibirServico() {
 
 				<div className={styles.divMapServicos}>
 					<div className={styles.divTituloServico}>
-						<h1>Higiene Ocupacional</h1>
+						<h1>Consulta com Psicólogo</h1>
 					</div>
 					{servico.map((currentElement) => {
-						if (currentElement.tipo === "HIGIENE OCUPACIONAL") {
+						if (currentElement.tipo === "ESPECIALIDADES MEDICAS") {
 							return (
 								<div
-									className={styles.divServicoIndividualHO}
+									className={styles.divServicoIndividualEM}
 									key={currentElement._id}
 									onMouseOver={() => handleDisplay(currentElement._id)}
 									onMouseOut={handleHide}>
 									<h2>{currentElement.sigla}</h2>
-									<p> - </p>
-									<h3>{currentElement.nome}</h3>
-									<div
-										className={styles.divServicoSelecionado}
-										style={{
-											display:
-												isMouseOver && currentElement._id === selectedDivId
-													? "flex"
-													: "none",
-										}}>
-										<h4>
-											Atendemos nas cidades:{" "}
-											<b>
-												{currentElement.cidade === "JEQUIE"
-													? "Jequié"
-													: currentElement.cidade === "VITORIA DA CONQUISTA"
-													? "Vitória da Conquita"
-													: "Jequié e Vitória da Conquista"}
-											</b>
-										</h4>
-										<button>Entrar em Contato</button>
-									</div>
-								</div>
-							);
-						}
-						return null;
-					})}
-				</div>
-
-				<hr></hr>
-
-				<div className={styles.divMapServicos}>
-					<div className={styles.divTituloServico}>
-						<h1>Treinamentos</h1>
-					</div>
-					{servico.map((currentElement) => {
-						if (currentElement.tipo === "TREINAMENTOS") {
-							return (
-								<div
-									className={styles.divServicoIndividualT}
-									key={currentElement._id}
-									onMouseOver={() => handleDisplay(currentElement._id)}
-									onMouseOut={handleHide}>
-									{/* <h2>{currentElement.sigla}</h2>
-									<p> - </p> */}
+									{/* <p>-</p> */}
 									<h3>{currentElement.nome}</h3>
 									<div
 										className={styles.divServicoSelecionado}
@@ -220,18 +176,62 @@ function ExibirServico() {
 
 				<div className={styles.divMapServicos}>
 					<div className={styles.divTituloServico}>
-						<h1>Especialidades Médicas</h1>
+						<h1>Serviços</h1>
 					</div>
 					{servico.map((currentElement) => {
-						if (currentElement.tipo === "ESPECIALIDADES MEDICAS") {
+						if (currentElement.tipo === "HIGIENE OCUPACIONAL") {
 							return (
 								<div
-									className={styles.divServicoIndividualEM}
+									className={styles.divServicoIndividualHO}
 									key={currentElement._id}
 									onMouseOver={() => handleDisplay(currentElement._id)}
 									onMouseOut={handleHide}>
 									<h2>{currentElement.sigla}</h2>
-									{/* <p>-</p> */}
+									<p> - </p>
+									<h3>{currentElement.nome}</h3>
+									<div
+										className={styles.divServicoSelecionado}
+										style={{
+											display:
+												isMouseOver && currentElement._id === selectedDivId
+													? "flex"
+													: "none",
+										}}>
+										<h4>
+											Atendemos nas cidades:{" "}
+											<b>
+												{currentElement.cidade === "JEQUIE"
+													? "Jequié"
+													: currentElement.cidade === "VITORIA DA CONQUISTA"
+													? "Vitória da Conquita"
+													: "Jequié e Vitória da Conquista"}
+											</b>
+										</h4>
+										<button>Entrar em Contato</button>
+									</div>
+								</div>
+							);
+						}
+						return null;
+					})}
+				</div>
+
+				<hr />
+
+				<div className={styles.divMapServicos}>
+					<div className={styles.divTituloServico}>
+						<h1>Treinamentos</h1>
+					</div>
+					{servico.map((currentElement) => {
+						if (currentElement.tipo === "TREINAMENTOS") {
+							return (
+								<div
+									className={styles.divServicoIndividualT}
+									key={currentElement._id}
+									onMouseOver={() => handleDisplay(currentElement._id)}
+									onMouseOut={handleHide}>
+									{/* <h2>{currentElement.sigla}</h2>
+					<p> - </p> */}
 									<h3>{currentElement.nome}</h3>
 									<div
 										className={styles.divServicoSelecionado}
