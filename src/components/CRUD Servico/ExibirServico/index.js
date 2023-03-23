@@ -41,6 +41,7 @@ function ExibirServico() {
 				<div className={styles.divTituloExibirServico}>
 					<h1>Serviços</h1>
 				</div>
+
 				<div className={styles.divMapServicos}>
 					<div className={styles.divTituloServico}>
 						<h1>Saúde e Segurança do Trabalho</h1>
@@ -127,7 +128,7 @@ function ExibirServico() {
 					})}
 				</div>
 
-				<hr />
+				<hr></hr>
 
 				<div className={styles.divMapServicos}>
 					<div className={styles.divTituloServico}>
@@ -175,7 +176,7 @@ function ExibirServico() {
 
 				<div className={styles.divMapServicos}>
 					<div className={styles.divTituloServico}>
-						<h1>Exames</h1>
+						<h1>Exames em Geral</h1>
 					</div>
 					{servico.map((currentElement) => {
 						if (currentElement.tipo === "SERVICOS") {
