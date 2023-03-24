@@ -31,7 +31,7 @@ function CESMT() {
 
 				<div className={styles.divParagrafoIntrodutorioCESMT}>
 					<p>
-						Presente no mercado desde <b>2000</b>, fundada pelo Dr. <b>José Henrique</b>
+						Presente no mercado desde <b>2000</b>, fundada pelo Dr. <b>José Henrique</b>{" "}
 						Garcia Padre (in memorian), a <b>CESMT - Clínica Especializada em
 						Serviços Médicos Ltda - EXCELÊNCIA EM SAÚDE OCUPACIONAL</b>, atualmente
 						dirigida pelo Diretor Técnico <b>Dr. Uendson Oliveira Ramos</b> CREMEB -
