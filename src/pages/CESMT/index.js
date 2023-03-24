@@ -34,7 +34,7 @@ function CESMT() {
 						Presente no mercado desde <b>2000</b>, fundada pelo Dr. <b>José Henrique</b>{" "}
 						Garcia Padre (in memorian), a <b>CESMT - Clínica Especializada em
 						Serviços Médicos Ltda - EXCELÊNCIA EM SAÚDE OCUPACIONAL</b>, atualmente
-						dirigida pelo Diretor Técnico <b>Dr. Uendson Oliveira Ramos</b> CREMEB -
+						dirigida pelo Diretor Técnico <b>Dr. Uendson Oliveira Ramos</b> – CREMEB -
 						31.337 e pelo Médico do Trabalho <b>Dr. Kerson Alencar Sousa</b> – CREMEB -
 						15.859. A <b>CESMT</b> é uma empresa <b>Especializada</b> na Prestação de Serviços
 						e de Assessoria em <b>Saúde</b>, <b>Medicina</b> e <b>Segurança do Trabalho</b>. Temos
