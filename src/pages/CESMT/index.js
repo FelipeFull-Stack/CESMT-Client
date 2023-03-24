@@ -31,14 +31,15 @@ function CESMT() {
 
 				<div className={styles.divParagrafoIntrodutorioCESMT}>
 					<p>
-						Presente no mercado desde <b>2000</b>, fundada pelo{" "}
-						<b>Dr. José Henrique Garcia Padre</b> <i>(in memorian)</i>, a{" "}
-						<b>CESMT - Clínica Especializada em Serviços Médicos Ltda</b>, atualmente dirigida pelo Dr. Kerson
-						Alencar Sousa, CREMEB 15.859, é uma empresa <b>Especializada</b> na
-						Prestação de Serviços de Assessoria em <b>Saúde</b>, <b>Medicina</b>{" "}
-						e <b>Segurança do Trabalho</b>. Temos orgulho de colaborar na
-						melhoria das condições de trabalho das empresas brasileiras e seus
-						colaboradores.
+						Presente no mercado desde <b>2000</b>, fundada pelo Dr. <b>José Henrique</b>
+						Garcia Padre (in memorian), a <b>CESMT - Clínica Especializada em
+						Serviços Médicos Ltda - EXCELÊNCIA EM SAÚDE OCUPACIONAL</b>, atualmente
+						dirigida pelo Diretor Técnico <b>Dr. Uendson Oliveira Ramos</b> CREMEB -
+						31.337 e pelo Médico do Trabalho <b>Dr. Kerson Alencar Sousa</b> – CREMEB -
+						15.859. A <b>CESMT</b> é uma empresa <b>Especializada</b> na Prestação de Serviços
+						e de Assessoria em <b>Saúde</b>, <b>Medicina</b> e <b>Segurança do Trabalho</b>. Temos
+						orgulho de colaborar na melhoria das condições de trabalho das
+						empresas brasileiras e de seus colaboradores.
 					</p>
 				</div>
 
