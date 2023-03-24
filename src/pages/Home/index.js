@@ -45,7 +45,7 @@ function Home() {
 							<b>Segurança do Trabalho</b>.
 						</p>
 						<p>
-							A CESMT também é <b>Multiclínica</b>, com diversas{" "}
+							A filial da CESMT de Jequié também é <b>Multiclínica</b>, com diversas{" "}
 							<b>Especialidades Médicas</b>.
 						</p>
 					</div>
