@@ -176,7 +176,7 @@ function ExibirServico() {
 
 				<div className={styles.divMapServicos}>
 					<div className={styles.divTituloServico}>
-						<h1>Serviços</h1>
+						<h1>Programas</h1>
 					</div>
 					{servico.map((currentElement) => {
 						if (currentElement.tipo === "HIGIENE OCUPACIONAL") {
