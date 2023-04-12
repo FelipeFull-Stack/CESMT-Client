@@ -26,6 +26,156 @@
 		font-weight: 700;
 		text-decoration: underline;
 	}
+
+	/*ORGANIZAÇÃO DE SERVICOS*/
+	.divMapORGANIZACAOdeSERVICOS {
+		width: 90%;
+		height: 2600px;
+		/* border: 1px solid black; */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		/* gap: 100px; */
+	}
+	.divClassificacaoDupla {
+		width: 94%;
+		height: 1400px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	/*ORGANIZAÇÃO DE SERVICOS JEQUIE*/
+	.divClassificaJEQUIEServicos {
+		width: 42%;
+		height: 1300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		border-radius: 50px 50px 0 0;
+		align-items: center;
+		gap: 50px;
+		background: linear-gradient(
+			to bottom,
+			red,
+			rgba(255, 62, 62, 0.8),
+			rgba(255, 101, 101, 0.8),
+			white
+		);
+	}
+	.h2TituloClassificaJEQUIE {
+		color: rgb(24, 24, 24);
+		width: 80%;
+		font-size: 4rem;
+		background: linear-gradient(to right, #f9fc61, #f8df02);
+		box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+		border-radius: 0 500px 0 500px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divConsultasJEQUIE {
+		width: 60%;
+		height: 300px;
+		background-color: #f8df02;
+	}
+	.divExamesGeralJEQUIE {
+		width: 60%;
+		height: 300px;
+		background-color: #f8df02;
+	}
+	/*ORGANIZAÇÃO DE SERVICOS VITORIA DA CONQUISTA*/
+	.divClassificaVITORIADACONQUISTAServicos {
+		width: 42%;
+		height: 1300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		border-radius: 50px 50px 0 0;
+		align-items: center;
+		gap: 50px;
+		background: linear-gradient(
+			to bottom,
+			red,
+			rgba(255, 62, 62, 0.8),
+			rgba(255, 101, 101, 0.8),
+			white
+		);
+	}
+	.h2TituloClassificaVITORIADACONQUISTA {
+		color: rgb(24, 24, 24);
+		width: 80%;
+		font-size: 4rem;
+		background: linear-gradient(to right, #f9fc61, #f8df02);
+		box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+		border-radius: 0 500px 0 500px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divConsultasVITORIADACONQUISTA {
+		width: 60%;
+		height: 300px;
+		background-color: #f8df02;
+	}
+	.divExamesGeralVITORIADACONQUISTA {
+		width: 60%;
+		height: 300px;
+		background-color: #f8df02;
+	}
+	.divClassificacaoUnica {
+		width: 94%;
+		height: 1200px;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	/*ORGANIZAÇÃO DE SERVICOS AMBAS AS CIDADES*/
+	.h2TituloClassificaAMBAS {
+		color: rgb(23, 23, 23);
+		width: 40%;
+		font-size: 4rem;
+		background: linear-gradient(to right, #f9fc61, #f8df02);
+		box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+		border-radius: 0 500px 0 500px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divClassificaAMBOSServicos {
+		width: 92%;
+		height: 1100px;
+		display: flex;
+		border-radius: 0 0 50px 50px;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		background: linear-gradient(
+			to top,
+			red,
+			rgba(255, 34, 34, 0.8),
+			rgba(255, 101, 101, 0.8),
+			white
+		);
+	}
+
+	.divConsultasPsicologoAMBOS {
+		width: 30%;
+		height: 300px;
+		background-color: #f8df02;
+	}
+	.divProgramasAMBOS {
+		width: 30%;
+		height: 300px;
+		background-color: #f8df02;
+	}
+	.divTreinamentosAMBOS {
+		width: 30%;
+		height: 300px;
+		background-color: #f8df02;
+	}
+
 	.divMapServicos {
 		/*Responsivo*/
 		width: 100%;
