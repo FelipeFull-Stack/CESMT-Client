@@ -178,7 +178,7 @@ function Home() {
 								</div>
 							</div>
 						</a>
-						<a
+						{/* <a
 							href="https://www.anamt.org.br/portal/category/noticias/saude-no-trabalho/"
 							target={"_blank"}>
 							<div className={styles.divLink}>
@@ -193,7 +193,7 @@ function Home() {
 									</a>
 								</div>
 							</div>
-						</a>
+						</a> */}
 
 						<a href="http://www.sstonline.com.br/" target={"_blank"}>
 							<div className={styles.divLink}>

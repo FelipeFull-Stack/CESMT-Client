@@ -42,6 +42,29 @@ function ExibirServico() {
 					<h1>Serviços</h1>
 				</div>
 
+				{/* <div className={styles.divMapORGANIZACAOdeSERVICOS}>
+					<div className={styles.divClassificacaoDupla}>
+						<div className={styles.divClassificaJEQUIEServicos}>
+							<h2 className={styles.h2TituloClassificaJEQUIE}>Jequié</h2>
+							<div className={styles.divConsultasJEQUIE}></div>
+							<div className={styles.divExamesGeralJEQUIE}></div>
+						</div>
+						<div className={styles.divClassificaVITORIADACONQUISTAServicos}>
+							<h2 className={styles.h2TituloClassificaVITORIADACONQUISTA}>Vitória da Conquista</h2>
+							<div className={styles.divConsultasVITORIADACONQUISTA}></div>
+							<div className={styles.divExamesGeralVITORIADACONQUISTA}></div>
+						</div>
+					</div>
+					<div className={styles.divClassificacaoUnica}>
+						<h2 className={styles.h2TituloClassificaAMBAS}>Ambas as Cidades</h2>
+						<div className={styles.divClassificaAMBOSServicos}>
+							<div className={styles.divConsultasPsicologoAMBOS}></div>
+							<div className={styles.divProgramasAMBOS}></div>
+							<div className={styles.divTreinamentosAMBOS}></div>
+						</div>
+					</div>
+				</div> */}
+
 				<div className={styles.divMapServicos}>
 					<div className={styles.divTituloServico}>
 						<h1>Consultas</h1>
@@ -176,7 +199,7 @@ function ExibirServico() {
 
 				<div className={styles.divMapServicos}>
 					<div className={styles.divTituloServico}>
-						<h1>Serviços</h1>
+						<h1>Programas</h1>
 					</div>
 					{servico.map((currentElement) => {
 						if (currentElement.tipo === "HIGIENE OCUPACIONAL") {

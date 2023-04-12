@@ -184,18 +184,19 @@
 	}
 	.divCentralLinksHome {
 		/*Responsivo*/
-		width: 84%;
+		width: 80%;
+		height: 1000px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 50px;
+		/* padding: 50px; */
 		/* background-color: rgb(218, 216, 216); */
 		background-image: url(https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/05/mapa-mundi.jpg);
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 2px solid black;
+		/* border: 2px solid black; */
 		margin-bottom: 100px;
 	}
 	.divTituloLinksHome h1 {
@@ -360,6 +361,7 @@
 	.divCentralLinksHome {
 		/*Responsivo*/
 		width: 84%;
+		height: 800px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -370,7 +372,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 2px solid black;
+		/* border: 2px solid black; */
 		margin-bottom: 100px;
 	}
 	.divTituloLinksHome h1 {
@@ -535,6 +537,7 @@
 	.divCentralLinksHome {
 		/*Responsivo*/
 		width: 88%;
+		height: 700px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -545,7 +548,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 2px solid black;
+		/* border: 2px solid black; */
 		margin-bottom: 100px;
 	}
 	.divTituloLinksHome h1 {
@@ -710,6 +713,7 @@
 	.divCentralLinksHome {
 		/*Responsivo*/
 		width: 90%;
+		height: 725px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -720,7 +724,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 2px solid black;
+		/* border: 2px solid black; */
 		margin-bottom: 100px;
 	}
 	.divTituloLinksHome h1 {
@@ -885,6 +889,7 @@
 	.divCentralLinksHome {
 		/*Responsivo*/
 		width: 86%;
+		height: 580px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -895,7 +900,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 2px solid black;
+		/* border: 2px solid black; */
 		margin-bottom: 100px;
 	}
 	.divTituloLinksHome h1 {
@@ -1062,6 +1067,7 @@
 	.divCentralLinksHome {
 		/*Responsivo*/
 		width: 86%;
+		height: 400px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -1072,7 +1078,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 2px solid black;
+		/* border: 2px solid black; */
 		margin-bottom: 100px;
 	}
 	.divTituloLinksHome h1 {
@@ -1239,6 +1245,7 @@
 	.divCentralLinksHome {
 		/*Responsivo*/
 		width: 86%;
+		height: 350px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -1249,7 +1256,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 2px solid black;
+		/* border: 2px solid black; */
 		margin-bottom: 100px;
 	}
 	.divTituloLinksHome h1 {
@@ -1416,6 +1423,7 @@
 	.divCentralLinksHome {
 		/*Responsivo*/
 		width: 86%;
+		height: 350px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -1426,7 +1434,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 2px solid black;
+		/* border: 2px solid black; */
 		margin-bottom: 100px;
 	}
 	.divTituloLinksHome h1 {
@@ -1593,6 +1601,7 @@
 	.divCentralLinksHome {
 		/*Responsivo*/
 		width: 86%;
+		height: 300px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -1603,7 +1612,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 2px solid black;
+		/* border: 2px solid black; */
 		margin-bottom: 100px;
 	}
 	.divTituloLinksHome h1 {
@@ -1770,6 +1779,7 @@
 	.divCentralLinksHome {
 		/*Responsivo*/
 		width: 80%;
+		height: 250px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -1780,7 +1790,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 2px solid black;
+		/* border: 2px solid black; */
 		margin-bottom: 100px;
 	}
 	.divTituloLinksHome h1 {
@@ -1947,6 +1957,7 @@
 	.divCentralLinksHome {
 		/*Responsivo*/
 		width: 80%;
+		height: 220px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -1957,7 +1968,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 2px solid black;
+		/* border: 2px solid black; */
 		margin-bottom: 100px;
 	}
 	.divTituloLinksHome h1 {
@@ -2124,6 +2135,7 @@
 	.divCentralLinksHome {
 		/*Responsivo*/
 		width: 80%;
+		height: 180px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -2134,7 +2146,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 1px solid black;
+		/* border: 1px solid black; */
 		margin-bottom: 100px;
 	}
 	.divTituloLinksHome h1 {
@@ -2302,6 +2314,7 @@
 		margin-top: -50px;
 		/*Responsivo*/
 		width: 84%;
+		height: 150px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -2312,7 +2325,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 1px solid black;
+		/* border: 1px solid black; */
 		margin-bottom: 75px;
 	}
 	.divTituloLinksHome h1 {
@@ -2480,6 +2493,7 @@
 		margin-top: -50px;
 		/*Responsivo*/
 		width: 88%;
+		height: 130px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -2490,7 +2504,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 1px solid black;
+		/* border: 1px solid black; */
 		margin-bottom: 75px;
 	}
 	.divTituloLinksHome h1 {
@@ -2660,6 +2674,7 @@
 		margin-top: -80px;
 		/*Responsivo*/
 		width: 88%;
+		height: 100px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -2670,7 +2685,7 @@
 		background-size: cover;
 		background-position: center center;
 		border-radius: 800px;
-		border: 1px solid black;
+		/* border: 1px solid black; */
 		margin-bottom: 75px;
 	}
 	.divTituloLinksHome h1 {
