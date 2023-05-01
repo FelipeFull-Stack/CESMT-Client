@@ -85,7 +85,20 @@ function ExibirServico() {
 									onMouseOut={handleHide}>
 									{/* <h2>{currentElement.sigla}</h2>
 									<p> - </p> */}
-									<h3>{currentElement.nome}</h3>
+									<h3>
+										{currentElement.nome}
+										<br />
+									</h3>
+									<h4>
+										Atendemos na(s) cidade(s):{" "}
+										<b>
+											{currentElement.cidade === "JEQUIE"
+												? "Jequié"
+												: currentElement.cidade === "VITORIA DA CONQUISTA"
+												? "Vitória da Conquita"
+												: "Jequié e Vitória da Conquista"}
+										</b>
+									</h4>
 									<div
 										className={styles.divServicoSelecionado}
 										style={{
@@ -94,16 +107,6 @@ function ExibirServico() {
 													? "flex"
 													: "none",
 										}}>
-										<h4>
-											Atendemos nas cidades:{" "}
-											<b>
-												{currentElement.cidade === "JEQUIE"
-													? "Jequié"
-													: currentElement.cidade === "VITORIA DA CONQUISTA"
-													? "Vitória da Conquita"
-													: "Jequié e Vitória da Conquista"}
-											</b>
-										</h4>
 										<button>Entrar em Contato</button>
 									</div>
 								</div>
@@ -129,7 +132,20 @@ function ExibirServico() {
 									onMouseOut={handleHide}>
 									{/* <h2>{currentElement.sigla}</h2> */}
 									{/* <p>-</p> */}
-									<h3>{currentElement.nome}</h3>
+									<h3>
+										{currentElement.nome}
+										<br />
+									</h3>
+									<h4>
+										Atendemos na(s) cidade(s):{" "}
+										<b>
+											{currentElement.cidade === "JEQUIE"
+												? "Jequié"
+												: currentElement.cidade === "VITORIA DA CONQUISTA"
+												? "Vitória da Conquita"
+												: "Jequié e Vitória da Conquista"}
+										</b>
+									</h4>
 									<div
 										className={styles.divServicoSelecionado}
 										style={{
@@ -138,16 +154,6 @@ function ExibirServico() {
 													? "flex"
 													: "none",
 										}}>
-										<h4>
-											Atendemos nas cidades:{" "}
-											<b>
-												{currentElement.cidade === "JEQUIE"
-													? "Jequié"
-													: currentElement.cidade === "VITORIA DA CONQUISTA"
-													? "Vitória da Conquita"
-													: "Jequié e Vitória da Conquista"}
-											</b>
-										</h4>
 										<button>Entrar em Contato</button>
 									</div>
 								</div>
@@ -173,7 +179,20 @@ function ExibirServico() {
 									onMouseOut={handleHide}>
 									{/* <h2>{currentElement.sigla}</h2> */}
 									{/* <p>-</p> */}
-									<h3>{currentElement.nome}</h3>
+									<h3>
+										{currentElement.nome}
+										<br />
+									</h3>
+									<h4>
+										Atendemos na(s) cidade(s):{" "}
+										<b>
+											{currentElement.cidade === "JEQUIE"
+												? "Jequié"
+												: currentElement.cidade === "VITORIA DA CONQUISTA"
+												? "Vitória da Conquita"
+												: "Jequié e Vitória da Conquista"}
+										</b>
+									</h4>
 									<div
 										className={styles.divServicoSelecionado}
 										style={{
@@ -182,16 +201,6 @@ function ExibirServico() {
 													? "flex"
 													: "none",
 										}}>
-										<h4>
-											Atendemos nas cidades:{" "}
-											<b>
-												{currentElement.cidade === "JEQUIE"
-													? "Jequié"
-													: currentElement.cidade === "VITORIA DA CONQUISTA"
-													? "Vitória da Conquita"
-													: "Jequié e Vitória da Conquista"}
-											</b>
-										</h4>
 										<button>Entrar em Contato</button>
 									</div>
 								</div>
@@ -217,7 +226,20 @@ function ExibirServico() {
 									onMouseOut={handleHide}>
 									{/* <h2>{currentElement.sigla}</h2> */}
 									{/* <p> - </p> */}
-									<h3>{currentElement.nome}</h3>
+									<h3>
+										{currentElement.nome}
+										<br />
+									</h3>
+									<h4>
+										Atendemos na(s) cidade(s):{" "}
+										<b>
+											{currentElement.cidade === "JEQUIE"
+												? "Jequié"
+												: currentElement.cidade === "VITORIA DA CONQUISTA"
+												? "Vitória da Conquita"
+												: "Jequié e Vitória da Conquista"}
+										</b>
+									</h4>
 									<div
 										className={styles.divServicoSelecionado}
 										style={{
@@ -226,16 +248,6 @@ function ExibirServico() {
 													? "flex"
 													: "none",
 										}}>
-										<h4>
-											Atendemos nas cidades:{" "}
-											<b>
-												{currentElement.cidade === "JEQUIE"
-													? "Jequié"
-													: currentElement.cidade === "VITORIA DA CONQUISTA"
-													? "Vitória da Conquita"
-													: "Jequié e Vitória da Conquista"}
-											</b>
-										</h4>
 										<button>Entrar em Contato</button>
 									</div>
 								</div>
@@ -261,7 +273,17 @@ function ExibirServico() {
 									onMouseOut={handleHide}>
 									{/* <h2>{currentElement.sigla}</h2>
 					<p> - </p> */}
-									<h3>{currentElement.nome}</h3>
+									<h3>{currentElement.nome}<br /></h3>
+									<h4>
+										Atendemos na(s) cidade(s):{" "}
+										<b>
+											{currentElement.cidade === "JEQUIE"
+												? "Jequié"
+												: currentElement.cidade === "VITORIA DA CONQUISTA"
+												? "Vitória da Conquita"
+												: "Jequié e Vitória da Conquista"}
+										</b>
+									</h4>
 									<div
 										className={styles.divServicoSelecionado}
 										style={{
@@ -270,16 +292,6 @@ function ExibirServico() {
 													? "flex"
 													: "none",
 										}}>
-										<h4>
-											Atendemos nas cidades:{" "}
-											<b>
-												{currentElement.cidade === "JEQUIE"
-													? "Jequié"
-													: currentElement.cidade === "VITORIA DA CONQUISTA"
-													? "Vitória da Conquita"
-													: "Jequié e Vitória da Conquista"}
-											</b>
-										</h4>
 										<button>Entrar em Contato</button>
 									</div>
 								</div>
