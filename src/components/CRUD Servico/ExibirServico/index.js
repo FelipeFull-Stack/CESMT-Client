@@ -50,17 +50,23 @@ function ExibirServico() {
 							<div className={styles.divExamesGeralJEQUIE}></div>
 						</div>
 						<div className={styles.divClassificaVITORIADACONQUISTAServicos}>
-							<h2 className={styles.h2TituloClassificaVITORIADACONQUISTA}>Vitória da Conquista</h2>
+							<h2 className={styles.h2TituloClassificaVITORIADACONQUISTA}>
+								Vitória da Conquista
+							</h2>
 							<div className={styles.divConsultasVITORIADACONQUISTA}></div>
 							<div className={styles.divExamesGeralVITORIADACONQUISTA}></div>
 						</div>
 					</div>
 					<div className={styles.divClassificacaoUnica}>
-						<h2 className={styles.h2TituloClassificaAMBAS}>Ambas as Cidades</h2>
 						<div className={styles.divClassificaAMBOSServicos}>
-							<div className={styles.divConsultasPsicologoAMBOS}></div>
-							<div className={styles.divProgramasAMBOS}></div>
-							<div className={styles.divTreinamentosAMBOS}></div>
+							<h2 className={styles.h2TituloClassificaAMBAS}>
+								Ambas as Cidades
+							</h2>
+							<div className={styles.divOrganizadoraClassificadosAMBOS}>
+								<div className={styles.divConsultasPsicologoAMBOS}></div>
+								<div className={styles.divProgramasAMBOS}></div>
+								<div className={styles.divTreinamentosAMBOS}></div>
+							</div>
 						</div>
 					</div>
 				</div> */}
@@ -209,8 +215,8 @@ function ExibirServico() {
 									key={currentElement._id}
 									onMouseOver={() => handleDisplay(currentElement._id)}
 									onMouseOut={handleHide}>
-									<h2>{currentElement.sigla}</h2>
-									<p> - </p>
+									{/* <h2>{currentElement.sigla}</h2> */}
+									{/* <p> - </p> */}
 									<h3>{currentElement.nome}</h3>
 									<div
 										className={styles.divServicoSelecionado}
