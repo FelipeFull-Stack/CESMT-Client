@@ -148,8 +148,8 @@
 		height: 1100px;
 		display: flex;
 		border-radius: 0 0 50px 50px;
-		flex-direction: row;
-		justify-content: space-around;
+		flex-direction: column;
+		justify-content: center;
 		align-items: center;
 		background: linear-gradient(
 			to top,
@@ -158,6 +158,14 @@
 			rgba(255, 101, 101, 0.8),
 			white
 		);
+	}
+	.divOrganizadoraClassificadosAMBOS {
+		width: 98%;
+		height: 400px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
 	}
 
 	.divConsultasPsicologoAMBOS {
