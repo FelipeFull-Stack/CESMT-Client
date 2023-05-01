@@ -127,7 +127,7 @@ function ExibirServico() {
 									key={currentElement._id}
 									onMouseOver={() => handleDisplay(currentElement._id)}
 									onMouseOut={handleHide}>
-									<h2>{currentElement.sigla}</h2>
+									{/* <h2>{currentElement.sigla}</h2> */}
 									{/* <p>-</p> */}
 									<h3>{currentElement.nome}</h3>
 									<div
@@ -171,7 +171,7 @@ function ExibirServico() {
 									key={currentElement._id}
 									onMouseOver={() => handleDisplay(currentElement._id)}
 									onMouseOut={handleHide}>
-									<h2>{currentElement.sigla}</h2>
+									{/* <h2>{currentElement.sigla}</h2> */}
 									{/* <p>-</p> */}
 									<h3>{currentElement.nome}</h3>
 									<div
