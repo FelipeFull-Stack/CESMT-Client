@@ -193,6 +193,9 @@
 		align-items: center;
 		/* padding: 2px; */
 	}
+	/*FIM DA NOVAS ATUALIZAÇÕES FUTURAS*/
+	/*FIM DA NOVAS ATUALIZAÇÕES FUTURAS*/
+	/*FIM DA NOVAS ATUALIZAÇÕES FUTURAS*/
 
 	.divTituloServico {
 		/*Responsivo*/
@@ -219,7 +222,7 @@
 		width: 86%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -251,6 +254,7 @@
 		align-items: center;
 		font-size: 2.5rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -264,16 +268,23 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 10px;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 2.2rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2.5rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 250px;
+		/* gap: 250px; */
 	}
 	.divServicoSelecionado b {
 		font-size: 2.5rem;
@@ -294,7 +305,7 @@
 		width: 86%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -327,7 +338,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 2.5rem;
-		font-weight: 700;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -340,6 +352,16 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 10px;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 2.2rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -347,7 +369,7 @@
 		width: 86%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -380,7 +402,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 2.5rem;
-		font-weight: 700;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -393,6 +416,16 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 10px;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 2.2rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -400,7 +433,7 @@
 		width: 86%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -434,7 +467,7 @@
 		flex-wrap: wrap;
 		font-size: 2.5rem;
 		font-weight: 900;
-		color: rgb(50, 50, 50);
+		color: rgb(0, 0, 0);
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -446,6 +479,16 @@
 		font-weight: 900;
 		color: rgb(50, 50, 50);
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 10px;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 2.2rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -453,7 +496,7 @@
 		width: 86%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -485,7 +528,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 2.5rem;
-		font-weight: 700;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -494,6 +538,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 2.5rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 10px;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 2.2rem;
+		color: red;
 	}
 }
 
@@ -545,7 +599,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -577,6 +631,7 @@
 		align-items: center;
 		font-size: 2.4rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -590,16 +645,23 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 10px;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 2.2rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2.4rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 250px;
+		/* gap: 250px; */
 	}
 	.divServicoSelecionado b {
 		font-size: 2.4rem;
@@ -624,7 +686,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -657,7 +719,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 2.4rem;
-		font-weight: 700;
+		font-weight: 900;
+		color: black
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -670,6 +733,16 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 10px;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 2.2rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -677,7 +750,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -709,8 +782,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2.5rem;
-		font-weight: 700;
+		font-size: 2.4rem;
+		font-weight: 900;
+		color: black
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -723,6 +797,16 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 10px;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 2.2rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -730,7 +814,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -762,9 +846,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2.5rem;
+		font-size: 2.4rem;
 		font-weight: 900;
-		color: rgb(50, 50, 50);
+		color: rgb(0, 0, 0);
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -776,6 +860,16 @@
 		font-weight: 900;
 		color: rgb(50, 50, 50);
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 10px;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 2.2rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -783,7 +877,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -814,8 +908,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2.5rem;
-		font-weight: 700;
+		font-size: 2.4rem;
+		font-weight: 900;
+		color: black
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -824,6 +919,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 2.4rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 10px;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 2.2rem;
+		color: red;
 	}
 }
 
@@ -875,7 +980,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -905,8 +1010,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 2.1rem;
+		font-size: 2.2rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -920,16 +1026,22 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 10px;
+		font-size: 2.1rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 2.1rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2.1rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 100px;
 	}
 	.divServicoSelecionado b {
 		font-size: 2.1rem;
@@ -954,7 +1066,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -986,8 +1098,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2.1rem;
-		font-weight: 700;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: black
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1000,6 +1113,16 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 10px;
+		font-size: 2.1rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 2.1rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -1007,7 +1130,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1039,8 +1162,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2.1rem;
-		font-weight: 700;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: black
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1053,6 +1177,16 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 10px;
+		font-size: 2.1rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 2.1rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -1060,7 +1194,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1092,9 +1226,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2.1rem;
+		font-size: 2.2rem;
 		font-weight: 900;
-		color: rgb(50, 50, 50);
+		color: rgb(0, 0, 0);
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1106,6 +1240,16 @@
 		font-weight: 900;
 		color: rgb(50, 50, 50);
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 10px;
+		font-size: 2.1rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 2.1rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -1113,7 +1257,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1144,8 +1288,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2.1rem;
-		font-weight: 700;
+		font-size: 2.2rem;
+		font-weight: 900;
+		color: black	
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1154,6 +1299,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 2.1rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 10px;
+		font-size: 2.1rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 2.1rem;
+		color: red;
 	}
 }
 
@@ -1205,7 +1360,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1235,8 +1390,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1.8rem;
+		font-size: 2rem;
 		font-weight: 900;
+		color: black
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1250,16 +1406,22 @@
 		padding-left: 9px;
 		padding-right: 9px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 10px;
+		font-size: 1.9rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 1.9rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.8rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 100px;
 	}
 	.divServicoSelecionado b {
 		font-size: 1.8rem;
@@ -1284,7 +1446,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1316,8 +1478,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.8rem;
-		font-weight: 700;
+		font-size: 2rem;
+		font-weight: 900;
+		color: black
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1330,6 +1493,16 @@
 		padding-left: 9px;
 		padding-right: 9px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 10px;
+		font-size: 1.9rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 1.9rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -1337,7 +1510,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1369,8 +1542,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size:  1.8rem;
-		font-weight: 700;
+		font-size: 2rem;
+		font-weight: 900;
+		color: black
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1383,6 +1557,16 @@
 		padding-left: 9px;
 		padding-right: 9px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 10px;
+		font-size: 1.9rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 1.9rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -1390,7 +1574,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1422,9 +1606,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.8rem;
+		font-size: 2rem;
 		font-weight: 900;
-		color: rgb(50, 50, 50);
+		color: rgb(0, 0, 0);
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1436,6 +1620,16 @@
 		font-weight: 900;
 		color: rgb(50, 50, 50);
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 10px;
+		font-size: 1.9rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 1.9rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -1443,7 +1637,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1474,8 +1668,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.8rem;
-		font-weight: 700;
+		font-size: 2rem;
+		font-weight: 900;
+		color: black
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1484,6 +1679,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 1.8rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 10px;
+		font-size: 1.9rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 1.9rem;
+		color: red;
 	}
 }
 
@@ -1535,7 +1740,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1565,8 +1770,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1.45rem;
+		font-size: 1.9rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1580,16 +1786,22 @@
 		padding-left: 8px;
 		padding-right: 8px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 10px;
+		font-size: 1.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 1.7rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.45rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 60px;
 	}
 	.divServicoSelecionado b {
 		font-size: 1.45rem;
@@ -1614,7 +1826,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1646,8 +1858,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.45rem;
-		font-weight: 700;
+		font-size: 1.9rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1660,6 +1873,16 @@
 		padding-left: 8px;
 		padding-right: 8px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 10px;
+		font-size: 1.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 1.7rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -1667,7 +1890,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1699,8 +1922,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.45rem;
-		font-weight: 700;
+		font-size: 1.9rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1713,6 +1937,16 @@
 		padding-left: 8px;
 		padding-right: 8px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 10px;
+		font-size: 1.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 1.7rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -1720,7 +1954,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1752,8 +1986,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.45rem;
+		font-size: 1.9rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1764,6 +1999,16 @@
 		font-size: 1.5rem;
 		font-weight: 900;
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 10px;
+		font-size: 1.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 1.7rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -1771,7 +2016,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1802,8 +2047,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.45rem;
-		font-weight: 700;
+		font-size: 1.9rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1812,6 +2058,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 1.5rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 10px;
+		font-size: 1.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 1.7rem;
+		color: red;
 	}
 }
 
@@ -1863,7 +2119,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1893,8 +2149,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1.1rem;
+		font-size: 1.6rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1908,16 +2165,22 @@
 		padding-left: 7px;
 		padding-right: 7px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 10px;
+		font-size: 1.4rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 1.4rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.1rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 50px;
 	}
 	.divServicoSelecionado b {
 		font-size: 1.1rem;
@@ -1942,7 +2205,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -1974,8 +2237,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.1rem;
-		font-weight: 700;
+		font-size: 1.6rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -1988,6 +2252,16 @@
 		padding-left: 7px;
 		padding-right: 7px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 10px;
+		font-size: 1.4rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 1.4rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -1995,7 +2269,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2027,8 +2301,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.1rem;
-		font-weight: 700;
+		font-size: 1.6rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2041,6 +2316,16 @@
 		padding-left: 7px;
 		padding-right: 7px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 10px;
+		font-size: 1.4rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 1.4rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -2048,7 +2333,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2080,8 +2365,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.1rem;
+		font-size: 1.6rem;
 		font-weight: 900;
+		color: black
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2092,6 +2378,16 @@
 		font-size: 1.1rem;
 		font-weight: 900;
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 10px;
+		font-size: 1.4rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 1.4rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -2099,7 +2395,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2130,8 +2426,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.1rem;
-		font-weight: 700;
+		font-size: 1.6rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2140,6 +2437,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 1.1rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 10px;
+		font-size: 1.4rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 1.4rem;
+		color: red;
 	}
 }
 
@@ -2191,7 +2498,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2221,8 +2528,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1rem;
+		font-size: 1.3rem;
 		font-weight: 900;
+		color: black
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2236,16 +2544,22 @@
 		padding-left: 6px;
 		padding-right: 6px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 10px;
+		font-size: 1.1rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 1.1rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 35px;
 	}
 	.divServicoSelecionado b {
 		font-size: 1rem;
@@ -2270,7 +2584,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2302,8 +2616,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1rem;
-		font-weight: 700;
+		font-size: 1.3rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2316,6 +2631,16 @@
 		padding-left: 6px;
 		padding-right: 6px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 10px;
+		font-size: 1.1rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 1.1rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -2323,7 +2648,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2355,8 +2680,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1rem;
-		font-weight: 700;
+		font-size: 1.3rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2369,6 +2695,16 @@
 		padding-left: 6px;
 		padding-right: 6px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 10px;
+		font-size: 1.1rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 1.1rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -2376,7 +2712,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2408,8 +2744,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1rem;
+		font-size: 1.3rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2420,6 +2757,16 @@
 		font-size: 1rem;
 		font-weight: 900;
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 10px;
+		font-size: 1.1rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 1.1rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -2427,7 +2774,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2458,8 +2805,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1rem;
-		font-weight: 700;
+		font-size: 1.3rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2468,6 +2816,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 1rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 10px;
+		font-size: 1.1rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 1.1rem;
+		color: red;
 	}
 }
 
@@ -2519,7 +2877,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2549,8 +2907,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 0.9rem;
+		font-size: 1.1rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2564,16 +2923,22 @@
 		padding-left: 6px;
 		padding-right: 6px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 10px;
+		font-size: 0.9rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 0.9rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.9rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 25px;
 	}
 	.divServicoSelecionado b {
 		font-size: 0.9rem;
@@ -2598,7 +2963,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2630,8 +2995,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.9rem;
-		font-weight: 700;
+		font-size: 1.1rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2644,6 +3010,16 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 10px;
+		font-size: 0.9rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 0.9rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -2651,7 +3027,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2683,8 +3059,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.9rem;
-		font-weight: 700;
+		font-size: 1.1rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2697,6 +3074,16 @@
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 10px;
+		font-size: 0.9rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 0.9rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -2704,7 +3091,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2736,8 +3123,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.9rem;
+		font-size: 1.1rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2748,6 +3136,16 @@
 		font-size: 0.9rem;
 		font-weight: 900;
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 10px;
+		font-size: 0.9rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 0.9rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -2755,7 +3153,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2786,8 +3184,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.9rem;
-		font-weight: 700;
+		font-size: 1.1rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2796,6 +3195,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.9rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 10px;
+		font-size: 0.9rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 0.9rem;
+		color: red;
 	}
 }
 
@@ -2848,7 +3257,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2878,8 +3287,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 0.75rem;
+		font-size: 1rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2893,16 +3303,22 @@
 		padding-left: 5px;
 		padding-right: 5px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 10px;
+		font-size: 0.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 0.7rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.75rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 20px;
 	}
 	.divServicoSelecionado b {
 		font-size: 0.75rem;
@@ -2927,7 +3343,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -2959,8 +3375,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.75rem;
-		font-weight: 700;
+		font-size: 1rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -2973,6 +3390,16 @@
 		padding-left: 5px;
 		padding-right: 5px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 10px;
+		font-size: 0.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 0.7rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -2980,7 +3407,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3012,8 +3439,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.75rem;
-		font-weight: 700;
+		font-size: 1rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3026,6 +3454,16 @@
 		padding-left: 5px;
 		padding-right: 5px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 10px;
+		font-size: 0.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 0.7rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -3033,7 +3471,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3065,8 +3503,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.75rem;
+		font-size: 1rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3077,6 +3516,16 @@
 		font-size: 0.9rem;
 		font-weight: 900;
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 10px;
+		font-size: 0.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 0.7rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -3084,7 +3533,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3115,8 +3564,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.75rem;
-		font-weight: 700;
+		font-size: 1rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3125,6 +3575,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.9rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 10px;
+		font-size: 0.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 0.7rem;
+		color: red;
 	}
 }
 
@@ -3177,7 +3637,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3207,8 +3667,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 0.65rem;
+		font-size: 0.9rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3222,16 +3683,22 @@
 		padding-left: 4px;
 		padding-right: 4px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 8px;
+		font-size: 0.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 0.7rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.65rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 10px;
 	}
 	.divServicoSelecionado b {
 		font-size: 0.65rem;
@@ -3256,7 +3723,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3288,8 +3755,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.65rem;
-		font-weight: 700;
+		font-size: 0.9rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3302,6 +3770,16 @@
 		padding-left: 4px;
 		padding-right: 4px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 8px;
+		font-size: 0.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 0.7rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -3309,7 +3787,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3341,8 +3819,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.65rem;
-		font-weight: 700;
+		font-size: 0.9rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3355,6 +3834,16 @@
 		padding-left: 4px;
 		padding-right: 4px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 8px;
+		font-size: 0.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 0.7rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -3362,7 +3851,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3394,8 +3883,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.65rem;
+		font-size: 0.9rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3406,6 +3896,16 @@
 		font-size: 0.65rem;
 		font-weight: 900;
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 8px;
+		font-size: 0.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 0.7rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -3413,7 +3913,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3444,8 +3944,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.65rem;
-		font-weight: 700;
+		font-size: 0.9rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3454,6 +3955,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.65rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 8px;
+		font-size: 0.7rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 0.7rem;
+		color: red;
 	}
 }
 
@@ -3506,7 +4017,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3536,8 +4047,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 0.55rem;
+		font-size: 0.65rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3551,16 +4063,22 @@
 		padding-left: 3px;
 		padding-right: 3px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 6px;
+		font-size: 0.6rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 0.6rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.55rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 8px;
 	}
 	.divServicoSelecionado b {
 		font-size: 0.65rem;
@@ -3585,7 +4103,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3617,8 +4135,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.55rem;
-		font-weight: 700;
+		font-size: 0.65rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3631,6 +4150,16 @@
 		padding-left: 3px;
 		padding-right: 3px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 6px;
+		font-size: 0.6rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 0.6rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -3638,7 +4167,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3670,8 +4199,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.55rem;
-		font-weight: 700;
+		font-size: 0.65rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3684,6 +4214,16 @@
 		padding-left: 3px;
 		padding-right: 3px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 6px;
+		font-size: 0.6rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 0.6rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -3691,7 +4231,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3723,8 +4263,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.55rem;
+		font-size: 0.65rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3735,6 +4276,16 @@
 		font-size: 0.65rem;
 		font-weight: 900;
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 6px;
+		font-size: 0.6rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 0.6rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -3742,7 +4293,7 @@
 		width: 88%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3773,8 +4324,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.55rem;
-		font-weight: 700;
+		font-size: 0.65rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3783,6 +4335,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.65rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 6px;
+		font-size: 0.6rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 0.6rem;
+		color: red;
 	}
 }
 
@@ -3835,7 +4397,7 @@
 		width: 94%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3865,8 +4427,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 0.5rem;
+		font-size: 0.55rem;
 		font-weight: 900;
+		color: black
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3880,16 +4443,22 @@
 		padding-left: 2px;
 		padding-right: 2px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 4px;
+		font-size: 0.5rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 0.5rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.5rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 5px;
 	}
 	.divServicoSelecionado b {
 		font-size: 0.5rem;
@@ -3914,7 +4483,7 @@
 		width: 94%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3946,8 +4515,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.5rem;
-		font-weight: 700;
+		font-size: 0.55rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -3960,6 +4530,16 @@
 		padding-left: 2px;
 		padding-right: 2px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 4px;
+		font-size: 0.5rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 0.5rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -3967,7 +4547,7 @@
 		width: 94%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -3999,8 +4579,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.5rem;
-		font-weight: 700;
+		font-size: 0.55rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4013,6 +4594,16 @@
 		padding-left: 2px;
 		padding-right: 2px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 4px;
+		font-size: 0.5rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 0.5rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -4020,7 +4611,7 @@
 		width: 94%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -4054,6 +4645,7 @@
 		flex-wrap: wrap;
 		font-size: 0.55rem;
 		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4064,6 +4656,16 @@
 		font-size: 0.5rem;
 		font-weight: 900;
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 4px;
+		font-size: 0.5rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 0.5rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -4071,7 +4673,7 @@
 		width: 94%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -4102,8 +4704,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.5rem;
-		font-weight: 700;
+		font-size: 0.55rem;
+		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4112,6 +4715,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 4px;
+		font-size: 0.5rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 0.5rem;
+		color: red;
 	}
 }
 
@@ -4163,7 +4776,7 @@
 	.divServicoIndividualSST {
 		width: 96%;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		flex-wrap: wrap;
 		white-space: normal;
 		align-items: center;
@@ -4196,7 +4809,7 @@
 		justify-content: center;
 		align-items: center;
 		font-size: 0.5rem;
-		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualSST p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4209,16 +4822,22 @@
 		padding-left: 2px;
 		padding-right: 2px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 2px;
+		font-size: 0.4rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 0.4rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.5rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
-		gap: 3px;
 	}
 	.divServicoSelecionado b {
 		font-size: 0.5rem;
@@ -4243,7 +4862,7 @@
 		width: 96%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -4276,7 +4895,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
-		font-weight: 700;
+		color: black;
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4289,6 +4908,16 @@
 		padding-left: 2px;
 		padding-right: 2px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 2px;
+		font-size: 0.4rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 0.4rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -4296,7 +4925,7 @@
 		width: 96%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -4329,7 +4958,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
-		font-weight: 700;
+		color: black;
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4342,6 +4971,16 @@
 		padding-left: 2px;
 		padding-right: 2px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 2px;
+		font-size: 0.4rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 0.4rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -4349,7 +4988,7 @@
 		width: 96%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -4382,7 +5021,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
-		font-weight: 900;
+		color: black;
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4393,6 +5032,16 @@
 		font-size: 0.5rem;
 		font-weight: 900;
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 2px;
+		font-size: 0.4rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 0.4rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -4400,7 +5049,7 @@
 		width: 96%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -4432,7 +5081,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
-		font-weight: 700;
+		color: black;
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4441,6 +5090,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 2px;
+		font-size: 0.4rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 0.4rem;
+		color: red;
 	}
 }
 
@@ -4493,7 +5152,7 @@
 		width: 96%;
 		height: auto;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
@@ -4528,7 +5187,8 @@
 		justify-content: center;
 		white-space: pre-line;
 		font-size: 0.5rem;
-		font-weight: 900;
+		letter-spacing: -0.5px;
+		color: black;
 		overflow-wrap: break-word;
 	}
 	.divServicoIndividualSST p {
@@ -4543,15 +5203,22 @@
 		padding-left: 2px;
 		padding-right: 2px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 2px;
+		font-size: 0.3rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 0.3rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.5rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
 	}
 	.divServicoSelecionado b {
 		font-size: 0.5rem;
@@ -4576,7 +5243,7 @@
 		width: 96%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -4609,7 +5276,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
-		font-weight: 700;
+		color: black;
+		/* letter-spacing: -0.2px; */
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4622,6 +5290,17 @@
 		padding-left: 2px;
 		padding-right: 2px;
 	}
+	
+	.divServicoIndividualHO h4 {
+		margin-top: 2px;
+		font-size: 0.3rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 0.3rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
@@ -4629,7 +5308,7 @@
 		width: 96%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -4662,7 +5341,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
-		font-weight: 700;
+		color: black;
+		letter-spacing: 0px;
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4675,6 +5355,16 @@
 		padding-left: 2px;
 		padding-right: 2px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 2px;
+		font-size: 0.3rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 0.3rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
@@ -4682,7 +5372,7 @@
 		width: 96%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -4715,7 +5405,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
-		font-weight: 900;
+		color: black;
+		letter-spacing: 0px;
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4726,6 +5417,16 @@
 		font-size: 0.5rem;
 		font-weight: 900;
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 2px;
+		font-size: 0.3rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 0.3rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
@@ -4733,7 +5434,7 @@
 		width: 96%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		border: 1px solid rgb(158, 157, 157);
@@ -4765,7 +5466,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
-		font-weight: 700;
+		color: black;
+		letter-spacing: 0px;
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4774,6 +5476,17 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
+	}
+	
+	.divServicoIndividualEM h4 {
+		margin-top: 2px;
+		font-size: 0.3rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 0.3rem;
+		color: red;
 	}
 }
 
@@ -4823,14 +5536,14 @@
 	/*Saude e Segurança do Trabalho*/
 	/*Saude e Segurança do Trabalho*/
 	.divServicoIndividualSST {
-		width: 96%;
+		width: 98%;
 		height: auto;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		border: 1px solid rgb(158, 157, 157);
+		border: 0.5px solid rgb(158, 157, 157);
 		color: rgb(50, 50, 50);
 		/* background-color: rgb(211, 211, 211); */
 		border-radius: 500px;
@@ -4839,11 +5552,10 @@
 		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
 	}
 	.divServicoIndividualSST:hover {
-		transform: scale(1.0275);
+		transform: scale(1.01);
 		background-color: rgb(230, 230, 230);
-		font-weight: 900;
 		color: black;
-		border: 2px solid rgb(0, 0, 0);
+		border: 1px solid rgb(0, 0, 0);
 	}
 	.divServicoIndividualSST h2 {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4861,7 +5573,8 @@
 		justify-content: center;
 		white-space: pre-line;
 		font-size: 0.5rem;
-		font-weight: 900;
+		color: black;
+		letter-spacing: -0.5px;
 		overflow-wrap: break-word;
 	}
 	.divServicoIndividualSST p {
@@ -4876,15 +5589,22 @@
 		padding-left: 2px;
 		padding-right: 2px;
 	}
+	.divServicoIndividualSST h4 {
+		margin-top: 0px;
+		font-size: 0.3rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualSST b {
+		font-size: 0.3rem;
+		color: red;
+	}
 	.divServicoSelecionado {
 		width: 94%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.5rem;
-		font-weight: 900;
-		color: rgb(50, 50, 50);
 	}
 	.divServicoSelecionado b {
 		font-size: 0.5rem;
@@ -4906,13 +5626,13 @@
 	/*Higiene Ocupacional*/
 	/*Higiene Ocupacional*/
 	.divServicoIndividualHO {
-		width: 96%;
+		width: 98%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		border: 1px solid rgb(158, 157, 157);
+		border: 0.5px solid rgb(158, 157, 157);
 		color: rgb(50, 50, 50);
 		/* background-color: rgb(211, 211, 211); */
 		border-radius: 500px;
@@ -4920,11 +5640,10 @@
 		transition: transform 0.2s ease, background-color 0.2s ease, color 0.2 ease;
 	}
 	.divServicoIndividualHO:hover {
-		transform: scale(1.0275);
+		transform: scale(1.01);
 		background-color: rgb(230, 230, 230);
-		font-weight: 900;
 		color: black;
-		border: 2px solid rgb(0, 0, 0);
+		border: 1px solid rgb(0, 0, 0);
 	}
 	.divServicoIndividualHO h2 {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4942,7 +5661,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
-		font-weight: 700;
+		color: black;
+		letter-spacing: 0px;
 	}
 	.divServicoIndividualHO p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4955,17 +5675,27 @@
 		padding-left: 2px;
 		padding-right: 2px;
 	}
+	.divServicoIndividualHO h4 {
+		margin-top: 0px;
+		font-size: 0.3rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualHO b {
+		font-size: 0.3rem;
+		color: red;
+	}
 	/*Treinamentos*/
 	/*Treinamentos*/
 	/*Treinamentos*/
 	.divServicoIndividualT {
-		width: 96%;
+		width: 98%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		border: 1px solid rgb(158, 157, 157);
+		border: 0.5px solid rgb(158, 157, 157);
 		color: rgb(50, 50, 50);
 		/* background-color: rgb(211, 211, 211); */
 		border-radius: 500px;
@@ -4975,9 +5705,8 @@
 	.divServicoIndividualT:hover {
 		transform: scale(1.0275);
 		background-color: rgb(230, 230, 230);
-		font-weight: 900;
 		color: black;
-		border: 2px solid rgb(0, 0, 0);
+		border: 1px solid rgb(0, 0, 0);
 	}
 	.divServicoIndividualT h2 {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -4995,7 +5724,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
-		font-weight: 700;
+		color: black;
+		letter-spacing: 0px;
 	}
 	.divServicoIndividualT p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -5008,17 +5738,27 @@
 		padding-left: 2px;
 		padding-right: 2px;
 	}
+	.divServicoIndividualT h4 {
+		margin-top: 0px;
+		font-size: 0.3rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualT b {
+		font-size: 0.3rem;
+		color: red;
+	}
 	/*Serviços*/
 	/*Serviços*/
 	/*Serviços*/
 	.divServicoIndividualS {
-		width: 96%;
+		width: 98%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		border: 1px solid rgb(158, 157, 157);
+		border: 0.5px solid rgb(158, 157, 157);
 		color: rgb(50, 50, 50);
 		/* background-color: rgb(211, 211, 211); */
 		border-radius: 500px;
@@ -5028,9 +5768,8 @@
 	.divServicoIndividualS:hover {
 		transform: scale(1.0275);
 		background-color: rgb(230, 230, 230);
-		font-weight: 900;
 		color: black;
-		border: 2px solid rgb(0, 0, 0);
+		border: 1px solid rgb(0, 0, 0);
 	}
 	.divServicoIndividualS h2 {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -5048,7 +5787,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
-		font-weight: 900;
+		letter-spacing: 0px;
+		color: black;
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -5059,17 +5799,27 @@
 		font-size: 0.5rem;
 		font-weight: 900;
 	}
+	.divServicoIndividualS h4 {
+		margin-top: 0px;
+		font-size: 0.3rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualS b {
+		font-size: 0.3rem;
+		color: red;
+	}
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	/*Especialidades Médicas*/
 	.divServicoIndividualEM {
-		width: 96%;
+		width: 98%;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		border: 1px solid rgb(158, 157, 157);
+		border: 0.5px solid rgb(158, 157, 157);
 		color: rgb(50, 50, 50);
 		/* background-color: rgb(211, 211, 211); */
 		border-radius: 500px;
@@ -5079,9 +5829,8 @@
 	.divServicoIndividualEM:hover {
 		transform: scale(1.0275);
 		background-color: rgb(230, 230, 230);
-		font-weight: 900;
 		color: black;
-		border: 2px solid rgb(0, 0, 0);
+		border: 1px solid rgb(0, 0, 0);
 	}
 	.divServicoIndividualEM h2 {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -5098,7 +5847,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
-		font-weight: 700;
+		letter-spacing: 0px;
+		color: black;
 	}
 	.divServicoIndividualEM p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
@@ -5107,5 +5857,15 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
+	}
+	.divServicoIndividualEM h4 {
+		margin-top: 0px;
+		font-size: 0.3rem;
+		font-weight: 900;
+		color: rgb(75, 75, 75);
+	}
+	.divServicoIndividualEM b {
+		font-size: 0.3rem;
+		color: red;
 	}
 }
