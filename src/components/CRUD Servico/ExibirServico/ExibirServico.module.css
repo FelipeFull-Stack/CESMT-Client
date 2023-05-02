@@ -1782,8 +1782,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1.5rem;
-		letter-spacing: -0.5px;
+		font-size: 1.4rem;
+		letter-spacing: -0.75px;
 		font-weight: 900;
 		color: black;
 	}
@@ -1801,12 +1801,12 @@
 	}
 	.divServicoIndividualSST h4 {
 		margin-top: 10px;
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualSST b {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		color: red;
 	}
 	.divServicoSelecionado {
@@ -1871,8 +1871,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.5rem;
-		letter-spacing: -0.5px;
+		font-size: 1.4rem;
+		letter-spacing: -0.75px;
 		font-weight: 900;
 		color: black;
 	}
@@ -1889,12 +1889,12 @@
 	}
 	.divServicoIndividualHO h4 {
 		margin-top: 10px;
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualHO b {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		color: red;
 	}
 	/*Treinamentos*/
@@ -1936,8 +1936,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.5rem;
-		letter-spacing: -0.5px;
+		font-size: 1.4rem;
+		letter-spacing: -0.75px;
 		font-weight: 900;
 		color: black;
 	}
@@ -1954,12 +1954,12 @@
 	}
 	.divServicoIndividualT h4 {
 		margin-top: 10px;
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualT b {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		color: red;
 	}
 	/*Serviços*/
@@ -2001,8 +2001,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.5rem;
-		letter-spacing: -1px;
+		font-size: 1.4rem;
+		letter-spacing: -1.5px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2017,12 +2017,12 @@
 	}
 	.divServicoIndividualS h4 {
 		margin-top: 10px;
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualS b {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		color: red;
 	}
 	/*Especialidades Médicas*/
@@ -2063,8 +2063,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.5rem;
-		letter-spacing: -0.5px;
+		font-size: 1.4rem;
+		letter-spacing: -0.75px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2078,12 +2078,12 @@
 	}
 	.divServicoIndividualEM h4 {
 		margin-top: 10px;
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualEM b {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		color: red;
 	}
 }
@@ -2166,9 +2166,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1.3rem;
+		font-size: 1.25rem;
 		font-weight: 900;
-		letter-spacing: -0.8px;
+		letter-spacing: -1px;
 		color: black;
 	}
 	.divServicoIndividualSST p {
@@ -2185,12 +2185,12 @@
 	}
 	.divServicoIndividualSST h4 {
 		margin-top: 10px;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualSST b {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		color: red;
 	}
 	.divServicoSelecionado {
@@ -2255,9 +2255,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.3rem;
+		font-size: 1.25rem;
 		font-weight: 900;
-		letter-spacing: -0.5px;
+		letter-spacing: -1px;
 		color: black;
 	}
 	.divServicoIndividualHO p {
@@ -2273,12 +2273,12 @@
 	}
 	.divServicoIndividualHO h4 {
 		margin-top: 10px;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualHO b {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		color: red;
 	}
 	/*Treinamentos*/
@@ -2320,8 +2320,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.3rem;
-		letter-spacing: -0.5px;
+		font-size: 1.25rem;
+		letter-spacing: -1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2338,12 +2338,12 @@
 	}
 	.divServicoIndividualT h4 {
 		margin-top: 10px;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualT b {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		color: red;
 	}
 	/*Serviços*/
@@ -2385,8 +2385,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.3rem;
-		letter-spacing: -1px;
+		font-size: 1.25rem;
+		letter-spacing: -2px;
 		font-weight: 900;
 		color: black
 	}
@@ -2401,12 +2401,12 @@
 	}
 	.divServicoIndividualS h4 {
 		margin-top: 10px;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualS b {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		color: red;
 	}
 	/*Especialidades Médicas*/
@@ -2447,8 +2447,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.3rem;
-		letter-spacing: -0.5px;
+		font-size: 1.25rem;
+		letter-spacing: -1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2462,12 +2462,12 @@
 	}
 	.divServicoIndividualEM h4 {
 		margin-top: 10px;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualEM b {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		color: red;
 	}
 }
@@ -2770,7 +2770,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 1rem;
-		letter-spacing: -0.6px;
+		letter-spacing: -0.75px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3320,7 +3320,7 @@
 		justify-content: center;
 		align-items: center;
 		font-size: 0.8rem;
-		letter-spacing: -0.1px;
+		letter-spacing: -0.2px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3409,7 +3409,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.8rem;
-		letter-spacing: -0.1px;
+		letter-spacing: -0.2px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3475,7 +3475,7 @@
 		flex-wrap: wrap;
 		font-size: 0.8rem;
 		font-weight: 900;
-		letter-spacing: -0.1px;
+		letter-spacing: -0.2px;
 		color: black;
 	}
 	.divServicoIndividualT p {
@@ -3539,7 +3539,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.8rem;
-		letter-spacing: -0.1px;
+		letter-spacing: -0.4px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3602,7 +3602,7 @@
 		flex-wrap: wrap;
 		font-size: 0.8rem;
 		font-weight: 900;
-		letter-spacing: -0.1px;
+		letter-spacing: -0.2px;
 		color: black;
 	}
 	.divServicoIndividualEM p {
@@ -3705,7 +3705,7 @@
 		justify-content: center;
 		align-items: center;
 		font-size: 0.7rem;
-		letter-spacing: -0.1px;
+		letter-spacing: -0.2px;
 		color: black;
 	}
 	.divServicoIndividualSST p {
@@ -3793,7 +3793,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.7rem;
-		letter-spacing: -0.1px;
+		letter-spacing: -0.2px;
 		color: black;
 	}
 	.divServicoIndividualHO p {
@@ -3857,7 +3857,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.7rem;
-		letter-spacing: -0.1px;
+		letter-spacing: -0.2px;
 		color: black;
 	}
 	.divServicoIndividualT p {
@@ -3921,7 +3921,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.7rem;
-		letter-spacing: -0.1px;
+		letter-spacing: -0.3px;
 		color: black;
 	}
 	.divServicoIndividualS p {
@@ -3982,7 +3982,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.7rem;
-		letter-spacing: -0.1px;
+		letter-spacing: -0.2px;
 		color: black;
 	}
 	.divServicoIndividualEM p {
@@ -4085,6 +4085,7 @@
 		justify-content: center;
 		align-items: center;
 		font-size: 0.55rem;
+		letter-spacing: 0px;
 		color: black;
 	}
 	.divServicoIndividualSST p {
@@ -4172,6 +4173,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
+		letter-spacing: 0px;
 		color: black;
 	}
 	.divServicoIndividualHO p {
@@ -4235,6 +4237,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
+		letter-spacing: 0px;
 		color: black;
 	}
 	.divServicoIndividualT p {
@@ -4298,6 +4301,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
+		letter-spacing: -0.1px;
 		color: black;
 	}
 	.divServicoIndividualS p {
@@ -4358,6 +4362,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
+		letter-spacing: 0px;
 		color: black;
 	}
 	.divServicoIndividualEM p {
@@ -4460,6 +4465,7 @@
 		justify-content: center;
 		align-items: center;
 		font-size: 0.55rem;
+		letter-spacing: 0px;
 		color: black
 	}
 	.divServicoIndividualSST p {
@@ -4547,6 +4553,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
+		letter-spacing: 0px;
 		color: black;
 	}
 	.divServicoIndividualHO p {
@@ -4610,6 +4617,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
+		letter-spacing: 0px;
 		color: black;
 	}
 	.divServicoIndividualT p {
@@ -4673,6 +4681,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
+		letter-spacing: -0.1px;
 		color: black;
 	}
 	.divServicoIndividualS p {
@@ -4733,6 +4742,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
+		letter-spacing: 0px;
 		color: black;
 	}
 	.divServicoIndividualEM p {
@@ -4836,6 +4846,7 @@
 		justify-content: center;
 		align-items: center;
 		font-size: 0.5rem;
+		letter-spacing: 0px;
 		color: black;
 	}
 	.divServicoIndividualSST p {
@@ -4922,6 +4933,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
+		letter-spacing: 0px;
 		color: black;
 	}
 	.divServicoIndividualHO p {
@@ -4985,6 +4997,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
+		letter-spacing: 0px;
 		color: black;
 	}
 	.divServicoIndividualT p {
@@ -5048,6 +5061,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
+		letter-spacing: -0.1px;
 		color: black;
 	}
 	.divServicoIndividualS p {
@@ -5108,6 +5122,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
+		letter-spacing: 0px;
 		color: black;
 	}
 	.divServicoIndividualEM p {
@@ -5214,7 +5229,7 @@
 		justify-content: center;
 		white-space: pre-line;
 		font-size: 0.5rem;
-		letter-spacing: -0.5px;
+		letter-spacing: -0.3px;
 		color: black;
 		overflow-wrap: break-word;
 	}
@@ -5303,6 +5318,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
+		letter-spacing: 0px;
 		color: black;
 		/* letter-spacing: -0.2px; */
 	}
@@ -5432,8 +5448,8 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.5rem;
+		letter-spacing: -0.3px;
 		color: black;
-		letter-spacing: 0px;
 	}
 	.divServicoIndividualS p {
 		/*Responsivo REMOVIDO MOMENTANEAMENTE*/
