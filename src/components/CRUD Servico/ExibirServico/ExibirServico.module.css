@@ -3319,8 +3319,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 0.8rem;
-		letter-spacing: -0.2px;
+		font-size: 0.75rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3408,8 +3408,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.8rem;
-		letter-spacing: -0.2px;
+		font-size: 0.75rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3473,9 +3473,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.8rem;
+		font-size: 0.75rem;
 		font-weight: 900;
-		letter-spacing: -0.2px;
+		letter-spacing: -0.5px;
 		color: black;
 	}
 	.divServicoIndividualT p {
@@ -3538,8 +3538,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.8rem;
-		letter-spacing: -0.4px;
+		font-size: 0.75rem;
+		letter-spacing: -0.75px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3600,9 +3600,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.8rem;
+		font-size: 0.75rem;
 		font-weight: 900;
-		letter-spacing: -0.2px;
+		letter-spacing: -0.5px;
 		color: black;
 	}
 	.divServicoIndividualEM p {
@@ -3705,7 +3705,7 @@
 		justify-content: center;
 		align-items: center;
 		font-size: 0.7rem;
-		letter-spacing: -0.2px;
+		letter-spacing: -0.4px;
 		color: black;
 	}
 	.divServicoIndividualSST p {
@@ -3793,7 +3793,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.7rem;
-		letter-spacing: -0.2px;
+		letter-spacing: -0.4px;
 		color: black;
 	}
 	.divServicoIndividualHO p {
@@ -3857,7 +3857,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.7rem;
-		letter-spacing: -0.2px;
+		letter-spacing: -0.4px;
 		color: black;
 	}
 	.divServicoIndividualT p {
@@ -3921,7 +3921,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.7rem;
-		letter-spacing: -0.3px;
+		letter-spacing: -0.6px;
 		color: black;
 	}
 	.divServicoIndividualS p {
@@ -3982,7 +3982,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.7rem;
-		letter-spacing: -0.2px;
+		letter-spacing: -0.5px;
 		color: black;
 	}
 	.divServicoIndividualEM p {
