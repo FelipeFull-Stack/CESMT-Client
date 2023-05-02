@@ -1011,6 +1011,7 @@
 		justify-content: center;
 		align-items: center;
 		font-size: 2.2rem;
+		letter-spacing: -1.5px;
 		font-weight: 900;
 		color: black;
 	}
@@ -1020,7 +1021,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2.1rem;
+		font-size: 2.2rem;
+		letter-spacing: -2px;
 		font-weight: 900;
 		color: rgb(50, 50, 50);
 		padding-left: 10px;
@@ -1028,12 +1030,12 @@
 	}
 	.divServicoIndividualSST h4 {
 		margin-top: 10px;
-		font-size: 2.1rem;
+		font-size: 2rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualSST b {
-		font-size: 2.1rem;
+		font-size: 2rem;
 		color: red;
 	}
 	.divServicoSelecionado {
@@ -1099,6 +1101,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 2.2rem;
+		letter-spacing: -1px;
 		font-weight: 900;
 		color: black
 	}
@@ -1115,12 +1118,12 @@
 	}
 	.divServicoIndividualHO h4 {
 		margin-top: 10px;
-		font-size: 2.1rem;
+		font-size: 2rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualHO b {
-		font-size: 2.1rem;
+		font-size: 2rem;
 		color: red;
 	}
 	/*Treinamentos*/
@@ -1163,6 +1166,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 2.2rem;
+		letter-spacing: -1px;
 		font-weight: 900;
 		color: black
 	}
@@ -1179,12 +1183,12 @@
 	}
 	.divServicoIndividualT h4 {
 		margin-top: 10px;
-		font-size: 2.1rem;
+		font-size: 2rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualT b {
-		font-size: 2.1rem;
+		font-size: 2rem;
 		color: red;
 	}
 	/*Serviços*/
@@ -1227,6 +1231,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 2.2rem;
+		letter-spacing: -1px;
 		font-weight: 900;
 		color: rgb(0, 0, 0);
 	}
@@ -1242,12 +1247,12 @@
 	}
 	.divServicoIndividualS h4 {
 		margin-top: 10px;
-		font-size: 2.1rem;
+		font-size: 2rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualS b {
-		font-size: 2.1rem;
+		font-size: 2rem;
 		color: red;
 	}
 	/*Especialidades Médicas*/
@@ -1289,6 +1294,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 2.2rem;
+		letter-spacing: -1px;
 		font-weight: 900;
 		color: black	
 	}
@@ -1302,12 +1308,12 @@
 	}
 	.divServicoIndividualEM h4 {
 		margin-top: 10px;
-		font-size: 2.1rem;
+		font-size: 2rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualEM b {
-		font-size: 2.1rem;
+		font-size: 2rem;
 		color: red;
 	}
 }
@@ -1390,7 +1396,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 2rem;
+		font-size: 1.7rem;
+		letter-spacing: -1px;
 		font-weight: 900;
 		color: black
 	}
@@ -1408,12 +1415,12 @@
 	}
 	.divServicoIndividualSST h4 {
 		margin-top: 10px;
-		font-size: 1.9rem;
+		font-size: 1.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualSST b {
-		font-size: 1.9rem;
+		font-size: 1.5rem;
 		color: red;
 	}
 	.divServicoSelecionado {
@@ -1478,7 +1485,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2rem;
+		font-size: 1.7rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black
 	}
@@ -1495,12 +1503,12 @@
 	}
 	.divServicoIndividualHO h4 {
 		margin-top: 10px;
-		font-size: 1.9rem;
+		font-size: 1.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualHO b {
-		font-size: 1.9rem;
+		font-size: 1.5rem;
 		color: red;
 	}
 	/*Treinamentos*/
@@ -1542,7 +1550,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2rem;
+		font-size: 1.7rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black
 	}
@@ -1559,12 +1568,12 @@
 	}
 	.divServicoIndividualT h4 {
 		margin-top: 10px;
-		font-size: 1.9rem;
+		font-size: 1.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualT b {
-		font-size: 1.9rem;
+		font-size: 1.5rem;
 		color: red;
 	}
 	/*Serviços*/
@@ -1606,7 +1615,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2rem;
+		font-size: 1.7rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: rgb(0, 0, 0);
 	}
@@ -1622,12 +1632,12 @@
 	}
 	.divServicoIndividualS h4 {
 		margin-top: 10px;
-		font-size: 1.9rem;
+		font-size: 1.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualS b {
-		font-size: 1.9rem;
+		font-size: 1.5rem;
 		color: red;
 	}
 	/*Especialidades Médicas*/
@@ -1668,7 +1678,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 2rem;
+		font-size: 1.7rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black
 	}
@@ -1682,12 +1693,12 @@
 	}
 	.divServicoIndividualEM h4 {
 		margin-top: 10px;
-		font-size: 1.9rem;
+		font-size: 1.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualEM b {
-		font-size: 1.9rem;
+		font-size: 1.5rem;
 		color: red;
 	}
 }
@@ -1770,7 +1781,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1.9rem;
+		font-size: 1.5rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black;
 	}
@@ -1788,12 +1800,12 @@
 	}
 	.divServicoIndividualSST h4 {
 		margin-top: 10px;
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualSST b {
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 		color: red;
 	}
 	.divServicoSelecionado {
@@ -1858,7 +1870,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.9rem;
+		font-size: 1.5rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black;
 	}
@@ -1875,12 +1888,12 @@
 	}
 	.divServicoIndividualHO h4 {
 		margin-top: 10px;
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualHO b {
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 		color: red;
 	}
 	/*Treinamentos*/
@@ -1922,7 +1935,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.9rem;
+		font-size: 1.5rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black;
 	}
@@ -1939,12 +1953,12 @@
 	}
 	.divServicoIndividualT h4 {
 		margin-top: 10px;
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualT b {
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 		color: red;
 	}
 	/*Serviços*/
@@ -1986,7 +2000,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.9rem;
+		font-size: 1.5rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2001,12 +2016,12 @@
 	}
 	.divServicoIndividualS h4 {
 		margin-top: 10px;
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualS b {
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 		color: red;
 	}
 	/*Especialidades Médicas*/
@@ -2047,7 +2062,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.9rem;
+		font-size: 1.5rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2061,12 +2077,12 @@
 	}
 	.divServicoIndividualEM h4 {
 		margin-top: 10px;
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualEM b {
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 		color: red;
 	}
 }
@@ -2149,8 +2165,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1.6rem;
+		font-size: 1.3rem;
 		font-weight: 900;
+		letter-spacing: -0.8px;
 		color: black;
 	}
 	.divServicoIndividualSST p {
@@ -2167,12 +2184,12 @@
 	}
 	.divServicoIndividualSST h4 {
 		margin-top: 10px;
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualSST b {
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		color: red;
 	}
 	.divServicoSelecionado {
@@ -2237,8 +2254,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.6rem;
+		font-size: 1.3rem;
 		font-weight: 900;
+		letter-spacing: -0.5px;
 		color: black;
 	}
 	.divServicoIndividualHO p {
@@ -2254,12 +2272,12 @@
 	}
 	.divServicoIndividualHO h4 {
 		margin-top: 10px;
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualHO b {
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		color: red;
 	}
 	/*Treinamentos*/
@@ -2301,7 +2319,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.6rem;
+		font-size: 1.3rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2318,12 +2337,12 @@
 	}
 	.divServicoIndividualT h4 {
 		margin-top: 10px;
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualT b {
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		color: red;
 	}
 	/*Serviços*/
@@ -2365,7 +2384,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.6rem;
+		font-size: 1.3rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black
 	}
@@ -2380,12 +2400,12 @@
 	}
 	.divServicoIndividualS h4 {
 		margin-top: 10px;
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualS b {
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		color: red;
 	}
 	/*Especialidades Médicas*/
@@ -2426,7 +2446,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.6rem;
+		font-size: 1.3rem;
+		letter-spacing: -0.5px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2440,12 +2461,12 @@
 	}
 	.divServicoIndividualEM h4 {
 		margin-top: 10px;
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualEM b {
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		color: red;
 	}
 }
@@ -2528,7 +2549,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1.3rem;
+		font-size: 1.05rem;
+		letter-spacing: -0.2px;
 		font-weight: 900;
 		color: black
 	}
@@ -2546,12 +2568,12 @@
 	}
 	.divServicoIndividualSST h4 {
 		margin-top: 10px;
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualSST b {
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		color: red;
 	}
 	.divServicoSelecionado {
@@ -2616,7 +2638,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.3rem;
+		font-size: 1.05rem;
+		letter-spacing: -0.1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2633,12 +2656,12 @@
 	}
 	.divServicoIndividualHO h4 {
 		margin-top: 10px;
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualHO b {
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		color: red;
 	}
 	/*Treinamentos*/
@@ -2680,7 +2703,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.3rem;
+		font-size: 1.05rem;
+		letter-spacing: -0.1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2697,12 +2721,12 @@
 	}
 	.divServicoIndividualT h4 {
 		margin-top: 10px;
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualT b {
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		color: red;
 	}
 	/*Serviços*/
@@ -2744,7 +2768,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.3rem;
+		font-size: 1.05rem;
+		letter-spacing: -0.1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2759,12 +2784,12 @@
 	}
 	.divServicoIndividualS h4 {
 		margin-top: 10px;
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualS b {
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		color: red;
 	}
 	/*Especialidades Médicas*/
@@ -2805,7 +2830,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.3rem;
+		font-size: 1.05rem;
+		letter-spacing: -0.1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2819,12 +2845,12 @@
 	}
 	.divServicoIndividualEM h4 {
 		margin-top: 10px;
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualEM b {
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		color: red;
 	}
 }
@@ -2907,7 +2933,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1.1rem;
+		font-size: 0.9rem;
+		letter-spacing: -0.1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -2924,13 +2951,13 @@
 		padding-right: 6px;
 	}
 	.divServicoIndividualSST h4 {
-		margin-top: 10px;
-		font-size: 0.9rem;
+		margin-top: 9px;
+		font-size: 0.7rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualSST b {
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 		color: red;
 	}
 	.divServicoSelecionado {
@@ -2995,7 +3022,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.1rem;
+		font-size: 0.9rem;
+		letter-spacing: -0.1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3011,13 +3039,13 @@
 		padding-right: 10px;
 	}
 	.divServicoIndividualHO h4 {
-		margin-top: 10px;
-		font-size: 0.9rem;
+		margin-top: 9px;
+		font-size: 0.7rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualHO b {
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 		color: red;
 	}
 	/*Treinamentos*/
@@ -3059,7 +3087,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.1rem;
+		font-size: 0.9rem;
+		letter-spacing: -0.1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3075,13 +3104,13 @@
 		padding-right: 10px;
 	}
 	.divServicoIndividualT h4 {
-		margin-top: 10px;
-		font-size: 0.9rem;
+		margin-top: 9px;
+		font-size: 0.7rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualT b {
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 		color: red;
 	}
 	/*Serviços*/
@@ -3123,8 +3152,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 		font-weight: 900;
+		letter-spacing: -0.1px;
 		color: black;
 	}
 	.divServicoIndividualS p {
@@ -3137,13 +3167,13 @@
 		font-weight: 900;
 	}
 	.divServicoIndividualS h4 {
-		margin-top: 10px;
-		font-size: 0.9rem;
+		margin-top: 9px;
+		font-size: 0.7rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualS b {
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 		color: red;
 	}
 	/*Especialidades Médicas*/
@@ -3184,7 +3214,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1.1rem;
+		font-size: 0.9rem;
+		letter-spacing: -0.1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3197,13 +3228,13 @@
 		font-size: 0.9rem;
 	}
 	.divServicoIndividualEM h4 {
-		margin-top: 10px;
-		font-size: 0.9rem;
+		margin-top: 9px;
+		font-size: 0.7rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualEM b {
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 		color: red;
 	}
 }
@@ -3287,7 +3318,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1rem;
+		font-size: 0.8rem;
+		letter-spacing: -0.1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3304,13 +3336,13 @@
 		padding-right: 5px;
 	}
 	.divServicoIndividualSST h4 {
-		margin-top: 10px;
-		font-size: 0.7rem;
+		margin-top: 8px;
+		font-size: 0.65rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualSST b {
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 		color: red;
 	}
 	.divServicoSelecionado {
@@ -3375,7 +3407,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1rem;
+		font-size: 0.8rem;
+		letter-spacing: -0.1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3391,13 +3424,13 @@
 		padding-right: 5px;
 	}
 	.divServicoIndividualHO h4 {
-		margin-top: 10px;
-		font-size: 0.7rem;
+		margin-top: 8px;
+		font-size: 0.65rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualHO b {
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 		color: red;
 	}
 	/*Treinamentos*/
@@ -3439,8 +3472,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1rem;
+		font-size: 0.8rem;
 		font-weight: 900;
+		letter-spacing: -0.1px;
 		color: black;
 	}
 	.divServicoIndividualT p {
@@ -3455,13 +3489,13 @@
 		padding-right: 5px;
 	}
 	.divServicoIndividualT h4 {
-		margin-top: 10px;
-		font-size: 0.7rem;
+		margin-top: 8px;
+		font-size: 0.65rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualT b {
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 		color: red;
 	}
 	/*Serviços*/
@@ -3503,7 +3537,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1rem;
+		font-size: 0.8rem;
+		letter-spacing: -0.1px;
 		font-weight: 900;
 		color: black;
 	}
@@ -3517,13 +3552,13 @@
 		font-weight: 900;
 	}
 	.divServicoIndividualS h4 {
-		margin-top: 10px;
-		font-size: 0.7rem;
+		margin-top: 8px;
+		font-size: 0.65rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualS b {
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 		color: red;
 	}
 	/*Especialidades Médicas*/
@@ -3564,8 +3599,9 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 1rem;
+		font-size: 0.8rem;
 		font-weight: 900;
+		letter-spacing: -0.1px;
 		color: black;
 	}
 	.divServicoIndividualEM p {
@@ -3577,13 +3613,13 @@
 		font-size: 0.9rem;
 	}
 	.divServicoIndividualEM h4 {
-		margin-top: 10px;
-		font-size: 0.7rem;
+		margin-top: 8px;
+		font-size: 0.65rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualEM b {
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 		color: red;
 	}
 }
@@ -3667,8 +3703,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 0.9rem;
-		font-weight: 900;
+		font-size: 0.7rem;
+		letter-spacing: -0.1px;
 		color: black;
 	}
 	.divServicoIndividualSST p {
@@ -3684,13 +3720,13 @@
 		padding-right: 4px;
 	}
 	.divServicoIndividualSST h4 {
-		margin-top: 8px;
-		font-size: 0.7rem;
+		margin-top: 6px;
+		font-size: 0.6rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualSST b {
-		font-size: 0.7rem;
+		font-size: 0.6rem;
 		color: red;
 	}
 	.divServicoSelecionado {
@@ -3755,8 +3791,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.9rem;
-		font-weight: 900;
+		font-size: 0.7rem;
+		letter-spacing: -0.1px;
 		color: black;
 	}
 	.divServicoIndividualHO p {
@@ -3771,13 +3807,13 @@
 		padding-right: 4px;
 	}
 	.divServicoIndividualHO h4 {
-		margin-top: 8px;
-		font-size: 0.7rem;
+		margin-top: 6px;
+		font-size: 0.6rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualHO b {
-		font-size: 0.7rem;
+		font-size: 0.6rem;
 		color: red;
 	}
 	/*Treinamentos*/
@@ -3819,8 +3855,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.9rem;
-		font-weight: 900;
+		font-size: 0.7rem;
+		letter-spacing: -0.1px;
 		color: black;
 	}
 	.divServicoIndividualT p {
@@ -3835,13 +3871,13 @@
 		padding-right: 4px;
 	}
 	.divServicoIndividualT h4 {
-		margin-top: 8px;
-		font-size: 0.7rem;
+		margin-top: 6px;
+		font-size: 0.6rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualT b {
-		font-size: 0.7rem;
+		font-size: 0.6rem;
 		color: red;
 	}
 	/*Serviços*/
@@ -3883,8 +3919,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.9rem;
-		font-weight: 900;
+		font-size: 0.7rem;
+		letter-spacing: -0.1px;
 		color: black;
 	}
 	.divServicoIndividualS p {
@@ -3897,13 +3933,13 @@
 		font-weight: 900;
 	}
 	.divServicoIndividualS h4 {
-		margin-top: 8px;
-		font-size: 0.7rem;
+		margin-top: 6px;
+		font-size: 0.6rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualS b {
-		font-size: 0.7rem;
+		font-size: 0.6rem;
 		color: red;
 	}
 	/*Especialidades Médicas*/
@@ -3944,8 +3980,8 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.9rem;
-		font-weight: 900;
+		font-size: 0.7rem;
+		letter-spacing: -0.1px;
 		color: black;
 	}
 	.divServicoIndividualEM p {
@@ -3957,13 +3993,13 @@
 		font-size: 0.65rem;
 	}
 	.divServicoIndividualEM h4 {
-		margin-top: 8px;
-		font-size: 0.7rem;
+		margin-top: 6px;
+		font-size: 0.6rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualEM b {
-		font-size: 0.7rem;
+		font-size: 0.6rem;
 		color: red;
 	}
 }
@@ -4047,8 +4083,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 0.65rem;
-		font-weight: 900;
+		font-size: 0.55rem;
 		color: black;
 	}
 	.divServicoIndividualSST p {
@@ -4065,12 +4100,12 @@
 	}
 	.divServicoIndividualSST h4 {
 		margin-top: 6px;
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualSST b {
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 		color: red;
 	}
 	.divServicoSelecionado {
@@ -4135,8 +4170,7 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.65rem;
-		font-weight: 900;
+		font-size: 0.55rem;
 		color: black;
 	}
 	.divServicoIndividualHO p {
@@ -4152,12 +4186,12 @@
 	}
 	.divServicoIndividualHO h4 {
 		margin-top: 6px;
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualHO b {
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 		color: red;
 	}
 	/*Treinamentos*/
@@ -4199,8 +4233,7 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.65rem;
-		font-weight: 900;
+		font-size: 0.55rem;
 		color: black;
 	}
 	.divServicoIndividualT p {
@@ -4216,12 +4249,12 @@
 	}
 	.divServicoIndividualT h4 {
 		margin-top: 6px;
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualT b {
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 		color: red;
 	}
 	/*Serviços*/
@@ -4263,8 +4296,7 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.65rem;
-		font-weight: 900;
+		font-size: 0.55rem;
 		color: black;
 	}
 	.divServicoIndividualS p {
@@ -4278,12 +4310,12 @@
 	}
 	.divServicoIndividualS h4 {
 		margin-top: 6px;
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualS b {
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 		color: red;
 	}
 	/*Especialidades Médicas*/
@@ -4324,8 +4356,7 @@
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		font-size: 0.65rem;
-		font-weight: 900;
+		font-size: 0.55rem;
 		color: black;
 	}
 	.divServicoIndividualEM p {
@@ -4338,12 +4369,12 @@
 	}
 	.divServicoIndividualEM h4 {
 		margin-top: 6px;
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 		font-weight: 900;
 		color: rgb(75, 75, 75);
 	}
 	.divServicoIndividualEM b {
-		font-size: 0.6rem;
+		font-size: 0.5rem;
 		color: red;
 	}
 }
@@ -4428,7 +4459,6 @@
 		justify-content: center;
 		align-items: center;
 		font-size: 0.55rem;
-		font-weight: 900;
 		color: black
 	}
 	.divServicoIndividualSST p {
@@ -4516,7 +4546,6 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
-		font-weight: 900;
 		color: black;
 	}
 	.divServicoIndividualHO p {
@@ -4580,7 +4609,6 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
-		font-weight: 900;
 		color: black;
 	}
 	.divServicoIndividualT p {
@@ -4644,7 +4672,6 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
-		font-weight: 900;
 		color: black;
 	}
 	.divServicoIndividualS p {
@@ -4705,7 +4732,6 @@
 		align-items: center;
 		flex-wrap: wrap;
 		font-size: 0.55rem;
-		font-weight: 900;
 		color: black;
 	}
 	.divServicoIndividualEM p {
