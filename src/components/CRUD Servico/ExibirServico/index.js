@@ -107,7 +107,16 @@ function ExibirServico() {
 													? "flex"
 													: "none",
 										}}>
-										<button>Entrar em Contato</button>
+										<button
+											onClick={() => {
+												window.open(
+													`https://wa.me/5522998200724${currentElement.cidade === "JEQUIE"
+												? "5573999479413"
+												: currentElement.cidade === "VITORIA DA CONQUISTA"
+												? "5577981460659"
+												: "5573999479413"}?text=*Olá%20CESMT*%0AGostaria%20de%20saber%20mais%20sobre%20o%0A*${currentElement.nome}*`,
+												);
+											}}>Entrar em Contato</button>
 									</div>
 								</div>
 							);
@@ -154,7 +163,16 @@ function ExibirServico() {
 													? "flex"
 													: "none",
 										}}>
-										<button>Entrar em Contato</button>
+										<button
+											onClick={() => {
+												window.open(
+													`https://wa.me/5522998200724${currentElement.cidade === "JEQUIE"
+												? "5573999479413"
+												: currentElement.cidade === "VITORIA DA CONQUISTA"
+												? "5577981460659"
+												: "5573999479413"}?text=*Olá%20CESMT*%0AGostaria%20de%20saber%20mais%20sobre%20o%0A*${currentElement.nome}*`,
+												);
+											}}>Entrar em Contato</button>
 									</div>
 								</div>
 							);
@@ -201,7 +219,16 @@ function ExibirServico() {
 													? "flex"
 													: "none",
 										}}>
-										<button>Entrar em Contato</button>
+										<button
+											onClick={() => {
+												window.open(
+													`https://wa.me/5522998200724${currentElement.cidade === "JEQUIE"
+												? "5573999479413"
+												: currentElement.cidade === "VITORIA DA CONQUISTA"
+												? "5577981460659"
+												: "5573999479413"}?text=*Olá%20CESMT*%0AGostaria%20de%20saber%20mais%20sobre%20o%0A*${currentElement.nome}*`,
+												);
+											}}>Entrar em Contato</button>
 									</div>
 								</div>
 							);
@@ -248,7 +275,18 @@ function ExibirServico() {
 													? "flex"
 													: "none",
 										}}>
-										<button>Entrar em Contato</button>
+										<button
+											onClick={() => {
+												window.open(
+													`https://wa.me/5522998200724${currentElement.cidade === "JEQUIE"
+												? "5573999479413"
+												: currentElement.cidade === "VITORIA DA CONQUISTA"
+												? "5577981460659"
+												: "5573999479413"}?text=*Olá%20CESMT*%0AGostaria%20de%20saber%20mais%20sobre%20o%0A*${currentElement.nome}*`,
+												);
+											}}>
+											Entrar em Contato
+										</button>
 									</div>
 								</div>
 							);
@@ -273,7 +311,10 @@ function ExibirServico() {
 									onMouseOut={handleHide}>
 									{/* <h2>{currentElement.sigla}</h2>
 					<p> - </p> */}
-									<h3>{currentElement.nome}<br /></h3>
+									<h3>
+										{currentElement.nome}
+										<br />
+									</h3>
 									<h4>
 										Atendemos na(s) cidade(s):{" "}
 										<b>
@@ -292,7 +333,16 @@ function ExibirServico() {
 													? "flex"
 													: "none",
 										}}>
-										<button>Entrar em Contato</button>
+										<button
+											onClick={() => {
+												window.open(
+													`https://wa.me/5522998200724${currentElement.cidade === "JEQUIE"
+												? "5573999479413"
+												: currentElement.cidade === "VITORIA DA CONQUISTA"
+												? "5577981460659"
+												: "5573999479413"}?text=*Olá%20CESMT*%0AGostaria%20de%20saber%20mais%20sobre%20o%0A*${currentElement.nome}*`,
+												);
+											}}>Entrar em Contato</button>
 									</div>
 								</div>
 							);
