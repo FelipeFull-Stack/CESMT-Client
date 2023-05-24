@@ -11,9 +11,9 @@ function Footer() {
 				<div className={styles.divFaixaColoridaFooter}></div>
 
 				<div className={styles.divGeralRedesSociaisFooter}>
-					<div className={styles.divTituloRedesSociaisFooter}>
+					{/* <div className={styles.divTituloRedesSociaisFooter}>
 						<h1>Siga-nos em nossas Redes Sociais</h1>
-					</div>
+					</div> */}
 					{/* <div className={styles.divConjuntaRedesSociaisFooter}>
 						<div className={styles.divUnicaRedesSociaisFooter}>
 							<div className={styles.divImageRedesSociaisFooter}>
