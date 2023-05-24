@@ -53,7 +53,7 @@ function Contato() {
 									<img src={instagram} alt="Icone" />
 								</div>
 								<div className={styles.divIndividualFrasesContato}>
-									<p>cesmt_jequie</p>
+									<p>@cesmt_oficial</p>
 								</div>
 							</div>
 						</div>
@@ -122,7 +122,7 @@ function Contato() {
 								</div>
 
 								<div className={styles.divIndividualFrasesContato}>
-									<p>(73) 9 9983-1079</p>
+									<p>(77) 9 8146-0659</p>
 								</div>
 							</div>
 
