@@ -44,7 +44,7 @@ function Contato() {
 									<img src={whatsapp} alt="Icone" />
 								</div>
 								<div className={styles.divIndividualFrasesContato}>
-									<p>(73) 9 9983-1079</p>
+									<p>(73) 9 9947-9413</p>
 								</div>
 							</div>
 
@@ -65,7 +65,7 @@ function Contato() {
 						</div>
 
 						<address className={styles.divIndividualInformacoesLocalizacao}>
-							<p>Rua Dr. José Alfredo Guimarães - Nº 26</p>
+							<p>Rua Dr. José Alfredo Guimarães - Nº 26, Térreo</p>
 							<p>Bairro São Luís</p>
 							<p>Jequié-BA - CEP: 45.203-330</p>
 						</address>
