@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import React, { useEffect } from 'react';
 import ImageSlider from "../../components/ImageSlider";
 import { useNavigate } from "react-router-dom";
 import styles from "./Home.module.css";
@@ -23,6 +24,29 @@ function Home() {
 	function navigateToTopSobre() {
 		window.scrollTo(0, 0);
 		navigate("/sobre");
+	}
+
+	useEffect(() => {
+		// Código para exibir o popup assim que a página é carregada
+		const popupDiv = document.getElementById('popup');
+		if (popupDiv) {
+			popupDiv.style.display = 'block';
+		}
+	
+		// Defina um tempo limite para fechar automaticamente após alguns segundos (opcional)
+		setTimeout(() => {
+			if (popupDiv) {
+				popupDiv.style.display = 'none';
+			}
+		}, 5000); // 5000 milissegundos = 5 segundos
+		}, []);
+	
+		function closePopup() {
+		// Código para fechar o popup
+		const popupDiv = document.getElementById('popup');
+		if (popupDiv) {
+			popupDiv.style.display = 'none';
+		}
 	}
 
 	return (
@@ -210,6 +234,22 @@ function Home() {
 					</div>
 				</div>
 			</div>
+			<div id="popup" className={styles.popup}>
+        			<div className={styles.popupContent}>
+          				<h2 style={{ color: 'white', backgroundColor: 'red', padding: '10px', fontWeight: 'bold' }}>Comunicado Importante</h2>
+          				<p>Devido a uma inconsistência dos servidores UOL, A CESMT não está conseguindo ter acesso aos emails enviados pelos clientes.</p>
+					<p>Agradecemos a vossa compreensão e paciência durante essa situação, em breve tudo estará restabelecido.</p> 
+          				<button onClick={closePopup}
+						style={{
+						      backgroundColor: 'white',
+						      color: 'red',
+						      border: '1px solid red',
+						      padding: '8px 16px',
+						      cursor: 'pointer',
+						    }}>Entendo
+					</button>
+        			</div>
+      			</div>
 		</>
 	);
 }
