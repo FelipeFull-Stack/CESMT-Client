@@ -238,13 +238,15 @@ function Home() {
 			</div>
 			{showPopup && (
 				// Corrija para usar um objeto
-				<div className={styles.popup} style={{ display: 'flex', position: 'absolute', top: '5%', left: '50%', transform: 'translateX(-50%)', overflow: 'auto', border: '1px solid red', borderRadius: '5px' }}>
-					<div className={styles.popupContent} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', background: 'white', textAlign: 'center', padding: '5px' }}>
+				<div className={styles.popup} style={{ display: 'flex', position: 'absolute', top: '5%', left: '50%', transform: 'translateX(-50%)', overflow: 'auto', border: '5px solid red', borderRadius: '5px' }}>
+					<div className={styles.popupContent} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', background: 'white', textAlign: 'center', padding: '15px' }}>
 						<h2 style={{ color: 'white', backgroundColor: 'red', padding: '10px', fontWeight: 'bold', textAlign: 'center' }}>
 							Comunicado Importante
 						</h2>
-						<p style={{textAlign: 'center'}}>Devido a uma inconsistência dos servidores UOL, A CESMT não está conseguindo ter acesso aos emails enviados pelos clientes.</p>
-						<p style={{textAlign: 'center'}}>Agradecemos a vossa compreensão e paciência durante essa situação, em breve tudo estará restabelecido.</p>
+						<p style={{textAlign: 'center'}}>Devido a uma inconsistência dos servidores UOL</p>
+						<p style={{textAlign: 'center'}}>A CESMT não está conseguindo ter acesso aos emails enviados pelos clientes.</p>
+						<p style={{textAlign: 'center'}}>Agradecemos a vossa compreensão e paciência durante essa situação.</p>
+						<p style={{textAlign: 'center'}}>Em breve tudo estará restabelecido.</p>
 						<button
 							onClick={closePopup}
 							style={{
