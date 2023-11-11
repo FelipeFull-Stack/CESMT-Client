@@ -237,6 +237,7 @@ function Home() {
 				</div>
 			</div>
 			{showPopup && (
+				// Corrija para usar um objeto
 				<div className={styles.popup} style={{ display: 'flex', position: 'absolute', top: '5%', left: '50%', transform: 'translateX(-50%)', overflow: 'auto', border: '1px solid red', borderRadius: '5px' }}>
 					<div className={styles.popupContent} style={{display:flex;flex-direction:column;justify-content:center;align-items:center;background:white;}}>
 						<h2 style={{ color: 'white', backgroundColor: 'red', padding: '10px', fontWeight: 'bold' }}>
@@ -252,7 +253,7 @@ function Home() {
 								border: '2px solid red',
 								padding: '16px 28px',
 								cursor: 'pointer',
-								borderRadius: '5px',
+								//borderRadius: '5px',
 								}}
 							>Entendo
 						</button>
