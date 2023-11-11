@@ -27,26 +27,27 @@ function Home() {
 	}
 
 	useEffect(() => {
-		// Código para exibir o popup assim que a página é carregada
 		const popupDiv = document.getElementById('popup');
 		if (popupDiv) {
 			popupDiv.style.display = 'block';
 		}
 	
-		// Defina um tempo limite para fechar automaticamente após alguns segundos (opcional)
-		setTimeout(() => {
-			if (popupDiv) {
-				popupDiv.style.display = 'none';
-			}
-		}, 5000); // 5000 milissegundos = 5 segundos
-		}, []);
+		//setTimeout(() => {
+		//	if (popupDiv) {
+		//		popupDiv.style.display = 'none';
+		//	}
+		//}, 5000); // 5000 milissegundos = 5 segundos
+	}, []);
 	
-		function closePopup() {
-		// Código para fechar o popup
+	function closePopup() {
 		const popupDiv = document.getElementById('popup');
 		if (popupDiv) {
 			popupDiv.style.display = 'none';
 		}
+	}
+
+	function closePopup() {
+		setShowPopup(false);
 	}
 
 	return (
@@ -234,22 +235,28 @@ function Home() {
 					</div>
 				</div>
 			</div>
-			<div id="popup" className={styles.popup}>
-        			<div className={styles.popupContent}>
-          				<h2 style={{ color: 'white', backgroundColor: 'red', padding: '10px', fontWeight: 'bold' }}>Comunicado Importante</h2>
-          				<p>Devido a uma inconsistência dos servidores UOL, A CESMT não está conseguindo ter acesso aos emails enviados pelos clientes.</p>
-					<p>Agradecemos a vossa compreensão e paciência durante essa situação, em breve tudo estará restabelecido.</p> 
-          				<button onClick={closePopup}
-						style={{
-						      backgroundColor: 'white',
-						      color: 'red',
-						      border: '1px solid red',
-						      padding: '8px 16px',
-						      cursor: 'pointer',
-						    }}>Entendo
-					</button>
-        			</div>
-      			</div>
+			{showPopup && (
+				<div className={styles.popup} style="display: flex; position: absolute; top: 5%; left: 50%; transform: translateX(-50%); overflow: auto;border: 1px solid red;border-radius:5px">
+					<div className={styles.popupContent}>
+						<h2 style={{ color: 'white', backgroundColor: 'red', padding: '10px', fontWeight: 'bold' }}>
+							Comunicado Importante
+						</h2>
+						<p>Devido a uma inconsistência dos servidores UOL, A CESMT não está conseguindo ter acesso aos emails enviados pelos clientes.</p>
+						<p>Agradecemos a vossa compreensão e paciência durante essa situação, em breve tudo estará restabelecido.</p>
+						<button
+							onClick={closePopup}
+							style={{
+								backgroundColor: 'white',
+								color: 'red',
+								border: '1px solid red',
+								padding: '8px 16px',
+								cursor: 'pointer',
+								}}
+							>Entendo
+						</button>
+					</div>
+				</div>
+		      	)}
 		</>
 	);
 }
