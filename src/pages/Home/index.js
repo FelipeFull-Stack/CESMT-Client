@@ -244,8 +244,8 @@ function Home() {
 							Comunicado Importante
 						</h2>
 						<p style={{textAlign: 'center'}}>Devido a uma inconsistência dos servidores UOL</p>
-						<p style={{textAlign: 'center'}}>A CESMT não está conseguindo ter acesso aos emails enviados pelos clientes.</p>
-						<p style={{textAlign: 'center'}}>Agradecemos a vossa compreensão e paciência durante essa situação.</p>
+						<p style={{textAlign: 'center'}}>A <b>CESMT</b> não está conseguindo ter acesso aos <b>emails</b> enviados pelos clientes.</p>
+						<p style={{textAlign: 'center'}}>Agradecemos a vossa <b>compreensão</b> e <b>paciência</b> durante essa situação.</p>
 						<p style={{textAlign: 'center'}}>Em breve tudo estará restabelecido.</p>
 						<button
 							onClick={closePopup}
