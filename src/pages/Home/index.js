@@ -16,7 +16,8 @@ import banner2 from "../../images/banner carrossel 2.png";
 
 function Home() {
 	const navigate = useNavigate();
-
+	const [showPopup, setShowPopup] = useState(true);
+	
 	function navigateToTopServices() {
 		window.scrollTo(0, 0);
 		navigate("/servicos");
