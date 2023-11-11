@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import ImageSlider from "../../components/ImageSlider";
 import { useNavigate } from "react-router-dom";
 import styles from "./Home.module.css";
@@ -237,7 +237,7 @@ function Home() {
 				</div>
 			</div>
 			{showPopup && (
-				<div className={styles.popup} style="display: flex; position: absolute; top: 5%; left: 50%; transform: translateX(-50%); overflow: auto;border: 1px solid red;border-radius:5px">
+				<div className={styles.popup} style={{ display: 'flex', position: 'absolute', top: '5%', left: '50%', transform: 'translateX(-50%)', overflow: 'auto', border: '1px solid red', borderRadius: '5px' }}>
 					<div className={styles.popupContent}>
 						<h2 style={{ color: 'white', backgroundColor: 'red', padding: '10px', fontWeight: 'bold' }}>
 							Comunicado Importante
